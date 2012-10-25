@@ -1,0 +1,627 @@
+# Language ANG translations for pythonguide package.
+# Copyright (C) 2012. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-sa/3.0/"> Creative Commons Share-Alike 3.0</a>.
+# This file is distributed under the same license as the pythonguide package.
+# Automatically generated, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: python-guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-25 11:58\n"
+"PO-Revision-Date: 2012-10-25 15:44+0100\n"
+"Last-Translator: Alexis Couronne <alexis.couronne@gmail.com>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.5.4\n"
+
+# 76036e8a3fe3499db87f5238514e98ea
+#: ../../starting/install/linux.rst:4
+msgid "Installing Python on Linux"
+msgstr ""
+
+# b278e56400c346458ca0a6c3f43814be
+#: ../../starting/install/linux.rst:6
+msgid ""
+"The latest versions of Ubuntu and Fedora **come with Python 2.7 out of the "
+"box**."
+msgstr ""
+
+# f4a857f4bcf94421be027b503681111b
+#: ../../starting/install/linux.rst:8
+msgid ""
+"The latest versions of Redhat Enterprise (RHEL) and CentOS come with Python "
+"2.6. Some older versions of RHEL and CentOS come with Python 2.4 which is "
+"unacceptable for modern Python development. Fortunately, there are `Extra "
+"Packages for Enterprise Linux`_ which include high quality additional "
+"packages based on their Fedora counterparts. This repository contains a "
+"Python 2.6 package specifically designed to install side-by-side with the "
+"system's Python 2.4 installation."
+msgstr ""
+
+# 7c21ec3682ab4ae5a0c3769568c8756b
+# a868586f85d64604a72bfdba84aa1206
+#: ../../starting/install/linux.rst:18 ../../starting/install/osx.rst:8
+msgid ""
+"You do not need to install or configure anything else to use Python. Having "
+"said that, I would strongly recommend that you install the tools and "
+"libraries described in the next section before you start building Python "
+"applications for real-world use. In particular, you should always install "
+"Distribute, as it makes it much easier for you to use other third-party "
+"Python libraries."
+msgstr ""
+
+# 1b36fb1ffc5047ef88d56e52aa1e5b34
+# 042bae5953bf4fbc8efd481ae7c0cfe1
+#: ../../starting/install/linux.rst:25 ../../starting/install/osx.rst:64
+msgid "Distribute & Pip"
+msgstr ""
+
+# f83e99095dbd4cec9a2a0dbfe36473d8
+# be3702d039f74806ac06c7bb5874769f
+# dd78591e4dcc4500aaff5ce910d37f21
+#: ../../starting/install/linux.rst:27 ../../starting/install/osx.rst:66
+#: ../../starting/install/win.rst:45
+msgid ""
+"The most crucial third-party Python software of all is Distribute, which "
+"extends the packaging and installation facilities provided by the distutils "
+"in the standard library. Once you add Distribute to your Python system you "
+"can download and install any compliant Python software product with a single "
+"command. It also enables you to add this network installation capability to "
+"your own Python software with very little work."
+msgstr ""
+
+# fd63a2121e0d4189aefe42879efd7555
+#: ../../starting/install/linux.rst:34
+msgid ""
+"To obtain the latest version of Distribute for Linux, run the python script "
+"available here: `python-distribute <http://python-distribute.org/"
+"distribute_setup.py>`_"
+msgstr ""
+
+# 06fd5eccfb524f8096893c0ed92cc114
+#: ../../starting/install/linux.rst:37
+msgid ""
+"The new``easy_install`` command you have available is considered by many to "
+"be deprecated, so we will install its replacement: **pip**. Pip allows for "
+"uninstallation of packages, and is actively maintained, unlike easy_install."
+msgstr ""
+
+# c7de3dc56dd646959bdc26ed643c80eb
+# 8e70be57a5264c329507af89ff3f1223
+# 0f1b03b7ab164416ab1b0a6cbd2ac8d3
+#: ../../starting/install/linux.rst:41 ../../starting/install/osx.rst:78
+#: ../../starting/install/win.rst:61
+msgid "To install pip, simply open a command prompt and run"
+msgstr ""
+
+# 466dcc0e075c4258a39c443782dd59dc
+# 3c0e23a55b00402a9fc13c8e7bc338fd
+# 1c1bb798649d41a8b99493531aa693d3
+#: ../../starting/install/linux.rst:49 ../../starting/install/osx.rst:86
+#: ../../starting/install/win.rst:69
+msgid "Virtualenv"
+msgstr ""
+
+# 462bf9c4f0a841f98b6319feebfb6a48
+# cb92df3ee3af4b47819f0e4642fe2c99
+# d7eb1e4c600841229b19cedcd0216dda
+#: ../../starting/install/linux.rst:51 ../../starting/install/osx.rst:88
+#: ../../starting/install/win.rst:71
+msgid ""
+"After Distribute & Pip, the next development tool that you should install is "
+"`virtualenv <http://pypi.python.org/pypi/virtualenv/>`_. Use pip"
+msgstr ""
+
+# a650ca66763e4f68bf5d253edf5b366c
+# ae21453c83774876ae7036ea0b658fa8
+# 976f1fa351034cc082889d358381e647
+#: ../../starting/install/linux.rst:58 ../../starting/install/osx.rst:95
+#: ../../starting/install/win.rst:78
+msgid ""
+"The virtualenv kit provides the ability to create virtual Python "
+"environments that do not interfere with either each other, or the main "
+"Python installation. If you install virtualenv before you begin coding then "
+"you can get into the habit of using it to create completely clean Python "
+"environments for each project. This is particularly important for Web "
+"development, where each framework and application will have many "
+"dependencies."
+msgstr ""
+
+# 26adc1f25def4438a8c90be79e7b2143
+# 2e565afcff1e4cf7baafd9913d6ae470
+# 71f3ec960d014a2a81d1dbfeb6c572a4
+#: ../../starting/install/linux.rst:65 ../../starting/install/osx.rst:102
+#: ../../starting/install/win.rst:86
+msgid ""
+"To set up a new Python environment, change the working directory to where "
+"ever you want to store the environment, and run the virtualenv utility in "
+"your project's directory"
+msgstr ""
+
+# 27f6259e88b448c0addba63edb18cab8
+# dff45ea0213b4c20b6eb4d04320b53a1
+#: ../../starting/install/linux.rst:73 ../../starting/install/osx.rst:110
+msgid ""
+"To use an environment, run ``source venv/bin/activate``. Your command prompt "
+"will change to show the active environment. Once you have finished working "
+"in the current virtual environment, run ``deactivate`` to restore your "
+"settings to normal."
+msgstr ""
+
+# 0095b05faf0c4b7391bb3b50c2e6351a
+# ef1fd536f74446d0abff3f19841e312e
+#: ../../starting/install/linux.rst:78 ../../starting/install/osx.rst:115
+msgid ""
+"Each new environment automatically includes a copy of ``pip``, so that you "
+"can setup the third-party libraries and tools that you want to use in that "
+"environment. Put your own code within a subdirectory of the environment, "
+"however you wish. When you no longer need a particular environment, simply "
+"copy your code out of it, and then delete the main directory for the "
+"environment."
+msgstr ""
+
+# c5153f0b6f2e4914a49a12a833a92f20
+# 2afaababbc014b6d8db2914cce14c675
+# cc3c60d1100745449a8109f4a25d3a4a
+#: ../../starting/install/linux.rst:87 ../../starting/install/osx.rst:124
+#: ../../starting/install/win.rst:111
+msgid ""
+"This page is a remixed version of `another guide <http://www.stuartellis.eu/"
+"articles/python-development-windows/>`_, which is available under the same "
+"license."
+msgstr ""
+
+# 41b272c14de042939261f093dd1262b5
+#: ../../starting/install/osx.rst:4
+msgid "Installing Python on Mac OS X"
+msgstr ""
+
+# c45b07f2cc494dd1ad2c889a034a54b4
+#: ../../starting/install/osx.rst:6
+msgid ""
+"The latest version of Mac OS X, Lion, **comes with Python 2.7 out of the "
+"box**."
+msgstr ""
+
+# 6f55f8f93fb440a2a52828ca1c4921bd
+#: ../../starting/install/osx.rst:14
+msgid ""
+"The version of Python that ships with OS X is great for learning, but it's "
+"not good for development. It's slightly out of date, and Apple has made "
+"significant changes that can cause hidden bugs."
+msgstr ""
+
+# 6bc3a00049454526b3cabad044a1ede3
+#: ../../starting/install/osx.rst:19
+msgid "Doing it Right"
+msgstr ""
+
+# 222c85f8e58540949462d6a379e07adc
+#: ../../starting/install/osx.rst:21
+msgid "Let's install a real version of Python."
+msgstr ""
+
+# 42796ee761bd461eb3dbe5218d9fc952
+#: ../../starting/install/osx.rst:23
+msgid ""
+"First, you'll need to have GCC installed to compile Python. You can either "
+"get this from `XCode <http://developer.apple.com/xcode/>`_ or the smaller "
+"`OSX-GCC-Installer <https://github.com/kennethreitz/osx-gcc-"
+"installer#readme>`_ package."
+msgstr ""
+
+# d33f9e434f284734b178eab449db06d7
+#: ../../starting/install/osx.rst:27
+msgid ""
+"While Lion comes with a large number of UNIX utilities, those familiar with "
+"Linux systems will notice one key component missing: a decent package "
+"manager. `Homebrew <http://mxcl.github.com/homebrew/>`_ fills this void."
+msgstr ""
+
+# 36c3dbc597ce4bcb966bfeec2dc6548f
+#: ../../starting/install/osx.rst:31
+msgid ""
+"To `install Homebrew <https://github.com/mxcl/homebrew/wiki/installation>`_, "
+"simply run"
+msgstr ""
+
+# 5e4b8450b629410fbb66be8da37e8403
+#: ../../starting/install/osx.rst:38
+msgid ""
+"Then, insert the Homebrew directory at the top of your ``PATH`` environment "
+"variable. You can do this by adding the following line at the bottom of your "
+"``~/.bashrc`` file"
+msgstr ""
+
+# 51947dcd2f1c4336a1d24b7f243223e3
+#: ../../starting/install/osx.rst:46
+msgid "Now, we can install Python 2.7: ::"
+msgstr ""
+
+# bba8c2e7e05b419394f7b46c3d3f208b
+#: ../../starting/install/osx.rst:50
+msgid ""
+"This will take a minute or two. Once that's complete, you'll have to add the "
+"new Python scripts directory to your ``PATH``"
+msgstr ""
+
+# cbc0001b075344eca89d91c6a752ae48
+#: ../../starting/install/osx.rst:57
+msgid ""
+"The ``--framework`` option tells Homebrew to compile a Framework-style "
+"Python build, rather than a UNIX-style build. The outdated version of Python "
+"that Snow Leopard comes packaged with is built as a Framework, so this helps "
+"avoid some future module installation bugs."
+msgstr ""
+
+# 7648c7370fac49a4805fe75b2a515845
+#: ../../starting/install/osx.rst:73
+msgid ""
+"Homebrew already installed Distribute for you. Its ``easy_install`` command "
+"is considered by many to be deprecated, so we will install its replacement: "
+"**pip**. Pip allows for uninstallation of packages, and is actively "
+"maintained, unlike easy_install."
+msgstr ""
+
+# 2ef5d0e144624ad389272c5679aa34d7
+#: ../../starting/install/win.rst:4
+msgid "Installing Python on Windows"
+msgstr ""
+
+# f84f9cf4d0f449c18480efdba2fc5b42
+#: ../../starting/install/win.rst:6
+msgid ""
+"First, download the `latest version <http://python.org/ftp/python/2.7.2/"
+"python-2.7.2.msi>`_ of Python 2 from the official Website. If you want to be "
+"sure you are installing a fully up-to-date version then use the \"Windows "
+"Installer\" link from the home page of the `Python.org web site <http://"
+"python.org>`_ ."
+msgstr ""
+
+# c62b33c136244d12904c3c5f69caabc9
+#: ../../starting/install/win.rst:11
+msgid ""
+"The Windows version is provided as an MSI package. To install it manually, "
+"just double-click the file. The MSI package format allows Windows "
+"administrators to automate installation with their standard tools."
+msgstr ""
+
+# b904b7f3f56b413b8f651488ef659257
+#: ../../starting/install/win.rst:15
+msgid ""
+"By design, Python installs to a directory with the version number embedded, "
+"e.g. Python version 2.7 will install at ``C:\\Python27\\``, so that you can "
+"have multiple versions of Python on the same system without conflicts. Of "
+"course, only one interpreter can be the default application for Python file "
+"types. It also does not automatically modify the ``PATH`` environment "
+"variable, so that you always have control over which copy of Python is run."
+msgstr ""
+
+# 09cc0054ff8643e5b8dfc837f899b99c
+#: ../../starting/install/win.rst:23
+msgid ""
+"Typing the full path name for a Python interpreter each time quickly gets "
+"tedious, so add the directories for your default Python version to the PATH. "
+"Assuming that your Python installation is in ``C:\\Python27\\``, add this to "
+"your PATH::"
+msgstr ""
+
+# 6bf4cdef4a55448ab468c994c2287800
+#: ../../starting/install/win.rst:30
+msgid "You can do this easily by running the following in ``powershell``::"
+msgstr ""
+
+# dda23f210f354186a8bfa134a2997d46
+#: ../../starting/install/win.rst:34
+msgid ""
+"The second (``Scripts``) directory receives command files when certain "
+"packages are installed, so it is a very useful addition. You do not need to "
+"install or configure anything else to use Python. Having said that, I would "
+"strongly recommend that you install the tools and libraries described in the "
+"next section before you start building Python applications for real-world "
+"use. In particular, you should always install Distribute, as it makes it "
+"much easier for you to use other third-party Python libraries."
+msgstr ""
+
+# 6825326c187f40d1a8397d4ae9ebedad
+#: ../../starting/install/win.rst:43
+msgid "Distribute + Pip"
+msgstr ""
+
+# 69f304522694421d9512bcfbfb8d5c6a
+#: ../../starting/install/win.rst:52
+msgid ""
+"To obtain the latest version of Distribute for Windows, run the python "
+"script available here: `python-distribute <http://python-distribute.org/"
+"distribute_setup.py>`_"
+msgstr ""
+
+# a785cef80a6f4b9796b087bec80da565
+#: ../../starting/install/win.rst:56
+msgid ""
+"You'll now have a new command available to you: **easy_install**. It is "
+"considered by many to be deprecated, so we will install its replacement: "
+"**pip**. Pip allows for uninstallation of packages, and is actively "
+"maintained, unlike easy_install."
+msgstr ""
+
+# 35f7f6b19a284e4f87a2bb05bf3c9f66
+#: ../../starting/install/win.rst:94
+msgid ""
+"To use an environment, run the ``activate.bat`` batch file in the "
+"``Scripts`` subdirectory of that environment. Your command prompt will "
+"change to show the active environment. Once you have finished working in the "
+"current virtual environment, run the ``deactivate.bat`` batch file to "
+"restore your settings to normal."
+msgstr ""
+
+# 860453a75c13418a9eb34936a8bdfe39
+#: ../../starting/install/win.rst:100
+msgid ""
+"Each new environment automatically includes a copy of ``pip`` in the "
+"``Scripts`` subdirectory, so that you can setup the third-party libraries "
+"and tools that you want to use in that environment. Put your own code within "
+"a subdirectory of the environment, however you wish. When you no longer need "
+"a particular environment, simply copy your code out of it, and then delete "
+"the main directory for the environment."
+msgstr ""
+
+# 1cce04acc09648ac917310a5ce5c7b5c
+#: ../../starting/installation.rst:2
+msgid "Properly Installing Python"
+msgstr ""
+
+# ecbcd2256927498e89fffc47c85246da
+#: ../../starting/installation.rst:4
+msgid ""
+"There's a good chance that you already have Python on your operating system."
+msgstr ""
+
+# 5fc756c4cd2f42f9a9c471ccde4b5645
+#: ../../starting/installation.rst:6
+msgid ""
+"If so, you do not need to install or configure anything else to use Python. "
+"Having said that, I would strongly recommend that you install the tools and "
+"libraries described in the guides below before you start building Python "
+"applications for real-world use. In particular, you should always install "
+"Distribute, Pip, and Virtualenv — they make it much easier for you to use "
+"other third-party Python libraries."
+msgstr ""
+
+# ff9e0858bae848d2a184ab0411f34d9f
+#: ../../starting/installation.rst:14
+msgid "Installation Guides"
+msgstr ""
+
+# 76662831eb0f4d5b909f1103c4f047f8
+#: ../../starting/installation.rst:17
+msgid ""
+"for development purposes, as well as distribute, pip, and virtualenv setup."
+msgstr ""
+
+# 8ed59b8b7a33494da4dbd2687577606b
+#: ../../starting/installation.rst:19
+msgid ":ref:`Mac OS X <install-osx>`."
+msgstr ""
+
+# 80dc486ceb21496086283b1385a32c6b
+#: ../../starting/installation.rst:20
+msgid ":ref:`Microsoft Windows<install-windows>`."
+msgstr ""
+
+# d3d9f3eba014490cbd94c6a6c09c99f3
+#: ../../starting/installation.rst:21
+msgid ":ref:`Ubuntu Linux <install-linux>`."
+msgstr ""
+
+# a3460fa48fe34fccb943f50500eeaaa6
+#: ../../starting/which-python.rst:2
+msgid "Picking an Interpreter"
+msgstr "Choisir un interpréteur"
+
+# 7ea8ce6db142476caa38a34f3d0395f7
+#: ../../starting/which-python.rst:4
+msgid "Which Python to use?"
+msgstr ""
+
+# 2a83a1685e77495c8c2886028559e6d9
+#: ../../starting/which-python.rst:8
+msgid "2.x vs 3.x"
+msgstr ""
+
+# 4c58358f0978488cad51c0fe5cc2bfd7
+#: ../../starting/which-python.rst:10
+msgid ""
+"**tl;dr**: Python 2.x is the status quo, Python 3.x is the shiny new thing."
+msgstr ""
+
+# 278e2f94ab2849e69ef093d03afd2a88
+#: ../../starting/which-python.rst:13
+msgid "`Further Reading <http://wiki.python.org/moin/Python2orPython3>`_"
+msgstr ""
+
+# 67976e914fe14ea7a367cd66734f92dd
+#: ../../starting/which-python.rst:17
+msgid "Today"
+msgstr ""
+
+# d0570e79eee04806bab667722b59e873
+#: ../../starting/which-python.rst:19
+msgid ""
+"If you're choosing a Python interpreter to use, I *highly* recommend you Use "
+"Python 2.7.x, unless you have a strong reason not to."
+msgstr ""
+
+# e11c3fd8e26d48e98f7fb0546bb53cb3
+#: ../../starting/which-python.rst:24
+msgid "The Future"
+msgstr ""
+
+# 2d15970362e44f48927e133eea106c24
+#: ../../starting/which-python.rst:26
+msgid ""
+"As more and more modules get ported over to Python3, the easier it will be "
+"for others to use it."
+msgstr ""
+
+# a7a6536883f5469abea9ba478ca4641b
+#: ../../starting/which-python.rst:31
+msgid "Which Python to Support?"
+msgstr ""
+
+# f55786d10627400592fb8a4bb3202405
+#: ../../starting/which-python.rst:33
+msgid ""
+"If you're starting work on a new Python module, I recommend you write it for "
+"Python 2.5 or 2.6, and add support for Python3 in a later iteration."
+msgstr ""
+
+# 739c30ee0cdd4f07b723fdca6b42cdb0
+#: ../../starting/which-python.rst:37
+msgid "Implementations"
+msgstr ""
+
+# 9d86edbcc2b044a5b2550f580d6b683b
+#: ../../starting/which-python.rst:39
+msgid ""
+"There are several popular implementations of the Python programming language "
+"on different back-ends."
+msgstr ""
+
+# c0649501e031494d9ecbac2cfc3ec984
+#: ../../starting/which-python.rst:43
+msgid "CPython"
+msgstr ""
+
+# e9bd641d433149339be238093c5acff1
+#: ../../starting/which-python.rst:45
+msgid ""
+"`CPython <http://www.python.org>`_ is the reference implementation of "
+"Python, written in C. It compiles Python code to intermediate bytecode which "
+"is then interpreted by a virtual machine. When people speak of *Python* they "
+"often mean not just the language but also this implementation. It provides "
+"the highest level of compatibility with Python packages and C extension "
+"modules."
+msgstr ""
+
+# dfdd3c37ed62456ba22f0fd7e282ce5b
+#: ../../starting/which-python.rst:51
+msgid ""
+"If you are writing open-source Python code and want to reach the widest "
+"possible audience, targeting CPython is your best bet. If you need to use "
+"any packages that are rely on C extensions for their functionality (eg: "
+"numpy) then CPython is your only choice."
+msgstr ""
+
+# 6db9785158914be1b72e7a6f728fb09a
+#: ../../starting/which-python.rst:56
+msgid ""
+"Being the reference implementation, all versions of the Python language are "
+"available as CPython. Python 3 is only available in a CPython implementation."
+msgstr ""
+
+# e370f268c74c4806b9f92cd5196979e5
+#: ../../starting/which-python.rst:60
+msgid "PyPy"
+msgstr ""
+
+# 47297f3f5d984802aa7fa92a0b232a38
+#: ../../starting/which-python.rst:62
+msgid ""
+"`PyPy <http://pypy.org/>`_ is a Python interpreter implemented in a "
+"restricted statically-typed subset of the Python language called RPython. "
+"The interpreter features a just-in-time compiler and supports multiple back-"
+"ends (C, CLI, JVM)."
+msgstr ""
+
+# d8249d40df224b1780af1ed0f380636c
+#: ../../starting/which-python.rst:66
+msgid ""
+"PyPy aims for maximum compatibility with the reference CPython "
+"implementation while improving performance."
+msgstr ""
+
+# b60dd3c3de7c45f4b7ae1d7100726dfb
+#: ../../starting/which-python.rst:69
+msgid ""
+"If you are looking to squeeze more performance out of your Python code, it's "
+"worth giving PyPy a try. On a suite of benchmarks, it's current `over 5 "
+"times faster than CPython <http://speed.pypy.org/>`_."
+msgstr ""
+
+# 1ee6d2d2c947495580395720b1cddf91
+#: ../../starting/which-python.rst:73
+msgid "Currently PyPy supports Python 2.7. [#pypy_ver]_"
+msgstr ""
+
+# a823f225ef8f44d58e11accbeacb4358
+#: ../../starting/which-python.rst:76
+msgid "Jython"
+msgstr ""
+
+# 6c4e22e47a9c4ed8aaad5695d7a1f4f2
+#: ../../starting/which-python.rst:78
+msgid ""
+"`Jython <http://www.jython.org/>`_ is a Python implementation that compiles "
+"Python code to Java byte code that then executes on a JVM. It has the "
+"additional advantage of being able to import and use any Java class the same "
+"as a Python module."
+msgstr ""
+
+# 7bd17826a64d48ad91d257a287658672
+#: ../../starting/which-python.rst:83
+msgid ""
+"If you need to interface with an existing Java codebase or have other "
+"reasons to need to write Python code for the JVM, Jython is the best choice."
+msgstr ""
+
+# 33fdcffd08644f018cd8b546e8745a7c
+#: ../../starting/which-python.rst:86
+msgid "Currently Jython supports up to Python 2.5. [#jython_ver]_"
+msgstr ""
+
+# 95fc28687bf44eaf9b1b6f0fa976c609
+#: ../../starting/which-python.rst:89
+msgid "IronPython"
+msgstr ""
+
+# 0b96b084e28b470e8f56f8768e00cc21
+#: ../../starting/which-python.rst:91
+msgid ""
+"`IronPython <http://ironpython.net/>`_  is an implementation of Python for ."
+"NET framework. It can use both Python and .NET framework libraries, and can "
+"also expose Python code to other .NET languages."
+msgstr ""
+
+# 18bbf9d52e214d36aad6c996013ca410
+#: ../../starting/which-python.rst:95
+msgid ""
+"`Python Tools for Visual Studio <http://ironpython.net/tools/>`_ integrate "
+"IronPython directly in to the Visual Studio development environment, making "
+"it an ideal choice for Windows developers."
+msgstr ""
+
+# 5d45e4e2fda6464f99865a5251cb819f
+#: ../../starting/which-python.rst:99
+msgid "IronPython supports Python 2.7. [#iron_ver]_"
+msgstr ""
+
+# 849d0662367b4f7694f1dc4e859238de
+#: ../../starting/which-python.rst:101
+msgid "http://pypy.org/compat.html"
+msgstr ""
+
+# 3e9206f4d60740048f83281db1435df1
+#: ../../starting/which-python.rst:103
+msgid ""
+"http://wiki.python.org/jython/JythonFaq/"
+"GeneralInfo#Is_Jython_the_same_language_as_Python.3F"
+msgstr ""
+
+# b6fdc24bc09244ef8e35560bd23d501f
+#: ../../starting/which-python.rst:105
+msgid "http://ironpython.codeplex.com/releases/view/81726"
+msgstr ""

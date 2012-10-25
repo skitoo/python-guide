@@ -1,0 +1,810 @@
+# Language ANG translations for pythonguide package.
+# Copyright (C) 2012. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-sa/3.0/"> Creative Commons Share-Alike 3.0</a>.
+# This file is distributed under the same license as the pythonguide package.
+# Automatically generated, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: python-guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-25 11:58\n"
+"PO-Revision-Date: 2012-10-25 15:42+0100\n"
+"Last-Translator: Alexis Couronne <alexis.couronne@gmail.com>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.5.4\n"
+
+# f2f774624d4d4d33b450de78f1819788
+#: ../../dev/env.rst:2
+msgid "Your Development Environment"
+msgstr ""
+
+# 2b30cab1223b40f69360a75dff200467
+#: ../../dev/env.rst:6
+msgid "Text Editors"
+msgstr ""
+
+# f0d0554c763c448384342249721229c5
+#: ../../dev/env.rst:8
+msgid ""
+"Just about anything which can edit plain text will work for writing Python "
+"code, however, using a more powerful editor may make your life a bit easier."
+msgstr ""
+
+# df546983e7e541869fabd5940351f81e
+#: ../../dev/env.rst:13
+msgid "VIM"
+msgstr ""
+
+# f25e6540315349b094f6d19b71a39d25
+#: ../../dev/env.rst:15
+msgid ""
+"Vim is a text editor which uses keyboard shortcuts for editing instead of "
+"menus or icons. There exist a couple of plugins and settings for the VIM "
+"editor to aid python development. If you only develop in Python, a good "
+"start is to set the default settings for indentation and line-wrapping to "
+"values compliant with `PEP 8 <http://www.python.org/dev/peps/pep-0008/>`_. "
+"In your home directory, open a file called `.vimrc` and add the following "
+"lines:::"
+msgstr ""
+
+# 231e85bf004c4c4786dc1ef0e7434f25
+#: ../../dev/env.rst:29
+msgid ""
+"With these settings, newlines are inserted after 79 characters and "
+"indentation is set to 4 spaces per tab. If you also use VIM for other "
+"languages, there is a handy plugin at indent_, which handles indentation "
+"settings for python source files."
+msgstr ""
+
+# d906f3a2501142a9a00276b2780d2269
+#: ../../dev/env.rst:34
+msgid ""
+"There is also a handy syntax plugin at syntax_ featuring some improvements "
+"over the syntax file included in VIM 6.1."
+msgstr ""
+
+# 632d6bc366c94dbd8d0681a6f7e5ead3
+#: ../../dev/env.rst:37
+msgid ""
+"These plugins supply you with a basic environment for developing in Python. "
+"To get the most out of Vim, you should continually check your code for "
+"syntax errors and PEP8 compliance. Luckily PEP8_ and Pyflakes_ will do this "
+"for you. If your VIM is compiled with `+python` you can also utilize some "
+"very handy plugins to do these checks from within the editor."
+msgstr ""
+
+# d788a1730bd44a6995a546ad6bf7f76a
+#: ../../dev/env.rst:43
+msgid ""
+"For PEP8 checking, install the vim-pep8_ plugin, and for pyflakes you can "
+"install vim-pyflakes_. Now you can map the functions `Pep8()` or `Pyflakes()"
+"` to any hotkey or action you want in Vim. Both plugins will display errors "
+"at the bottom of the screen, and provide an easy way to jump to the "
+"corresponding line. It's very handy to call these functions whenever you "
+"save a file. In order to do this, add the following lines to your `vimrc`::"
+msgstr ""
+
+# de8ebc17296f46b8941afe3157739c45
+#: ../../dev/env.rst:53
+msgid ""
+"If you are already using syntastic_ you can enable it to run Pyflakes on "
+"write and show errors and warnings in the quickfix window. An example "
+"configuration to do that which also shows status and warning messages in the "
+"statusbar would be::"
+msgstr ""
+
+# b5f8f0f3449949209751fcf00d897e95
+#: ../../dev/env.rst:64
+msgid "Python-mode"
+msgstr ""
+
+# b65bf0ac611a4e9aa374e7b1d3a440ea
+#: ../../dev/env.rst:66
+msgid ""
+"Python-mode_ is complex solution in VIM for work with python code. It has:"
+msgstr ""
+
+# 2432354e4db34bba84f0b85f03e21c3e
+#: ../../dev/env.rst:69
+msgid ""
+"Async python code checking (pylint, pyflakes, pep8, mccabe) in any "
+"combination;"
+msgstr ""
+
+# e637cd2d27f94483bcb8ee06fced7093
+#: ../../dev/env.rst:70
+msgid "Code refactoring and autocompletion with Rope;"
+msgstr ""
+
+# ef716e9e117f4c07a807fed4bacd9abd
+#: ../../dev/env.rst:71
+msgid "Fastest python folding;"
+msgstr ""
+
+# 2fa3a46202674a57817128ba576587bc
+#: ../../dev/env.rst:72
+msgid "Nice and powered python syntax;"
+msgstr ""
+
+# d87a2444793a4b8d99b262610ae10144
+#: ../../dev/env.rst:73
+msgid "Virtual env support;"
+msgstr ""
+
+# 00975caddae247be928c7040fdef496b
+#: ../../dev/env.rst:74
+msgid "Search by python documentation and run python code;"
+msgstr ""
+
+# b6da318c1b2948e59232cb63777ac57d
+#: ../../dev/env.rst:75
+msgid "More other things like auto pep8 error fixes;"
+msgstr ""
+
+# 3b4b9388cd5a4579b1e9a11d8327958d
+#: ../../dev/env.rst:76
+msgid "Very customizable an documented as well;"
+msgstr ""
+
+# 38300cdd178a42df8fa234856c70f715
+#: ../../dev/env.rst:77
+msgid "Have all required libraries in self;"
+msgstr ""
+
+# 9b8e90b6ddf34a7c9981ba6134021028
+#: ../../dev/env.rst:79
+msgid "And more stuff."
+msgstr ""
+
+# e4f6753af7e94723a9e670ccd44af669
+#: ../../dev/env.rst:91
+msgid "add supertab notes"
+msgstr ""
+
+# 65a3efe37baa424e8a335b96952aba78
+#: ../../dev/env.rst:94
+msgid "Emacs"
+msgstr ""
+
+# aaca6ec655d4496c8b844e82f29d4f46
+#: ../../dev/env.rst:96
+msgid ""
+"Emacs is a powerful text editor. It's fully programmable (lisp), but it can "
+"be some work to wire up correctly. A good start if you're already an Emacs "
+"user is `Python Programming in Emacs`_ at EmacsWiki."
+msgstr ""
+
+# e900dac4855144e48cfaa3f8d02d1df8
+#: ../../dev/env.rst:100
+msgid "Emacs itself comes with a python mode."
+msgstr ""
+
+# 90dcd50745474a1690227d0b99d5ba9a
+#: ../../dev/env.rst:101
+msgid ""
+"Python ships with an alternate version: `python-mode.el <https://launchpad."
+"net/python-mode>`_"
+msgstr ""
+
+# de1c6b07647c486fac5e5fcfe458eff9
+#: ../../dev/env.rst:103
+msgid ""
+"Fabián Ezequiel Gallina's provides nice functionality and behavior out of "
+"the box: `python.el <https://github.com/fgallina/python.el>`_"
+msgstr ""
+
+# ced2971d87d9461da5d756bb299b60d1
+#: ../../dev/env.rst:109
+msgid "TextMate"
+msgstr ""
+
+# 80dd33c636914580a191d0a86df29723
+#: ../../dev/env.rst:111
+msgid ""
+"\"`TextMate <http://macromates.com/>`_ brings Apple's approach to operating "
+"systems into the world of text editors. By bridging UNIX underpinnings and "
+"GUI, TextMate cherry-picks the best of both worlds to the benefit of expert "
+"scripters and novice users alike.\""
+msgstr ""
+
+# f3da52e9d64c4942ab76f1c3702340fd
+#: ../../dev/env.rst:117
+msgid "Sublime Text"
+msgstr ""
+
+# a56a39e4214a497eaca277310217fed8
+#: ../../dev/env.rst:119
+msgid ""
+"\"`Sublime Text <http://www.sublimetext.com/>`_ is a sophisticated text "
+"editor for code, html and prose. You'll love the slick user interface and "
+"extraordinary features.\""
+msgstr ""
+
+# c07f7c9f069345b2aafc6b870564d3c5
+#: ../../dev/env.rst:123
+msgid ""
+"Sublime Text has excellent support for editing Python code and uses Python "
+"for its plugin API."
+msgstr ""
+
+# b387a19067474437941a0622f984d65d
+#: ../../dev/env.rst:127
+msgid "IDEs"
+msgstr ""
+
+# e0ce5aee95fe4f409f3533007a186cdc
+#: ../../dev/env.rst:130
+msgid "PyCharm / IntelliJ IDEA"
+msgstr ""
+
+# 0ff32a884c0a4bdc88241502d6c2520e
+#: ../../dev/env.rst:132
+msgid ""
+"`PyCharm <http://www.jetbrains.com/pycharm/>`_ is developed by JetBrains, "
+"also known for IntelliJ IDEA. Both share the same code base and most of "
+"PyCharm's features can be brought to IntelliJ with the free `Python Plug-In "
+"<http://plugins.intellij.net/plugin/?id=631/>`_."
+msgstr ""
+
+# 6fd81ff67b6c4be3a96778de023cecb3
+#: ../../dev/env.rst:138
+msgid "Eclipse"
+msgstr ""
+
+# 3e725c0d5cb1450ba2aaa2d9f12bdecb
+#: ../../dev/env.rst:140
+msgid ""
+"The most popular Eclipse plugin for Python development is Aptana's `PyDev "
+"<http://pydev.org>`_."
+msgstr ""
+
+# 534c05373ac744f99e67ab3a8f67f87f
+#: ../../dev/env.rst:145
+msgid "Komodo IDE"
+msgstr ""
+
+# 1052edb0d0394d7eafe440be42b4e45a
+#: ../../dev/env.rst:146
+msgid ""
+"`Komodo IDE <http://www.activestate.com/komodo-ide>`_ is developed by "
+"ActiveState and is a commercial IDE for Windows, Mac and Linux."
+msgstr ""
+
+# 8e46f288fc6840cca86c03cd86f841f8
+#: ../../dev/env.rst:152
+msgid "Spyder"
+msgstr ""
+
+# 8df9c9ee8039441c85210e5d2e6c611f
+#: ../../dev/env.rst:154
+msgid ""
+"`Spyder <http://code.google.com/p/spyderlib/>`_ an IDE specifically geared "
+"toward working with scientific python libraries (namely `Scipy <http://www."
+"scipy.org/>`_). Includes integration with pyflakes_, `pylint <http://www."
+"logilab.org/857>`_, and `rope <http://rope.sourceforge.net/>`_."
+msgstr ""
+
+# d3fbc831cac947b18943fd8c5d388980
+#: ../../dev/env.rst:159
+msgid ""
+"Spyder is open-source (free), offers code completion, syntax highlighting, "
+"class and function browser, and object inspection."
+msgstr ""
+
+# 75e8c792db414796a41c4f52986d1ee4
+#: ../../dev/env.rst:164
+msgid "WingIDE"
+msgstr ""
+
+# 5a98f37bb5ec4d14bb605d0c7c0c8bbc
+#: ../../dev/env.rst:166
+msgid ""
+"`WingIDE <http://wingware.com/>`_ a python specific IDE.   Runs for Linux, "
+"Windows, and Mac (as an X11 application, which frustrates some Mac users)."
+msgstr ""
+
+# 412335e317b64568966ee3f5534ae079
+#: ../../dev/env.rst:171
+msgid "NINJA-IDE"
+msgstr ""
+
+# de01d8af605c467083075d212369c6c7
+#: ../../dev/env.rst:173
+msgid ""
+"`NINJA-IDE <http://www.ninja-ide.org/>`_ (from the recursive acronym: "
+"\"Ninja-IDE Is Not Just Another IDE\", is a cross-platform IDE, specially "
+"designed to build Python applications, and runs on Linux/X11, Mac OS X and "
+"Windows desktop operating systems. Installers for these platforms can be "
+"downloaded from the website."
+msgstr ""
+
+# bbde5244e3cc4975b1bc15dbdd06d9b7
+#: ../../dev/env.rst:178
+msgid ""
+"NINJA-IDE is open-source software (GPLv3 licence) and is developed in Python "
+"and Qt. The source files can be downloaded from `GitHub <https://github.com/"
+"ninja-ide>`_."
+msgstr ""
+
+# 9823d87f28ba4fbc964ef1f4b25d81bc
+#: ../../dev/env.rst:182
+msgid "Interpreter Tools"
+msgstr ""
+
+# b111809297aa4916b46f63f5c226f01f
+# 434d53d406d14cfe9a3e33cba40eaeb4
+#: ../../dev/env.rst:186 ../../dev/virtualenvs.rst:12
+msgid "virtualenv"
+msgstr ""
+
+# 99085a485f19440e9bf96df503f92c54
+#: ../../dev/env.rst:188
+msgid ""
+"Virtualenv is a tool to keep the dependencies required by different projects "
+"in separate places, by creating virtual Python environments for them. It "
+"solves the \"Project X depends on version 1.x but, Project Y needs 4.x\" "
+"dilemma and keeps your global site-packages directory clean and manageable."
+msgstr ""
+
+# 31796ea3bb39476cb42bf2658a437bb3
+#: ../../dev/env.rst:193
+msgid ""
+"`virtualenv <http://www.virtualenv.org/en/latest/index.html>`_ creates a "
+"folder which contains all the necessary executables to contain the packages "
+"that a Python project would need. An example workflow is given."
+msgstr ""
+
+# 38d597d7a80e4d3791832ec7b44eec5e
+#: ../../dev/env.rst:197
+msgid "Install virtualenv::"
+msgstr ""
+
+# d0343ddcea554024a0cc58c402cb5a4f
+#: ../../dev/env.rst:202
+msgid "Create a virtual environment for a project::"
+msgstr ""
+
+# 788e06f12d654c099b92b0ace85a295b
+#: ../../dev/env.rst:207
+msgid ""
+"``virtualenv venv`` will create a folder in the current directory which will "
+"contain the Python executable files, and a copy of the ``pip`` library which "
+"you can use to install other packages. The name of the virtual environment "
+"(in this case, it was ``venv``) can be anything; omitting the name will "
+"place the files in the current directory instead."
+msgstr ""
+
+# d5ca95c9109243799dc53779d4a828c2
+#: ../../dev/env.rst:213
+msgid "In order the start using the virtual environment, run::"
+msgstr ""
+
+# 740ec3981f73450ba45f754f14c64751
+#: ../../dev/env.rst:218
+msgid ""
+"The name of the current virtual environment will now appear on the left of "
+"the prompt (e.g. ``(venv)Your-Computer:your_project UserName$``) to let you "
+"know that it's active. From now on, any package that you install using "
+"``pip`` will be placed in the venv folder, isolated from the global Python "
+"installation. Install packages as usual::"
+msgstr ""
+
+# c9ba46b01966457888d7eeeeb27b7850
+#: ../../dev/env.rst:226
+msgid ""
+"To stop using an environment simply type ``deactivate``. To remove the "
+"environment, just remove the directory it was installed into. (In this case, "
+"it would be ``rm -rf venv``)."
+msgstr ""
+
+# 199d5f5b77ee473c9e66c7498e258dad
+#: ../../dev/env.rst:231
+msgid "Other Notes"
+msgstr ""
+
+# a1f6f5e75a5f47328fd4855947d99812
+#: ../../dev/env.rst:233
+msgid ""
+"Running ``virtualenv`` with the option ``--no-site-packages`` will not "
+"include the packages that are installed globally. This can be useful for "
+"keeping the package list clean in case it needs to be accessed later."
+msgstr ""
+
+# 2a8d02f7e151405f8e687d8f4cdb153d
+#: ../../dev/env.rst:237
+msgid ""
+"In order to keep your environment consistent, it's a good idea to \"freeze\" "
+"the current state of the environment packages. To do this, run"
+msgstr ""
+
+# 9cc1cb5dd8544332bfbb55c3a4a75358
+#: ../../dev/env.rst:244
+msgid ""
+"This will create a ``requirements.txt`` file, which contains a simple list "
+"of all the packages in the current environment, and their respective "
+"versions. Later, when a different developer (or you, if you need to re- "
+"create the environment) can install the same packages, with the same "
+"versions by running"
+msgstr ""
+
+# 7571c8d3dd544efba05403884c1a6f3e
+#: ../../dev/env.rst:254
+msgid ""
+"This can help ensure consistency across installations, across deployments, "
+"and across developers."
+msgstr ""
+
+# 1f63d2f1f3af41ad829942cd6bc499d0
+#: ../../dev/env.rst:257
+msgid ""
+"Lastly, remember to exclude the virtual environment folder from source "
+"control by adding it to the ignore list."
+msgstr ""
+
+# 4aa69806afbd44069b2953b35ce11969
+# 521ed8ffd6e24c929bd3a8453fbe92a9
+#: ../../dev/env.rst:261 ../../dev/virtualenvs.rst:61
+msgid "virtualenvwrapper"
+msgstr ""
+
+# 9e76a7c3d79f4ca1bd112e5b27c3f276
+#: ../../dev/env.rst:263
+msgid ""
+"`Virtualenvwrapper <http://pypi.python.org/pypi/virtualenvwrapper>`_ makes "
+"virtualenv a pleasure to use by wrapping the command line API with a nicer "
+"CLI."
+msgstr ""
+
+# 9c4555fa7157499195037a7d660f57dc
+#: ../../dev/env.rst:271
+msgid "Put this into your `~/.bash_profile` (Linux/Mac) file:"
+msgstr ""
+
+# 501a416f8ea34894ad6d2339ec23ee01
+#: ../../dev/env.rst:277
+msgid ""
+"This will prevent your virtualenvs from relying on your (global) site "
+"packages directory, so that they are completely separate.."
+msgstr ""
+
+# 973d450a3d594fc38234ecab83d694be
+#: ../../dev/env.rst:281
+msgid "Other Tools"
+msgstr ""
+
+# 45cd001f9360420fa0ef6f914f6f2bc7
+#: ../../dev/env.rst:284
+msgid "IDLE"
+msgstr ""
+
+# b5eee098ecdb4672b7256d37bb6c5812
+#: ../../dev/env.rst:286
+msgid ""
+"`IDLE <http://docs.python.org/library/idle.html>`_ is an integrated "
+"development environment that is part of Python standard library. It is "
+"completely written in Python and uses Tkinter GUI toolkit. Though IDLE is "
+"not suited for full-blown development using Python , it is quite helpful to "
+"try out small Python snippets and experiment with different features in "
+"Python."
+msgstr ""
+
+# fcfdf6ecad7a4b30878d4a2f64b7cdf0
+#: ../../dev/env.rst:293
+msgid "It provides following features:"
+msgstr ""
+
+# 7a796554c92040a594a754f946c8f827
+#: ../../dev/env.rst:295
+msgid "Python Shell Window (interpreter)"
+msgstr ""
+
+# 104a1931c78a424383bc7af73a2f294b
+#: ../../dev/env.rst:296
+msgid "Multi window text editor that colorizes Python code"
+msgstr ""
+
+# cfeedde93f71480c8a41c4604cd69772
+#: ../../dev/env.rst:297
+msgid "Minimal debugging facility"
+msgstr ""
+
+# a50bdc4ca81a499488272de82fcd74cf
+#: ../../dev/env.rst:301
+msgid "IPython"
+msgstr ""
+
+# e6da15b560f34ac6841b3b0e09b4ec93
+#: ../../dev/env.rst:303
+msgid ""
+"`IPython <http://ipython.org/>`_ provides a rich toolkit to help you make "
+"the most out of using Python interactively. Its main components are:"
+msgstr ""
+
+# a5770bb20da3491986d3798bf994c5aa
+#: ../../dev/env.rst:306
+msgid "Powerful Python shells (terminal- and Qt-based)."
+msgstr ""
+
+# dd8442212bde4af9b3ea25728dc2438f
+#: ../../dev/env.rst:307
+msgid ""
+"A web-based notebook with the same core features but support for rich media, "
+"text, code, mathematical expressions and inline plots."
+msgstr ""
+
+# cb4b4713a23649bab3683d1f939e6241
+#: ../../dev/env.rst:309
+msgid "Support for interactive data visualization and use of GUI toolkits."
+msgstr ""
+
+# b9cfb50dc3a64bae915547e096ddf3fe
+#: ../../dev/env.rst:310
+msgid "Flexible, embeddable interpreters to load into your own projects."
+msgstr ""
+
+# a7df01d999244af1a2de583b14059202
+#: ../../dev/env.rst:311
+msgid "Tools for high level and interactive parallel computing."
+msgstr ""
+
+# a80b945602b04c498ca367045ea9fe64
+#: ../../dev/env.rst:320
+msgid "BPython"
+msgstr ""
+
+# d773ac4a239e46ae81774032b03896ff
+#: ../../dev/env.rst:322
+msgid ""
+"`bpython <http://bpython-interpreter.org/>`_ is an alternative interface to "
+"the Python interpreter for Unix-like operating systems. It has the following "
+"features:"
+msgstr ""
+
+# 1eb886d445774601b6a74bc66e562bf1
+#: ../../dev/env.rst:325
+msgid "In-line syntax highlighting."
+msgstr ""
+
+# bdae232743b84f8e9e28a0635ee5baf1
+#: ../../dev/env.rst:326
+msgid "Readline-like autocomplete with suggestions displayed as you type."
+msgstr ""
+
+# 5f7d4ffdd8014cf5867f6254f5c475e9
+#: ../../dev/env.rst:327
+msgid "Expected parameter list for any Python function."
+msgstr ""
+
+# c55a4f2dd1ee4d4aac7edb4264ccc155
+#: ../../dev/env.rst:328
+msgid ""
+"\"Rewind\" function to pop the last line of code from memory and re-evaluate."
+msgstr ""
+
+# abe8bb71b1164263b498c3c7d201bf50
+#: ../../dev/env.rst:329
+msgid "Send entered code off to a pastebin."
+msgstr ""
+
+# e6976efe98ec418e8e20073cc9bf12d3
+#: ../../dev/env.rst:330
+msgid "Save entered code to a file."
+msgstr ""
+
+# 79e7427b0045403b8fc526e9a9ad7ceb
+#: ../../dev/env.rst:331
+msgid "Auto-indentation."
+msgstr ""
+
+# 4959fbb477bf4354b04e308241774869
+#: ../../dev/env.rst:332
+msgid "Python 3 support."
+msgstr ""
+
+# f7ffed6e90a64af19dac9f3d8e4bf25c
+#: ../../dev/virtualenvs.rst:2
+msgid "Virtual Environments"
+msgstr ""
+
+# b8bd3575217d4de083ce9ddf7085cb8d
+#: ../../dev/virtualenvs.rst:4
+msgid ""
+"A Virtual Environment, put simply, is an isolated working copy of Python "
+"which allows you to work on a specific project without worry of affecting "
+"other projects."
+msgstr ""
+
+# a046e1e7d9ee4d65a379d846bdd55e06
+#: ../../dev/virtualenvs.rst:8
+msgid ""
+"For example, you can work on a project which requires Django 1.3 while also "
+"maintaining a project which requires Django 1.0."
+msgstr ""
+
+# 790c92b085b44edc850994d2c4e5d837
+#: ../../dev/virtualenvs.rst:14
+msgid ""
+"`virtualenv <http://pypi.python.org/pypi/virtualenv>`_ is a tool to create "
+"isolated Python environments."
+msgstr ""
+
+# 2334fc9936714c469feab0fab1d30739
+#: ../../dev/virtualenvs.rst:17
+msgid "Install it via pip:"
+msgstr ""
+
+# fab875f570a74a1d840789a823cb909c
+# a89830597e34466abafc4efca7bd89c0
+#: ../../dev/virtualenvs.rst:24 ../../dev/virtualenvs.rst:89
+msgid "Basic Usage"
+msgstr ""
+
+# ab39e83981f9492788838a0175515e49
+# bb66001e42c24f068c1bfcea1c042979
+#: ../../dev/virtualenvs.rst:26 ../../dev/virtualenvs.rst:91
+msgid "Create a virtual environment:"
+msgstr ""
+
+# 9a5cbcb8b753444897b6cc7aff6729e8
+#: ../../dev/virtualenvs.rst:32
+msgid ""
+"This creates a copy of Python in whichever directory you ran the command in, "
+"placing it in a folder named ``venv``."
+msgstr ""
+
+# 8c601c78acbb42a997148bcb4fb91436
+#: ../../dev/virtualenvs.rst:35
+msgid "To begin using the virtual environment, it needs to be activated:"
+msgstr ""
+
+# dae9e0ab592f4e78a8cb2bcb74c1b62f
+#: ../../dev/virtualenvs.rst:41
+msgid ""
+"You can then begin installing any new modules without affecting the system "
+"default Python or other virtual environments."
+msgstr ""
+
+# 635e330cfd734ceb8ece4f209a5621cf
+#: ../../dev/virtualenvs.rst:44
+msgid ""
+"If you are done working in the virtual environment for the moment, you can "
+"deactivate it:"
+msgstr ""
+
+# a5349cd8433c4c57ab16f467fbb19fb1
+#: ../../dev/virtualenvs.rst:51
+msgid ""
+"This puts you back to the system's default Python interpreter with all its "
+"installed libraries."
+msgstr ""
+
+# 37c17769483b47fe8b4439e4391f5175
+#: ../../dev/virtualenvs.rst:54
+msgid "To delete a virtual environment, just delete its folder."
+msgstr ""
+
+# 62753d6ee991496cb8d27fc4dc78a81b
+#: ../../dev/virtualenvs.rst:56
+msgid ""
+"After a while, though, you might end up with a lot of virtual environments "
+"littered across your system, and its possible you'll forget their names or "
+"where they were placed."
+msgstr ""
+
+# 0e8eaf35004f4b7d9398bcd503f4fc5b
+#: ../../dev/virtualenvs.rst:63
+msgid ""
+"`virtualenvwrapper <http://www.doughellmann.com/projects/virtualenvwrapper/"
+">`_ provides a set of commands which makes working with virtual environments "
+"much more pleasant. It also places all your virtual environments in one "
+"place."
+msgstr ""
+
+# 3825eba1c3764e17908d1e1a7a05141f
+# 097c4b3a67be47688346da31dd758cf0
+#: ../../dev/virtualenvs.rst:67 ../../dev/virtualenvs.rst:79
+msgid "To install (make sure **virtualenv** is already installed):"
+msgstr ""
+
+# b4b86094fc3b41b59df3bac8418fa659
+#: ../../dev/virtualenvs.rst:75
+msgid ""
+"(`Full virtualenvwrapper install instructions <http://www.doughellmann.com/"
+"docs/virtualenvwrapper/#introduction>`_.)"
+msgstr ""
+
+# 780abbe1df8b4c0cb366223f6626053a
+#: ../../dev/virtualenvs.rst:77
+msgid ""
+"For Windows, you can use the `virtualenvwrapper-powershell <https://"
+"bitbucket.org/guillermooo/virtualenvwrapper-powershell>`_ clone."
+msgstr ""
+
+# ce1c3e0656484c348aa67a401397e7e7
+#: ../../dev/virtualenvs.rst:97
+msgid "This creates the ``venv`` folder inside ``~/Envs``."
+msgstr ""
+
+# 65f5aff38f4447efb7f486b18c347298
+#: ../../dev/virtualenvs.rst:99
+msgid "Work on a virtual environment:"
+msgstr ""
+
+# 13d1774aec4641e68befc92e67ca6216
+#: ../../dev/virtualenvs.rst:105
+msgid ""
+"**virtualenvwrapper** provides tab-completion on environment names. It "
+"really helps when you have a lot of environments and have trouble "
+"remembering their names. ``workon`` also deactivates whatever environment "
+"you are currently in, so you can quickly switch between environments."
+msgstr ""
+
+# 5572bffc6a7740b1ae71ffeebeb80947
+#: ../../dev/virtualenvs.rst:111
+msgid "Deactivating is still the same:"
+msgstr ""
+
+# 72d6ecb008074e99b19b606d13faaa52
+#: ../../dev/virtualenvs.rst:117
+msgid "To delete:"
+msgstr ""
+
+# acfeadd732734b42810ee8a071daec74
+#: ../../dev/virtualenvs.rst:124
+msgid "Other useful commands"
+msgstr ""
+
+# 9d75b5d43e034a81ba7a6ded4423e442
+#: ../../dev/virtualenvs.rst:127
+msgid "List all of the environments."
+msgstr ""
+
+# f9617993beca4212ad09ebb8510062ce
+#: ../../dev/virtualenvs.rst:130
+msgid ""
+"Navigate into the directory of the currently activated virtual environment, "
+"so you can browse its ``site-packages``, for example."
+msgstr ""
+
+# 4561e951f3e345ea92b15a4d2ddc900e
+#: ../../dev/virtualenvs.rst:134
+msgid "Like the above, but directly into ``site-packages`` directory."
+msgstr ""
+
+# bc47ad43622749d286a5c3679d08e979
+#: ../../dev/virtualenvs.rst:137
+msgid "Shows contents of ``site-packages`` directory."
+msgstr ""
+
+# 039169f62a174ffaa61e6a1385e356f8
+#: ../../dev/virtualenvs.rst:139
+msgid ""
+"`Full list of virtualenvwrapper commands <http://www.doughellmann.com/docs/"
+"virtualenvwrapper/command_ref.html#managing-environments>`_."
+msgstr ""
+
+# e5e2204de6bc4fb899c3bedae8cf8666
+#: ../../dev/virtualenvs.rst:142
+msgid "autoenv"
+msgstr ""
+
+# ac521391388f4436b8e0cac3b4db4056
+#: ../../dev/virtualenvs.rst:143
+msgid ""
+"When you ``cd`` into a directory containing a ``.env`` `autoenv <https://"
+"github.com/kennethreitz/autoenv>`_ automagically activates the environment."
+msgstr ""
+
+# a5a7f2a3c386483d84bef6936fced6ae
+#: ../../dev/virtualenvs.rst:146
+msgid "Install it on Mac OS X using ``brew``:"
+msgstr ""
+
+# dd2aa5168e2847cf9c35061ec8ee84d8
+#: ../../dev/virtualenvs.rst:152
+msgid "And on Linux:"
+msgstr ""

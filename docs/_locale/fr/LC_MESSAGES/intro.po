@@ -1,0 +1,715 @@
+# Language ANG translations for pythonguide package.
+# Copyright (C) 2012. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-sa/3.0/"> Creative Commons Share-Alike 3.0</a>.
+# This file is distributed under the same license as the pythonguide package.
+# Automatically generated, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: python-guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-25 11:58\n"
+"PO-Revision-Date: 2012-10-25 15:43+0100\n"
+"Last-Translator: Alexis Couronne <alexis.couronne@gmail.com>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.5.4\n"
+
+# 5902d37f374444c7a2c403de1b0e2257
+#: ../../intro/community.rst:4
+msgid "The Community"
+msgstr ""
+
+# 2d8b263e65b848949d0f181f78a04d98
+#: ../../intro/community.rst:7
+msgid "BDFL"
+msgstr ""
+
+# 32ef68b07de644769ed9c4f34d5d074e
+#: ../../intro/community.rst:9
+msgid ""
+"Guido van Rossum, the creator of Python, is often referred to as the BDFL — "
+"the Benevolent Dictator For Life."
+msgstr ""
+
+# cef1aa1b014246b498ccb752bb415ea3
+#: ../../intro/community.rst:15
+msgid "Python Software Foundation"
+msgstr ""
+
+# e585280bf65a445d8cc76cb540f47d46
+#: ../../intro/community.rst:17
+msgid ""
+"The mission of the Python Software Foundation is to promote, protect, and "
+"advance the Python programming language, and to support and facilitate the "
+"growth of a diverse and international community of Python programmers."
+msgstr ""
+
+# 4aa02d501cd74d67b2ddb82c64dba8c6
+#: ../../intro/community.rst:21
+msgid "`Learn More about the PSF <http://www.python.org/psf/>`_."
+msgstr ""
+
+# e09a8603b3344a19b8f04077004e60a4
+#: ../../intro/community.rst:25
+msgid "PEPs"
+msgstr ""
+
+# f05f490c538441609a7310f75232f855
+#: ../../intro/community.rst:27
+msgid ""
+"PEPs are *Python Enhancement Proposals*. They describe changes to Python "
+"itself, or the standards around it."
+msgstr ""
+
+# 3d9f5857420c4d0aaeecce6d74f404bd
+#: ../../intro/community.rst:30
+msgid ""
+"There are three different types of PEPs (as defined by `PEP1 <http://www."
+"python.org/dev/peps/pep-0001/>`_):"
+msgstr ""
+
+# 1c2e0e24d8894a7fbc0a2c47cb25b598
+#: ../../intro/community.rst:33
+msgid "Describes a new feature or implementation."
+msgstr ""
+
+# f08b2700bce64ee688c425937a9373a8
+#: ../../intro/community.rst:36
+msgid ""
+"Describes a design issue, general guidelines, or information to the "
+"community."
+msgstr ""
+
+# 30c74ff6d72c4904b028738a5ab17b7d
+#: ../../intro/community.rst:40
+msgid "Describes a process related to Python."
+msgstr ""
+
+# 2fa22e98ca1c482090f06b6dcb70fc57
+#: ../../intro/community.rst:44
+msgid "Notable PEPs"
+msgstr ""
+
+# f90cdc681f1f440bad0595e36aead213
+#: ../../intro/community.rst:46
+msgid "There are a few PEPs that could be considered required reading:"
+msgstr ""
+
+# 754608d5fbc444059f0e346b52c4ceab
+#: ../../intro/community.rst:49
+msgid "Read this. All of it. Follow it."
+msgstr ""
+
+# 1c5edef0ee42418c99d619f1a317cade
+#: ../../intro/community.rst:52
+msgid ""
+"A list of 19 statements that briefly explain the philosophy behind Python."
+msgstr ""
+
+# 9eb9fe07b8694b49ba0a32ead572fbd4
+#: ../../intro/community.rst:55
+msgid ""
+"Gives guidelines for semantics and conventions associated with Python "
+"docstrings."
+msgstr ""
+
+# c94e35c7f54c4ee8bc58b919d3f41aa6
+#: ../../intro/community.rst:58
+msgid ""
+"You can read more at `The PEP Index <http://www.python.org/dev/peps/>`_."
+msgstr ""
+
+# fa8ff42b1a514ea3acd46d3b7eff10ab
+#: ../../intro/community.rst:61
+msgid "Submitting a PEP"
+msgstr ""
+
+# b0bfdcd22d894946937debfda80d88f7
+#: ../../intro/community.rst:63
+msgid ""
+"PEPs are peer-reviewed and accepted/rejected after much discussion. Anyone "
+"can write and submit a PEP for review."
+msgstr ""
+
+# 907d69de58d746ebb3e56897b45cf2bd
+#: ../../intro/community.rst:66
+msgid "Here's an overview of the PEP acceptance workflow:"
+msgstr ""
+
+# 073e2afa23bd40f398ec61c24db3e417
+#: ../../intro/community.rst:72
+msgid "Python Conferences"
+msgstr ""
+
+# ebdf8920311d489a9d6877e51c92d904
+#: ../../intro/community.rst:74
+msgid ""
+"The major events for the Python community are developer conferences. The two "
+"most notable conferences are PyCon, which is held in the US, and its "
+"European sibling, EuroPython."
+msgstr ""
+
+# e443f5b19bdc4fcebbe2f3e0eb322f1b
+#: ../../intro/community.rst:78
+msgid ""
+"A comprehensive list of conferences is maintained `at pycon.org <http://www."
+"pycon.org/>`_."
+msgstr ""
+
+# fb28c6e0ee4b4cdaa1c4055f24e3c3f8
+#: ../../intro/community.rst:82
+msgid "Python User Groups"
+msgstr ""
+
+# 8bf771884d6b40ed860a4499511b1c87
+#: ../../intro/community.rst:84
+msgid ""
+"User Groups are where a bunch of Python developers meet to present or talk "
+"about Python topics of interest. A list of local user groups is maintained "
+"at the `Python Software Foundation Wiki <http://wiki.python.org/moin/"
+"LocalUserGroups>`_."
+msgstr ""
+
+# 2ca7ac81ae9749aea67180b67bf34d1c
+#: ../../intro/documentation.rst:2
+msgid "Documentation"
+msgstr ""
+
+# eb74d6fd30414847a020f85cdeeed061
+#: ../../intro/documentation.rst:5
+msgid "Official Documentation"
+msgstr ""
+
+# fca8782559704a0087a9fb6256cc91b3
+#: ../../intro/documentation.rst:7
+msgid ""
+"The official Python Language and Library documentation can be found here:"
+msgstr ""
+
+# 176273f50ecd46d191b155315c979ae7
+#: ../../intro/documentation.rst:9
+msgid "`Python 2.x <http://docs.python.org/>`_"
+msgstr ""
+
+# b4b01be8ed494f17b51b654214dfaca6
+#: ../../intro/documentation.rst:10
+msgid "`Python 3.x <http://docs.python.org/py3k/>`_"
+msgstr ""
+
+# 51214d8bfa4245569b9224ccdd1748cb
+#: ../../intro/documentation.rst:14
+msgid "Read the Docs"
+msgstr ""
+
+# ba902eb4f35544c0ad64f3f2a3d6cc22
+#: ../../intro/documentation.rst:16
+msgid ""
+"Read the Docs is a popular community project, providing a single location "
+"for all documentation of popular and even more exotic Python modules."
+msgstr ""
+
+# 5903a0f33eac40cabd58eb01ec3103bc
+#: ../../intro/documentation.rst:19
+msgid "`Read the Docs <http://readthedocs.org/>`_"
+msgstr ""
+
+# 2e6b548809d74d4b97e7e0f796b660bf
+#: ../../intro/duction.rst:2
+msgid "Introduction"
+msgstr ""
+
+# 249f7a35c3f4419699734e33ec0dbb96
+#: ../../intro/duction.rst:4
+msgid "From the `official Python website <http://python.org/about/>`_:"
+msgstr ""
+
+# b92b5b00e1ee4fa89e387781320345c2
+#: ../../intro/duction.rst:6
+msgid ""
+"Python is a general-purpose, high-level programming language similar to Tcl, "
+"Perl, Ruby, Scheme, or Java. Some of its main key features include:"
+msgstr ""
+
+# 2dfd823e9dce4d489679ac0ab8552208
+#: ../../intro/duction.rst:10
+msgid "very clear, readable syntax"
+msgstr ""
+
+# 3cbcc3ada6fc46caa5547bd1124501c0
+#: ../../intro/duction.rst:12
+msgid ""
+"Python's philosophy focuses on readability, from code blocks delineated with "
+"significant whitespace to intuitive keywords in place of inscrutable "
+"punctuation"
+msgstr ""
+
+# 0e38542bf02f4413b709fe6fc139e910
+#: ../../intro/duction.rst:16
+msgid ""
+"extensive standard libraries and third party modules for virtually any task"
+msgstr ""
+
+# b45821a6fb9c4635b4603f2813c2cafd
+#: ../../intro/duction.rst:19
+msgid ""
+"Python is sometimes described with the words \"batteries included\" for its "
+"extensive `standard library <http://docs.python.org/library/>`_, which can "
+"includes modules for regular expressions, file IO, fraction handling, object "
+"serialization, and much more."
+msgstr ""
+
+# 8581327fe1c844f29c3ed9a81f9c421b
+#: ../../intro/duction.rst:25
+msgid ""
+"Additionally, the `Python Package Index <http://pypi.python.org/pypi/>`_ is "
+"available for users to submit their packages for widespread use, similar to "
+"Perl's `CPAN <http://www.cpan.org>`_. There is a thriving community of very "
+"powerful Python frameworks and tools like the `Django <http://www."
+"djangoproject.com>`_ web framework and the `NumPy <http://numpy.scipy.org>`_ "
+"set of math routines."
+msgstr ""
+
+# ee299515eb21418a9b43b634824470d6
+#: ../../intro/duction.rst:33
+msgid "integration with other systems"
+msgstr ""
+
+# 3f996141ba7c4e479aa7c4690e2997b9
+#: ../../intro/duction.rst:35
+msgid ""
+"Python can integrate with `Java libraries <http://www.jython.org>`_, "
+"enabling it to be used with the rich Java environment that corporate "
+"programmers are used to. It can also be `extended by C or C++ modules "
+"<http://docs.python.org/extending/>`_ when speed is of the essence."
+msgstr ""
+
+# e413c0131222430dbedbe1e621ff0d65
+#: ../../intro/duction.rst:41
+msgid "ubiquity on computers"
+msgstr ""
+
+# 44cbfeb1d402489b89c6b536ffabaedd
+#: ../../intro/duction.rst:43
+msgid ""
+"Python is available on Windows, \\*nix, and Mac. It runs wherever the Java "
+"virtual machine runs, and the reference implementation CPython can help "
+"bring Python to wherever there is a working C compiler."
+msgstr ""
+
+# 40256661bfb7415e9354b27fc98dcbe2
+#: ../../intro/duction.rst:47
+msgid "friendly community"
+msgstr ""
+
+# c3a92433e6274e69b03401943d33952b
+#: ../../intro/duction.rst:49
+msgid ""
+"Python has a vibrant and large :ref:`community <the-community>` which "
+"maintains wikis, conferences, countless repositories, mailing lists, IRC "
+"channels, and so much more. Heck, the Python community is even helping to "
+"write this guide!"
+msgstr ""
+
+# f0eae02aa6324ba184b0871a515cc180
+#: ../../intro/duction.rst:58
+msgid "About This Guide"
+msgstr ""
+
+# dac8d344b9ab45519568e9a556581270
+#: ../../intro/duction.rst:61
+msgid "Purpose"
+msgstr ""
+
+# dcc086cc813341ee8989c0197035ef55
+#: ../../intro/duction.rst:63
+msgid ""
+"The Hitchhiker's Guide to Python exists to provide both novice and expert "
+"Python developers a best-practice handbook to the installation, "
+"configuration, and usage of Python on a daily basis."
+msgstr ""
+
+# 0dccc6b4f37540c6b452fdf3446a69a9
+#: ../../intro/duction.rst:69
+msgid "By the Community"
+msgstr ""
+
+# 504cf5c46c714f89a978c3d6c70e8074
+#: ../../intro/duction.rst:71
+msgid ""
+"This guide is architected and maintained by `Kenneth Reitz <https://github."
+"com/kennethreitz>`_ in an open fashion. This is a community-driven effort "
+"that serves one purpose: to serve the community."
+msgstr ""
+
+# 0710d85c5e904dcca484879b76b34a3c
+#: ../../intro/duction.rst:76
+msgid "For the Community"
+msgstr ""
+
+# 18c762bb80cd4e8fbb5fef19ab104f91
+#: ../../intro/duction.rst:78
+msgid ""
+"All contributions to the Guide are welcome, from Pythonistas of all levels. "
+"If you think there's a gap in what the Guide covers, fork the Guide on "
+"GitHub and submit a pull request. Contributions are welcome from everyone, "
+"whether they're an old hand or a first-time Pythonista, and the authors to "
+"the Guide will gladly help if you have any questions about the "
+"appropriateness, completeness, or accuracy of a contribution."
+msgstr ""
+
+# 08507871baae4cb484d6e7df87e08849
+#: ../../intro/duction.rst:85
+msgid ""
+"To get started working on The Hitchhiker's Guide, see the :doc:`/notes/"
+"contribute` page."
+msgstr ""
+
+# a09ca16287ba47b98cb67f03f83ad32c
+#: ../../intro/learning.rst:2
+msgid "Learning Python"
+msgstr ""
+
+# 44e089c1321146548300a9778f0dd319
+#: ../../intro/learning.rst:5
+msgid "Beginner"
+msgstr ""
+
+# e17515ea18d240d9bc65d37abcbcae94
+#: ../../intro/learning.rst:8
+msgid "Learn Python Interactive Tutorial"
+msgstr ""
+
+# 14e1f041982846a8b5bb2e49ade0c3f2
+#: ../../intro/learning.rst:10
+msgid ""
+"Learnpython.org is an easy non-intimidating way to get introduced to python. "
+"The website takes the same approach used on the popular `Try Ruby <http://"
+"tryruby.org/>`_ website, it has an interactive python interpreter built into "
+"the site that allows you to go through the lessons without having to install "
+"Python locally."
+msgstr ""
+
+# 41e174cd54c14262b5332d98fc916714
+#: ../../intro/learning.rst:15
+msgid "`Learn Python <http://www.learnpython.org/>`_"
+msgstr ""
+
+# d40987fd35a84876a3062aabbccbf098
+#: ../../intro/learning.rst:18
+msgid "Learn Python the Hard Way"
+msgstr ""
+
+# b4da1afae226467abb7fc91f2447d925
+#: ../../intro/learning.rst:20
+msgid ""
+"This is an excellent beginner programmer's guide to Python. It covers "
+"\"hello world\" from the console to the web."
+msgstr ""
+
+# 9a504edb699d48aea4c36bc43149420f
+#: ../../intro/learning.rst:23
+msgid "`Learn Python the Hard Way <http://learnpythonthehardway.org/book/>`_"
+msgstr ""
+
+# 56a19408d2554f8c9b0568739bce697b
+#: ../../intro/learning.rst:27
+msgid "Crash into Python"
+msgstr ""
+
+# 885b67a6c5cb4cd4b6f10612f47e6765
+#: ../../intro/learning.rst:29
+msgid ""
+"Also known as *Python for Programmers with 3 Hours*, this guide gives "
+"experienced developers from other languages a crash course on Python."
+msgstr ""
+
+# f59274b00214411e9bb8cf8c2d4dc26d
+#: ../../intro/learning.rst:32
+msgid "`Crash into Python <http://stephensugden.com/crash_into_python/>`_"
+msgstr ""
+
+# 4a31fcaafc0b48f4bd30d106c531ffc0
+#: ../../intro/learning.rst:36
+msgid "Dive Into Python 3"
+msgstr ""
+
+# f1ae916f98b44d5ca525b4a154942a8d
+#: ../../intro/learning.rst:38
+msgid ""
+"Dive Into Python 3 is a good book for those ready to jump in to Python 3. "
+"It's a good read if you are moving from Python 2 to 3 or if you already have "
+"some experience programming in another language."
+msgstr ""
+
+# eb27a9249bca4e6f8d0602eb6bd1fb74
+#: ../../intro/learning.rst:42
+msgid "`Dive Into Python 3 <http://diveintopython3.ep.io/>`_"
+msgstr ""
+
+# dfaa291fe03c44e2badb4e7e294e950e
+#: ../../intro/learning.rst:45
+msgid "Think Python: How to Think Like a Computer Scientist"
+msgstr ""
+
+# c09a5bc6ef1a4278abb766725e751d48
+#: ../../intro/learning.rst:47
+msgid ""
+"Think Python attempts to give an introduction to basic concepts in computer "
+"science through the use of the python language. The focus was to create a "
+"book with plenty of exercises, minimal jargon and a section in each chapter "
+"devoted to the subject of debugging."
+msgstr ""
+
+# 96d2f65c7de74f6dacdef2c329d6fc89
+#: ../../intro/learning.rst:52
+msgid ""
+"While exploring the various features available in the python language the "
+"author weaves in various design patterns and best practices."
+msgstr ""
+
+# 0999be70c96940c0ace00e423fbf6613
+#: ../../intro/learning.rst:55
+msgid ""
+"The book also includes several case studies which have the reader explore "
+"the topics discussed in the book in greater detail by applying those topics "
+"to real-world examples. Case studies include assignments in GUI and Markov "
+"Analysis."
+msgstr ""
+
+# 65e195b9b7a240a8b60c3130eb5753fa
+#: ../../intro/learning.rst:60
+msgid "`Think Python <http://greenteapress.com/thinkpython/html/index.html>`_"
+msgstr ""
+
+# 7606c636e49347cda76e83ab8197857b
+#: ../../intro/learning.rst:64
+msgid "Python Koans"
+msgstr ""
+
+# 07a8c7a94df146a3a81b8f9a53bfd4bf
+#: ../../intro/learning.rst:66
+msgid ""
+"Python Koans is a port of Edgecase's Ruby Koans.  It uses a test-driven "
+"approach, q.v. TEST DRIVEN DESIGN SECTION to provide an interactive tutorial "
+"teaching basic python concepts.  By fixing assertion statements that fail in "
+"a"
+msgstr ""
+
+# ef4c22bce72048408880b05051e7639b
+#: ../../intro/learning.rst:69
+msgid "test script, this provides sequential steps to learning python."
+msgstr ""
+
+# 903508442d2d47ada4e3966f4ce811c8
+#: ../../intro/learning.rst:71
+msgid ""
+"For those used to languages and figuring out puzzles on their own, this can "
+"be a fun, attractive option. For those new to python and programming, having "
+"an additional resource or reference will be helpful."
+msgstr ""
+
+# 5f17c0e9356941439e2cfd398ed10769
+#: ../../intro/learning.rst:75
+msgid "`Python Koans <http://bitbucket.org/gregmalcolm/python_koans>`_"
+msgstr ""
+
+# 8435ac3045fc4436bdb07e8ddbaf6c03
+#: ../../intro/learning.rst:77
+msgid ""
+"More information about test driven development can be found at these "
+"resources:"
+msgstr ""
+
+# fb943daa03f74b6e9a8a3dab3cee8efb
+#: ../../intro/learning.rst:79
+msgid ""
+"`Test Driven Development <http://en.wikipedia.org/wiki/Test-"
+"driven_development>`_"
+msgstr ""
+
+# b7acdc4e91f347d6bec20a094ea6c03c
+#: ../../intro/learning.rst:82
+msgid "A Byte of Python"
+msgstr ""
+
+# 53d9ebe285f0459483a651f522f5a697
+#: ../../intro/learning.rst:84
+msgid ""
+"A free introductory book that teaches python at the beginner level, it "
+"assumes no previous programming experience."
+msgstr ""
+
+# 8908feab243e47f68d68e304d38c5368
+#: ../../intro/learning.rst:87
+msgid ""
+"`A Byte of Python for Python 2.x <http://www.ibiblio.org/swaroopch/"
+"byteofpython/read/>`_ `A Byte of Python for Python 3.x <http://www.swaroopch."
+"org/notes/Python_en:Table_of_Contents>`_"
+msgstr ""
+
+# 0e908216d05c4ffe890de3d69ef1e42e
+#: ../../intro/learning.rst:92
+msgid "Advanced"
+msgstr ""
+
+# 12822cebad444d64a7e1098af6412cb4
+#: ../../intro/learning.rst:95
+msgid "Pro Python"
+msgstr ""
+
+# e05d45216916456aad8252990a42dac1
+#: ../../intro/learning.rst:97
+msgid ""
+"This book is for intermediate to advanced Python programmers who are looking "
+"to understand how and why Python works the way it does and how they can take "
+"their code to the next level."
+msgstr ""
+
+# 98e8aa50350d466d8f76bc50c1966378
+#: ../../intro/learning.rst:102
+msgid "Expert Python Programming"
+msgstr ""
+
+# 0284edae703c460cb665a53912600a70
+#: ../../intro/learning.rst:103
+msgid ""
+"Expert Python Programming deals with best practices in programming Python "
+"and is focused on the more advanced crowd."
+msgstr ""
+
+# f07a5809009c475c8cdef6dbec20577f
+#: ../../intro/learning.rst:106
+msgid ""
+"It starts with topics like decorators (with caching, proxy, and context "
+"manager case-studies), method resolution order, using super() and meta-"
+"programming, and general PEP8 best practices."
+msgstr ""
+
+# d68105c462d14795b559748d0fbd35f3
+#: ../../intro/learning.rst:110
+msgid ""
+"It has a detailed, multi-chapter case study on writing and releasing a "
+"package and eventually an application, including a chapter on using zc."
+"buildout.  Later chapters detail best practices with writing documentation, "
+"test-driven development, version control, and optimization/profiling."
+msgstr ""
+
+# 899e1c1294504ab583e8c72a418e155c
+#: ../../intro/learning.rst:115
+msgid ""
+"`Expert Python Programming <http://www.packtpub.com/expert-python-"
+"programming/book>`_"
+msgstr ""
+
+# 761cf081fb474a63bf37c321affda52d
+#: ../../intro/learning.rst:118
+msgid "The Python Tutorial"
+msgstr ""
+
+# 83b79cc75a5340d28839d964718de585
+#: ../../intro/learning.rst:120
+msgid ""
+"This is the official tutorial, it covers all the basics, and offers a tour "
+"of the language and the standard library, recommended for those who need a "
+"quickstart guide to the language."
+msgstr ""
+
+# 23d2975316a24907bfc40bece5086133
+#: ../../intro/learning.rst:124
+msgid "`The Python Tutorial <http://docs.python.org/tutorial/index.html>`_"
+msgstr ""
+
+# 32717af267d04a98a3acefb4795fe762
+#: ../../intro/learning.rst:127
+msgid "References"
+msgstr ""
+
+# 11923de6dddc40ce931092321476c6fb
+#: ../../intro/learning.rst:130
+msgid "Python in a Nutshell"
+msgstr ""
+
+# 8bfc921bc5704cf9b503df9c122652ef
+#: ../../intro/learning.rst:132
+msgid ""
+"Python in a Nutshell, written by Alex Martelli, covers most cross-platform "
+"python's usage, from its syntax to built-in libraries to advanced topics "
+"such as writing C extensions."
+msgstr ""
+
+# fb6083d7b16c470a904a92a84630a195
+#: ../../intro/learning.rst:137
+msgid "The Python Language Reference"
+msgstr ""
+
+# a8b6bbfc4bf14803bd3942589cf8a65e
+#: ../../intro/learning.rst:139
+msgid ""
+"This is Python's reference manual, it covers the syntax and the core "
+"semantics of the language."
+msgstr ""
+
+# 1cbdadc6d84743b0befccca1027b8119
+#: ../../intro/learning.rst:142
+msgid ""
+"`The Python Language Reference <http://docs.python.org/reference/index."
+"html>`_"
+msgstr ""
+
+# 6287dca235ec4bf4a0aaccc3b1b92c58
+#: ../../intro/news.rst:2
+msgid "News"
+msgstr ""
+
+# a88253f1214644c18df39c38b2607cf9
+#: ../../intro/news.rst:5
+msgid "Planet Python"
+msgstr ""
+
+# 4481103650fe4913a05ff05a47755140
+#: ../../intro/news.rst:7
+msgid ""
+"This is an aggregate of Python news from a growing number of developers."
+msgstr ""
+
+# 97115c72daa0491bafd0de43c98a1989
+#: ../../intro/news.rst:9
+msgid "`Planet Python <http://planet.python.org>`_"
+msgstr ""
+
+# 9ce99a3193b741fe847d246d248c5616
+#: ../../intro/news.rst:12
+msgid "/r/python"
+msgstr ""
+
+# 5e39358ab23649ff97494fee3d81d8d8
+#: ../../intro/news.rst:14
+msgid ""
+"/r/python is the Reddit Python community where users contribute and vote on "
+"Python-related news."
+msgstr ""
+
+# b41eb128baeb4f8ba2c6072c5565a5a7
+#: ../../intro/news.rst:17
+msgid "`/r/python <http://reddit.com/r/python>`_"
+msgstr ""
+
+# 521fd1305dea48fabde12236056e10e8
+#: ../../intro/news.rst:20
+msgid "Python Weekly"
+msgstr ""
+
+# 383828153f8a4478b003ad10aa9485ad
+#: ../../intro/news.rst:22
+msgid ""
+"Python Weekly is a free weekly newsletter featuring curated news, articles, "
+"new releases, jobs, etc. related to Python."
+msgstr ""
+
+# 567f7fd3fe99403bbfa9910009d894fa
+#: ../../intro/news.rst:25
+msgid "`Python Weekly <http://www.pythonweekly.com/>`_"
+msgstr ""

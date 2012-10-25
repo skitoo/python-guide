@@ -1,0 +1,1359 @@
+# Language ANG translations for pythonguide package.
+# Copyright (C) 2012. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-sa/3.0/"> Creative Commons Share-Alike 3.0</a>.
+# This file is distributed under the same license as the pythonguide package.
+# Automatically generated, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: python-guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-25 11:58\n"
+"PO-Revision-Date: 2012-10-25 15:43+0100\n"
+"Last-Translator: Alexis Couronne <alexis.couronne@gmail.com>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.5.4\n"
+
+# f97362267c8847f2906268a4d5aa0689
+#: ../../scenarios/admin.rst:2
+msgid "Systems Administration"
+msgstr ""
+
+# 36acde939b094db599b8e7973c759b8e
+#: ../../scenarios/admin.rst:5
+msgid "Fabric"
+msgstr ""
+
+# cd481c1be7c0403ca2bf0700d80994f2
+#: ../../scenarios/admin.rst:7
+msgid ""
+"`Fabric <http://docs.fabfile.org>`_ is a library for simplifying system "
+"administration tasks. While Chef and Puppet tend to focus on managing "
+"servers and system libraries, fabric is more focused on application level "
+"tasks such as deployment."
+msgstr ""
+
+# 0add096eff1d4e92a6211f72fbc8e07d
+#: ../../scenarios/admin.rst:11
+msgid "Install Fabric:"
+msgstr ""
+
+# 12638eb7f2d24df9bebbe30924f15649
+#: ../../scenarios/admin.rst:17
+msgid ""
+"The following code will create two tasks that we can use: ``memory_usage`` "
+"and ``deploy``. The former will output the memory usage on each machine. The "
+"latter will ssh into each server, cd to our project directory, activate the "
+"virtual environment, pull the newest codebase, and restart the application "
+"server."
+msgstr ""
+
+# 203bfaead5aa46dc98505284c7aa4b10
+#: ../../scenarios/admin.rst:40
+msgid ""
+"With the previous code saved in a file named fabfile.py, we can check memory "
+"usage with:"
+msgstr ""
+
+# a3c2cb4a17d848d78f81ba1e96ff2d57
+#: ../../scenarios/admin.rst:60
+msgid "and we can deploy with:"
+msgstr ""
+
+# ff637abc04514fcba966a875a84f8464
+#: ../../scenarios/admin.rst:66
+msgid ""
+"Additional features include parallel execution, interaction with remote "
+"programs, and host grouping."
+msgstr ""
+
+# c961f7d900ad4d9badaa97e4c59f7f83
+#: ../../scenarios/admin.rst:69
+msgid "`Fabric Documentation <http://docs.fabfile.org>`_"
+msgstr ""
+
+# eab69a8540ba4e47bb3e2e1cb42a17d3
+#: ../../scenarios/admin.rst:72
+msgid "Chef"
+msgstr ""
+
+# cff1d38f5c8445e1badddd66130e48bb
+#: ../../scenarios/admin.rst:74
+msgid "Write about Chef"
+msgstr ""
+
+# 9a9045e28db44182a82a82787ec2de6f
+#: ../../scenarios/admin.rst:76
+msgid ""
+"`Chef Documentation <http://wiki.opscode.com/display/chef/Documentation>`_"
+msgstr ""
+
+# 01565b4ba1cb4224ad6d4e6f50a56461
+#: ../../scenarios/admin.rst:80
+msgid "Puppet"
+msgstr ""
+
+# 2f6698be4ada424c9d1b21c5ab9935e0
+#: ../../scenarios/admin.rst:82
+msgid "Write about Puppet"
+msgstr ""
+
+# 4a7f433d5c6f46138940b4a7bccba87b
+#: ../../scenarios/admin.rst:84
+msgid "`Puppet Labs Documentation <http://docs.puppetlabs.com>`_"
+msgstr ""
+
+# a526000b4e654ecfae993cb187353daa
+#: ../../scenarios/admin.rst:87
+msgid "Blueprint"
+msgstr ""
+
+# 3c427d35ff1841c6bdafacde8cb4ef2d
+#: ../../scenarios/admin.rst:89
+msgid "Write about Blueprint"
+msgstr ""
+
+# 2fa3c8494a30476990947910764817c3
+#: ../../scenarios/admin.rst:92
+msgid "Buildout"
+msgstr ""
+
+# 0197f625c20d441caed3d96dbda29fbc
+#: ../../scenarios/admin.rst:94
+msgid "Write about Buildout"
+msgstr ""
+
+# 23ebd05b51364706924c33c202652137
+#: ../../scenarios/admin.rst:96
+msgid "`Buildout Website <http://www.buildout.org>`_"
+msgstr ""
+
+# 4cab166ea18e4b4b8ec04d1188a7d788
+#: ../../scenarios/ci.rst:2
+msgid "Continuous Integration"
+msgstr ""
+
+# 10e196216cc64b799e17eadc393a33f8
+#: ../../scenarios/ci.rst:6
+msgid "Why?"
+msgstr ""
+
+# 7b1a76ec6e8e49ffbddcce3078e802cc
+#: ../../scenarios/ci.rst:8
+msgid ""
+"Martin Fowler, who first wrote about `Continuous Integration <http://"
+"martinfowler.com/articles/continuousIntegration.html>`_ (short: CI) together "
+"with Kent Beck, describes the CI as follows:"
+msgstr ""
+
+# c3ec99e1e2bf47369768b3073df12d5e
+#: ../../scenarios/ci.rst:11
+msgid ""
+"Continuous Integration is a software development practice where members of a "
+"team integrate their work frequently, usually each person integrates at "
+"least daily - leading to multiple integrations per day. Each integration is "
+"verified by an automated build (including test) to detect integration errors "
+"as quickly as possible. Many teams find that this approach leads to "
+"significantly reduced integration problems and allows a team to develop "
+"cohesive software more rapidly."
+msgstr ""
+
+# 222383563d004a7a9544f2cf1ae7dd77
+#: ../../scenarios/ci.rst:20
+msgid "Jenkins"
+msgstr ""
+
+# b0bc979e3a6948dfabc4aface457b6f6
+#: ../../scenarios/ci.rst:22
+msgid ""
+"`Jenkins CI <http://jenkins-ci.org>`_ is an extensible continuous "
+"integration engine. Use it."
+msgstr ""
+
+# f8e6a8f75518440da44a27a42699c7ff
+#: ../../scenarios/ci.rst:28
+msgid "Buildbot"
+msgstr ""
+
+# 9a70645ad6744bf0a68290a1cfe12903
+#: ../../scenarios/ci.rst:29
+msgid ""
+"`Buildbot <http://buildbot.net/buildbot/docs/current>`_ is a Python system "
+"to automate the compile/test cycle to validate code changes."
+msgstr ""
+
+# 92da0ce29ab34dbc805d260918f8a414
+#: ../../scenarios/ci.rst:34
+msgid "Mule?"
+msgstr ""
+
+# 661a45f6a5b04024b2c5974b36147369
+#: ../../scenarios/ci.rst:36
+msgid "Write about Mule"
+msgstr ""
+
+# 995b6882aba24be9a7140f95a464613c
+#: ../../scenarios/ci.rst:39
+msgid "Tox"
+msgstr ""
+
+# a0aa26cf32b44f82958ddf2864cd4221
+#: ../../scenarios/ci.rst:41
+msgid ""
+"`tox <https://bitbucket.org/hpk42/tox>`_ is an automation tool providing "
+"packaging, testing and deployment of Python software right from the console "
+"or CI server. It is a generic virtualenv management and test command line "
+"tool which provides the following features:"
+msgstr ""
+
+# cc8ccea1051f4cf997ea7bda1f9d8a3f
+#: ../../scenarios/ci.rst:46
+msgid ""
+"Checking that packages install correctly with different Python versions and "
+"interpreters"
+msgstr ""
+
+# ddc5fd19194745f0a1e260e4ac38a265
+#: ../../scenarios/ci.rst:48
+msgid ""
+"Running tests in each of the environments, configuring your test tool of "
+"choice"
+msgstr ""
+
+# 3e584e7b3e644e16ae4832d423b949c9
+#: ../../scenarios/ci.rst:50
+msgid ""
+"Acting as a frontend to Continuous Integration servers, reducing boilerplate "
+"and merging CI and shell-based testing."
+msgstr ""
+
+# 5f0a4c61313f4bb2a7569109c4aafa14
+#: ../../scenarios/ci.rst:55
+msgid "Travis-CI"
+msgstr ""
+
+# a545082f51254eaba347769aa301146b
+#: ../../scenarios/ci.rst:56
+msgid ""
+"`Travis-CI <http://travis-ci.org/>`_ is a distributed CI server which builds "
+"tests for open source projects for free. It provides multiple workers to run "
+"Python tests on and seamlessly integrates with Github. You can even have it "
+"comment on your Pull Requests whether this particular changeset breaks the "
+"build or not. So if you are hosting your code on Github, travis-ci is a "
+"great and easy way to get started with Continuous Integration."
+msgstr ""
+
+# eceebfc5d533406182ab07be4fa9925d
+#: ../../scenarios/ci.rst:63
+msgid ""
+"In order to get started, add a ``.travis.yml`` file to your repository with "
+"this example content::"
+msgstr ""
+
+# 0ea26eb0054643f98083c09dd20ae80a
+#: ../../scenarios/ci.rst:80
+msgid ""
+"This will get your project tested on all the listed Python versions by "
+"running the given script and only build the master branch. There are a lot "
+"more options you can enable, like notifications, before and after steps and "
+"much more. The `travis-ci docs <http://about.travis-ci.org/docs/>`_ explain "
+"all of those and are very thorough."
+msgstr ""
+
+# 5a32f174775d4435a88f87fb1f4f60f6
+#: ../../scenarios/ci.rst:86
+msgid ""
+"In order to activate testing for your project, go to `the travis-ci site "
+"<http://travis-ci.org/>`_ and login with your Github account. Then activate "
+"your project in your profile settings and that's it. From now on, your "
+"project's tests will be run on every push to Github."
+msgstr ""
+
+# 61cd3a52d6834eadafd287835a4e63e0
+#: ../../scenarios/cli.rst:2
+msgid "Command Line Applications"
+msgstr ""
+
+# 1c4e8c85520346f9b4d92c383869d99d
+#: ../../scenarios/cli.rst:4
+msgid "Explain \"Command Line Applications\""
+msgstr ""
+
+# d70338e8113b4cc7b3dbecb839f351bb
+#: ../../scenarios/cli.rst:7
+msgid "Clint"
+msgstr ""
+
+# 4d148e8d58a0406c953eef168907f953
+#: ../../scenarios/cli.rst:9
+msgid "Write about Clint"
+msgstr ""
+
+# 8a924245dcb24f3ab695b6c9f066e3da
+#: ../../scenarios/client.rst:2
+msgid "Network Applications"
+msgstr ""
+
+# 00a6d2eeee0248888dda109a1bc7dd33
+#: ../../scenarios/client.rst:7
+msgid "HTTP"
+msgstr ""
+
+# 27eb43b348be488ca0134e1369840e8f
+#: ../../scenarios/client.rst:9
+msgid ""
+"The Hypertext Transfer Protocol (HTTP) is an application protocol for "
+"distributed, collaborative, hypermedia information systems. HTTP is the "
+"foundation of data communication for the World Wide Web."
+msgstr ""
+
+# 10e9cc570dd04c38975010e74d47b121
+#: ../../scenarios/client.rst:14
+msgid "Requests"
+msgstr ""
+
+# 3d27a10b381d43908aa0d5b83956453f
+#: ../../scenarios/client.rst:16
+msgid ""
+"Python’s standard urllib2 module provides most of the HTTP capabilities you "
+"need, but the API is thoroughly broken. It was built for a different time — "
+"and a different web. It requires an enormous amount of work (even method "
+"overrides) to perform the simplest of tasks."
+msgstr ""
+
+# 4a1fa4dc199c483d93f597fc0ef94d00
+#: ../../scenarios/client.rst:21
+msgid ""
+"Requests takes all of the work out of Python HTTP — making your integration "
+"with web services seamless. There’s no need to manually add query strings to "
+"your URLs, or to form-encode your POST data. Keep-alive and HTTP connection "
+"pooling are 100% automatic, powered by urllib3, which is embedded within "
+"Requests."
+msgstr ""
+
+# bc4321b2f21e433bbf19fbb8de58c764
+#: ../../scenarios/client.rst:27
+msgid "`Documention <http://docs.python-requests.org/en/latest/index.html>`_"
+msgstr ""
+
+# c1e13acf85db4915b282b836defd0786
+#: ../../scenarios/client.rst:28
+msgid "`PyPi <http://pypi.python.org/pypi/requests>`_"
+msgstr ""
+
+# 95bb861e70684a4db26a6bf1e0f8c27f
+#: ../../scenarios/client.rst:29
+msgid "`GitHub <https://github.com/kennethreitz/requests>`_"
+msgstr ""
+
+# 28848c39831f41f7b98a28075dcbdb34
+#: ../../scenarios/client.rst:33
+msgid "Distributed Systems"
+msgstr ""
+
+# 7e76fb64b1834cbf8733670808b5f66c
+#: ../../scenarios/client.rst:37
+msgid "ZeroMQ"
+msgstr ""
+
+# dff0624662674b6aa0db1a645c572b46
+#: ../../scenarios/client.rst:39
+msgid ""
+"ØMQ (also spelled ZeroMQ, 0MQ or ZMQ) is a high-performance asynchronous "
+"messaging library aimed at use in scalable distributed or concurrent "
+"applications. It provides a message queue, but unlike message-oriented "
+"middleware, a ØMQ system can run without a dedicated message broker. The "
+"library is designed to have a familiar socket-style API."
+msgstr ""
+
+# 43a394e8607d4c48a6a7225ec96c3133
+#: ../../scenarios/db.rst:2
+msgid "Databases"
+msgstr ""
+
+# 8acadfb06bcd437796afe2dafca9449f
+#: ../../scenarios/db.rst:5
+msgid "DB-API"
+msgstr ""
+
+# 0865305c554e408ca8515170f36a66d2
+#: ../../scenarios/db.rst:7
+msgid ""
+"The Python Database API (DB-API) defines a standard interface for Python "
+"database access modules. It's documented in `PEP 249 <http://www.python.org/"
+"dev/peps/pep-0249/>`_. Nearly all Python database modules such as `sqlite3`, "
+"`psycopg` and `mysql-python` conform to this interface."
+msgstr ""
+
+# 28453531d0fd424d97c88fab5b749880
+#: ../../scenarios/db.rst:12
+msgid ""
+"Tutorials that explain how to work with modules that conform to this "
+"interface can be found `here <http://halfcooked.com/presentations/osdc2006/"
+"python_databases.html>`_ and `here <http://www.amk.ca/python/writing/DB-API."
+"html>`_."
+msgstr ""
+
+# 9de4679763ce41c9acc7cf72e1a6d855
+#: ../../scenarios/db.rst:17
+msgid "SQLAlchemy"
+msgstr ""
+
+# 3ed72b36cc854cfe9403dfd447c215a2
+#: ../../scenarios/db.rst:19
+msgid ""
+"`SQLAlchemy <http://www.sqlalchemy.org/>`_ is a commonly used database "
+"toolkit. Unlike many database libraries it not only provides an ORM layer "
+"but also a generalized API for writing database-agnostic code without SQL."
+msgstr ""
+
+# ae9fb8e6c9d44d90982c166376e06966
+#: ../../scenarios/db.rst:28
+msgid "Django ORM"
+msgstr ""
+
+# b07631f6ed3d48b2a4bafaccfb7a05af
+#: ../../scenarios/db.rst:30
+msgid ""
+"The Django ORM is the interface used by `Django <http://www.djangoproject."
+"com>`_ to provide database access."
+msgstr ""
+
+# 541d0bf0d5b44f369260555af5a87bf4
+#: ../../scenarios/db.rst:33
+msgid ""
+"It's based on the idea of models, an abstraction that makes it easier to "
+"manipulate data in Python."
+msgstr ""
+
+# dc92913a88894e9f907f0b332800a66b
+#: ../../scenarios/db.rst:36
+msgid ""
+"Documentation can be found `here <https://docs.djangoproject.com/en/1.3/#the-"
+"model-layer>`_"
+msgstr ""
+
+# 64f6e3d5df054f068e2b750624c8ed03
+#: ../../scenarios/gui.rst:2
+msgid "GUI Applications"
+msgstr ""
+
+# a20e28def16f4ed78ef3a99356daec05
+#: ../../scenarios/gui.rst:6
+msgid "Qt"
+msgstr ""
+
+# 0c69973a2def432a859545e5126c0da8
+#: ../../scenarios/gui.rst:7
+msgid ""
+"Qt is a cross-platform application framework that is widely used for "
+"developing software with a GUI but can also be used for non-GUI applications."
+msgstr ""
+
+# 92b462df9d684d7e8886ba4a17a3aade
+#: ../../scenarios/gui.rst:11
+msgid "PySide"
+msgstr ""
+
+# 67a5cc337ecd4047bdca26a3d00a4367
+#: ../../scenarios/gui.rst:12
+msgid "PySide is a Python binding of the cross-platform GUI toolkit Qt."
+msgstr ""
+
+# 1f29080a50094d68ba7c37ba70de4be0
+#: ../../scenarios/gui.rst:14
+msgid "http://developer.qt.nokia.com/wiki/PySideDownloads/"
+msgstr ""
+
+# 1df34da87c994e63852c193737eec7d6
+#: ../../scenarios/gui.rst:17
+msgid "PyQt"
+msgstr ""
+
+# 93a0b80bf806485db3fd93aa60ff1cc0
+#: ../../scenarios/gui.rst:18
+msgid ""
+"If your software does not fully comply with the GPL you will need a "
+"commercial license!"
+msgstr ""
+
+# 53dfc885605940a7a5f69dac182cb5d7
+#: ../../scenarios/gui.rst:20
+msgid "http://www.riverbankcomputing.co.uk/software/pyqt/download"
+msgstr ""
+
+# a2b2390bce65464697f52c92b73dc3da
+#: ../../scenarios/gui.rst:23
+msgid "Cocoa"
+msgstr ""
+
+# 0fe923dbd21e4b979683187c4988dcd1
+#: ../../scenarios/gui.rst:24
+msgid ""
+"The Cocoa framework is only available on Mac OSX. Don't pick this if you're "
+"writing a cross-platform application!"
+msgstr ""
+
+# 0dac4935a51949e9bf7fc34e26fcb75a
+#: ../../scenarios/gui.rst:27
+msgid "PyObjC"
+msgstr ""
+
+# 3a8281ca690443ad8b2c77d9614ea8c2
+#: ../../scenarios/gui.rst:28
+msgid ""
+"Only available on Mac OSX. Don't pick this if you're writing a cross-"
+"platform application."
+msgstr ""
+
+# 857ec0282236495ba94a9e80959ec253
+#: ../../scenarios/gui.rst:31
+msgid "wxPython"
+msgstr ""
+
+# 4d210cd13895419a9d6ea19fc635609b
+#: ../../scenarios/gui.rst:32
+msgid ""
+"wxPython is a GUI toolkit for the Python programming language. It allows "
+"Python programmers to create programs with a robust, highly functional "
+"graphical user interface, simply and easily. It is implemented as a Python "
+"extension module (native code) that wraps the popular wxWidgets cross "
+"platform GUI library, which is written in C++."
+msgstr ""
+
+# f163f807aa294c7594191dcaed19cf34
+#: ../../scenarios/gui.rst:35
+msgid "Install (Stable)"
+msgstr ""
+
+# 3bf002c8251e40e4b980b6972a5bdfc5
+#: ../../scenarios/gui.rst:36
+msgid ""
+"*Go to http://www.wxpython.org/download.php#stable and download the "
+"appropriate package for your OS.*"
+msgstr ""
+
+# 204b3e61870340c3b7828d6e96f7c4c3
+#: ../../scenarios/gui.rst:40
+msgid "Gtk"
+msgstr ""
+
+# c225c58381e34262986890f7f862b006
+#: ../../scenarios/gui.rst:41
+msgid ""
+"PyGTK provides Python bindings for the GTK+ toolkit. Like the GTK+ library "
+"itself, it is currently licensed under the GNU LGPL. It is worth noting that "
+"PyGTK only currenty supports the Gtk-2.X API (NOT Gtk-3.0). It is currently "
+"recommended that PyGTK is not used for new projects and existing "
+"applications be ported from PyGTK to PyGObject."
+msgstr ""
+
+# 04caf0bfc10c4e639574908b0ec9e477
+#: ../../scenarios/gui.rst:48
+msgid "Tk"
+msgstr ""
+
+# 02f1e36e97ff452388feef6b471d39e1
+#: ../../scenarios/gui.rst:49
+msgid ""
+"Tkinter is a thin object-oriented layer on top of Tcl/Tk. It has the "
+"advantage of being included with the Python standard library, making it the "
+"most convenient and compatible toolkit to program with."
+msgstr ""
+
+# e2b5b806ec104f1b843e81f3c042c39f
+#: ../../scenarios/gui.rst:53
+msgid ""
+"Both Tk and Tkinter are available on most Unix platforms, as well as on "
+"Windows and Macintosh systems. Starting with the 8.0 release, Tk offers "
+"native look and feel on all platforms."
+msgstr ""
+
+# 197e2547f4b14f96a8f8565b537b2d7c
+#: ../../scenarios/gui.rst:57
+msgid ""
+"There's a good multi-language Tk tutorial with Python examples at `TkDocs "
+"<http://www.tkdocs.com/tutorial/index.html>`_. There's more information "
+"available on the `Python Wiki <http://wiki.python.org/moin/TkInter>`_."
+msgstr ""
+
+# 4ac63e0aebe34ee5b40438d2b5090d26
+#: ../../scenarios/gui.rst:62
+msgid "Kivy"
+msgstr ""
+
+# 9f19c88dd78a4aea9f2ff156f741be6f
+#: ../../scenarios/gui.rst:63
+msgid ""
+"Kivy is a Python library for development of multi-touch enabled media rich "
+"applications. The aim is to allow for quick and easy interaction design and "
+"rapid prototyping, while making your code reusable and deployable."
+msgstr ""
+
+# 500892a991654ac781a2b0c4fdbc0506
+#: ../../scenarios/gui.rst:65
+msgid ""
+"Kivy is written in Python, based on OpenGL and supports different input "
+"devices such as: Mouse, Dual Mouse, TUIO, WiiMote, WM_TOUCH, HIDtouch, "
+"Apple's products and so on."
+msgstr ""
+
+# e6c22c7efb494fe79dc10fa5b98754cc
+#: ../../scenarios/gui.rst:67
+msgid ""
+"Kivy is actively being developed by a community and free to use. It operates "
+"on all major platforms (Linux, OSX, Windows, Android)."
+msgstr ""
+
+# ddd055d9932b4c5abbf7d796b54ac197
+#: ../../scenarios/gui.rst:69
+msgid "The main resource for information is the website: http://kivy.org"
+msgstr ""
+
+# 1016edbe717f4cd09cf8ce4eb2bac73d
+#: ../../scenarios/imaging.rst:3
+msgid "Image Manipulation"
+msgstr ""
+
+# d36f0fc96e2f4692b6b8bb9258549cae
+#: ../../scenarios/imaging.rst:6
+msgid "Add introduction about image manipulation and its Python libraries."
+msgstr ""
+
+# ec562d5a763843209b380a6b48c8f09d
+#: ../../scenarios/imaging.rst:9
+msgid "Python Imaging Library"
+msgstr ""
+
+# 4ef5d9f0581944a19428d7470c014b61
+#: ../../scenarios/imaging.rst:11
+msgid ""
+"The `Python Imaging Library <http://www.pythonware.com/products/pil/>`_, or "
+"PIL for short, is *the* library for image manipulation in Python."
+msgstr ""
+
+# d3caf7e230304e20a443506fa7746948
+#: ../../scenarios/imaging.rst:14
+msgid ""
+"It works with Python 1.5.2 and above, including 2.5, 2.6 and 2.7. "
+"Unfortunately, it doesn't work with 3.0+ yet."
+msgstr ""
+
+# bf5fd69d1c53407c89f9d26ea837f99f
+#: ../../scenarios/imaging.rst:18
+msgid "Installation"
+msgstr ""
+
+# c79df223113f49b391a4e2d631be6326
+#: ../../scenarios/imaging.rst:20
+msgid ""
+"PIL has a reputation of not being very straightforward to install. Listed "
+"below are installation notes on various systems."
+msgstr ""
+
+# da12bbb0a0a046f3914a4c25d3b231d2
+#: ../../scenarios/imaging.rst:23
+msgid ""
+"Also, there's a fork named `Pillow <http://pypi.python.org/pypi/Pillow>`_ "
+"which is easier to install. It has good setup instructions for all platforms."
+msgstr ""
+
+# 54f1ff039a8c444898cd0eecb86ac876
+#: ../../scenarios/imaging.rst:27
+msgid "Installing on Linux"
+msgstr ""
+
+# 1c66e69673e0421ebc5338c8e74e5972
+#: ../../scenarios/imaging.rst:30
+msgid "Ubuntu 11.04"
+msgstr ""
+
+# e093326d809d44f28bbefee0008cf7b3
+#: ../../scenarios/imaging.rst:33
+msgid "Notes on installing on Ubuntu 11.04"
+msgstr ""
+
+# 2dbe9d3fef354c7f9b75b1459c3bc30d
+#: ../../scenarios/imaging.rst:36
+msgid "Installing on Mac OS X"
+msgstr ""
+
+# edc8110752b14e24ad133f25dd9ef148
+#: ../../scenarios/imaging.rst:38
+msgid "PIP doesn't know about the Mac OS X Freetype paths. To rectify that:"
+msgstr ""
+
+# 77dea40fa06d487d8fd34d85a7da072f
+#: ../../scenarios/imaging.rst:47
+msgid "then:"
+msgstr ""
+
+# f9670cd2516d44e0957b03590d15e374
+#: ../../scenarios/imaging.rst:56
+msgid "Installing on Windows"
+msgstr ""
+
+# b55915528e264cf98578e92c269fcb1a
+#: ../../scenarios/imaging.rst:59
+msgid "Notes on installing on Windows machines"
+msgstr ""
+
+# 77adc3f50391404c9c5f3153acb42922
+#: ../../scenarios/scientific.rst:3
+msgid "Scientific Applications"
+msgstr ""
+
+# 9aebab5255df436a90036f9fd967e5cb
+# 0fefc477dc3e4e7885fd898aa2e3cc16
+# e56ffe146be84c349fb7d7ff1b8e1c44
+#: ../../scenarios/scientific.rst:6 ../../scenarios/speed.rst:37
+#: ../../scenarios/web.rst:10
+msgid "Context"
+msgstr ""
+
+# 0281104bf2bf4243a64cce4e6c8fb3f4
+#: ../../scenarios/scientific.rst:8
+msgid ""
+"Python is frequently used for high-performance scientific applications. "
+"Python is widely used in academia and scientific projects because it is easy "
+"to write, and it performs really well."
+msgstr ""
+
+# 52de9e81269e4e43b70b701031728bd2
+#: ../../scenarios/scientific.rst:12
+msgid ""
+"Due to its high performance nature, scientific computing in python often "
+"refers to external libraries, typically written in faster languages (like C, "
+"or FORTRAN for matrix operations). The main libraries used are `NumPy`_ and "
+"`SciPy`_."
+msgstr ""
+
+# 76278109c4d84cb2a81011882f828c55
+#: ../../scenarios/scientific.rst:18
+msgid "Libraries"
+msgstr ""
+
+# 8085b28161354c0299a6a8abe19ff342
+#: ../../scenarios/scientific.rst:21
+msgid "NumPy"
+msgstr ""
+
+# 1b33a418b51c4f23b7a2bd23a78c38dc
+#: ../../scenarios/scientific.rst:22
+msgid ""
+"`NumPy <http://numpy.scipy.org/>`_ is a low level library written in C (and "
+"FORTRAN) for high level mathematical functions. NumPy cleverly overcomes the "
+"problem of running slower algorithms on Python by using multidimensional "
+"arrays and functions that operate on arrays. Any algorithm can then be "
+"expressed as a function on arrays, allowing the algorithms to be run quickly."
+msgstr ""
+
+# 16b0b1607af34a5da751f7598d0fc415
+#: ../../scenarios/scientific.rst:29
+msgid ""
+"NumPy is part of the SciPy project, and is released as a separate library so "
+"people who only need the basic requirements can just use NumPy."
+msgstr ""
+
+# 7dc47674f9ff45ef9ccb17f2e6cace6d
+#: ../../scenarios/scientific.rst:32
+msgid "NumPy is compatible with Python versions 2.4 through to 2.7.2 and 3.1+."
+msgstr ""
+
+# bf98b115292644c19ac3cc5562c4a2cc
+#: ../../scenarios/scientific.rst:35
+msgid "SciPy"
+msgstr ""
+
+# ad002ffb228249918fd6ad315ced58d0
+#: ../../scenarios/scientific.rst:36
+msgid ""
+"`SciPy <http://scipy.org/>`_ is a library that uses Numpy for more "
+"mathematical function. SciPy uses NumPy arrays as its basic data structure. "
+"SciPy comes with modules for various commonly used tasks in scientific "
+"programing like linear algebra, integration (calculus), ordinary "
+"differential equation solvers and signal processing."
+msgstr ""
+
+# b42b9d64ebea4dcd9474f0186cf951f3
+#: ../../scenarios/scientific.rst:43
+msgid "Enthought"
+msgstr ""
+
+# 654ff605cd664863b25a15630a826572
+#: ../../scenarios/scientific.rst:45
+msgid ""
+"Installing NumPy and SciPy can be a daunting task. Which is why the "
+"`Enthought Python distribution <http://enthought.com/>`_ was created. With "
+"Enthought, scientific python has never been easier (one click to install "
+"about 100 scientific python packages). User beware: Enthought is not free."
+msgstr ""
+
+# 12812944873a4d3b9df2b612a5133fe9
+#: ../../scenarios/scientific.rst:51
+msgid "Matplotlib"
+msgstr ""
+
+# 257967cc1cd840b2b6ab4cc28872a4f5
+#: ../../scenarios/scientific.rst:53
+msgid ""
+"`matplotlib <http://matplotlib.sourceforge.net/>`_ is a flexible plotting "
+"library for creating interactive 2D and 3D plots that can also be saved as "
+"manuscript-quality figures.  The API in many ways reflects that of `MATLAB "
+"<http://www.mathworks.com/products/matlab/>`_, easing transition of MATLAB "
+"users to Python.  Many examples, along with the source code to re-create "
+"them, can be browsed at the `matplotlib gallery <http://matplotlib."
+"sourceforge.net/gallery.html>`_."
+msgstr ""
+
+# ad16a78cd27f49c1817d180af90b5d41
+#: ../../scenarios/scientific.rst:60
+msgid "Resources"
+msgstr ""
+
+# 0e05bd9c3dc84b3b9b16c21dae98cf0e
+#: ../../scenarios/scientific.rst:62
+msgid ""
+"Many people who do scientific computing are on Windows. And yet many of the "
+"scientific computing packages are notoriously difficult to build and "
+"install. `Christoph Gohlke <http://www.lfd.uci.edu/~gohlke/pythonlibs/>`_ "
+"however, has compiled a list of Windows binaries for many useful Python "
+"packages. The list of packages has grown from a mainly scientific python "
+"resource to a more general list. It might be a good idea to check it out if "
+"you're on Windows."
+msgstr ""
+
+# 6b8171d25cb7473680cb8439609aced7
+#: ../../scenarios/speed.rst:2
+msgid "Speed"
+msgstr ""
+
+# eac6f078eb4a4a1cbaabb96abacd7694
+#: ../../scenarios/speed.rst:4
+msgid ""
+"CPython, the most commonly used implementation of Python, is slow for CPU "
+"bound tasks. `PyPy`_ is fast."
+msgstr ""
+
+# ce4fe58a878e44b2a575e4b5169f04b5
+#: ../../scenarios/speed.rst:7
+msgid ""
+"Using a slightly modified version of `David Beazleys`_ CPU bound test code "
+"(added loop for multiple tests), you can see the difference between CPython "
+"and PyPy's processing."
+msgstr ""
+
+# 5cf1286d31d5456cb9d91a9341080f76
+# c6e90260f9d1456d89fc34ca397d5ca8
+#: ../../scenarios/speed.rst:41 ../../scenarios/speed.rst:59
+msgid "The GIL"
+msgstr ""
+
+# 52790945a52342a3ad25edc679f5487a
+#: ../../scenarios/speed.rst:43
+msgid ""
+"`The GIL`_ (Global Interpreter Lock) is how Python allows multiple threads "
+"to operate at the same time. Python's memory management isn't entirely "
+"thread-safe, so the GIL is requried to prevents multiple threads from "
+"running the same Python code at once."
+msgstr ""
+
+# 6f08dd3502b74609b2e3a7c44d335c0a
+#: ../../scenarios/speed.rst:48
+msgid ""
+"David Beazley has a great `guide`_ on how the GIL operates. He also covers "
+"the `new GIL`_ in Python 3.2. His results show that maximizing performance "
+"in a Python application requires a strong understanding of the GIL, how it "
+"affects your specific application, how many cores you have, and where your "
+"application bottlenecks are."
+msgstr ""
+
+# bf141da03b5b473c88120dee04720f1f
+# eaa3568aaba94518a8e6b39cfd8eae57
+#: ../../scenarios/speed.rst:55 ../../scenarios/speed.rst:65
+msgid "C Extentions"
+msgstr ""
+
+# 0f0089131f8149d6bb715e2c6dab4326
+#: ../../scenarios/speed.rst:61
+msgid ""
+"`Special care`_ must be taken when writing C extensions to make sure you r "
+"egister your threads with the interpreter."
+msgstr ""
+
+# c24fa92e387f4e10beac2cd0cde87d5d
+#: ../../scenarios/speed.rst:69
+msgid "Cython"
+msgstr ""
+
+# cd28a2fdd4994ceb949e1e4428b825a8
+#: ../../scenarios/speed.rst:73
+msgid "Pyrex"
+msgstr ""
+
+# 88f4fccaa8d94ec287d977d52a625f9e
+#: ../../scenarios/speed.rst:77
+msgid "Shedskin?"
+msgstr ""
+
+# 965c5a9cc3b34bef85986f23ef0d9a9f
+# fed18b7e63c7442087ece39df6d50f52
+#: ../../scenarios/speed.rst:82 ../../scenarios/speed.rst:86
+msgid "Threading"
+msgstr ""
+
+# e033b4a14eac47d0b4ab93573f781324
+#: ../../scenarios/speed.rst:90
+msgid "Spanwing Processes"
+msgstr ""
+
+# 0f576f33d389426dbf9c880ad9e5b6d1
+#: ../../scenarios/speed.rst:94
+msgid "Multiprocessing"
+msgstr ""
+
+# 7b87147ba06a4248ae2a39d9a3ce4987
+#: ../../scenarios/web.rst:3
+msgid "Web Applications"
+msgstr ""
+
+# 0cc89eeb69fa4224949fae8196c917e9
+#: ../../scenarios/web.rst:5
+msgid ""
+"As a powerful scripting language adapted to both fast prototyping and bigger "
+"projects, Python is widely used in Web applications development."
+msgstr ""
+
+# 43817aa585d145a7aaf59a822676ed05
+#: ../../scenarios/web.rst:14
+msgid "WSGI"
+msgstr ""
+
+# 06a408743cee43f1ab20d9dc276f08de
+#: ../../scenarios/web.rst:16
+msgid ""
+"The Web Server Gateway Interface (or \"WSGI\" for short) is a standard "
+"interface between web servers and Python web application frameworks. By "
+"standardizing behavior and communication between web servers and Python web "
+"frameworks, WSGI makes it possible to write portable Python web code that "
+"can be deployed in any :ref:`WSGI-compliant web server <wsgi-servers-ref>`. "
+"WSGI is documented in `PEP-3333 <http://www.python.org/dev/peps/pep-3333/>`_."
+msgstr ""
+
+# 0dafacd95c664bc6a3073185a033f650
+#: ../../scenarios/web.rst:25
+msgid "Frameworks"
+msgstr ""
+
+# b9ae505e1ef143089526db9e34f88182
+#: ../../scenarios/web.rst:27
+msgid ""
+"Broadly speaking, a web framework consist of a set of libraries and a main "
+"handler within which you can build custom code to implement a web "
+"application (i.e. an interactive web site). Most web frameworks include "
+"patterns and utilities to accomplish at least the following:"
+msgstr ""
+
+# 2724eb15021940cb8ad626bf0d450484
+#: ../../scenarios/web.rst:33
+msgid ""
+"Matches an incoming HTTP request to a particular piece of Python code to be "
+"invoked"
+msgstr ""
+
+# d509ed0b395c46b5802e4c371419309d
+#: ../../scenarios/web.rst:37
+msgid "Encapsulate the information received from or sent to a user's browser"
+msgstr ""
+
+# 19873e6a2d4d42f2a651ad40e1bd7f8c
+#: ../../scenarios/web.rst:40
+msgid ""
+"Allows for separating Python code implementing an application's logic from "
+"the HTML (or other) output that it produces"
+msgstr ""
+
+# acbbc734cc3e4c26b5236a36ebb8264c
+#: ../../scenarios/web.rst:44
+msgid ""
+"Runs an HTTP server on development machines to enable rapid development; "
+"often automatically reloads server-side code when files are updated"
+msgstr ""
+
+# 8355cace9c5a488780d56c9ae9486526
+#: ../../scenarios/web.rst:49
+msgid "Django"
+msgstr ""
+
+# 3fa87f34116a4fbc8238909ce11ef04d
+#: ../../scenarios/web.rst:51
+msgid ""
+"`Django <http://www.djangoproject.com>`_ is a \"batteries included\" web "
+"application framework. By providing many utilities and patterns out of the "
+"box, Django aims to make it possible to build complex, database-backed web "
+"applications quickly, while encouraging best practices in code written using "
+"it."
+msgstr ""
+
+# cc72b4a31b8744319ffff948005683d4
+#: ../../scenarios/web.rst:57
+msgid ""
+"Django has a large and active community, and many pre-built `re-usable "
+"modules <http://djangopackages.com/>`_ that can be incorporated into a new "
+"project as-is, or customized to fit your needs."
+msgstr ""
+
+# 09dcd983cfd54c1fbf7c55e27afecfd4
+#: ../../scenarios/web.rst:61
+msgid ""
+"There are annual Django conferences `in the United States <http://djangocon."
+"us>`_ and `in Europe <http://djangocon.eu>`_."
+msgstr ""
+
+# 316524f9de9a4a4fa33e66c36ecd12e0
+#: ../../scenarios/web.rst:66
+msgid "Flask"
+msgstr ""
+
+# 5803ffb9459048059c3bf91b10ccef06
+#: ../../scenarios/web.rst:68
+msgid ""
+"`Flask <http://flask.pocoo.org/>`_ is a \"microframework\" for Python. "
+"Rather than aiming to provide everything you could possibly need, Flask "
+"implements the most commonly-used core components of a web application "
+"framework, like URL routing, request and response objects, and templates. As "
+"a user of Flask, it is therefore up to you to choose and integrate other "
+"components you may need, such as database access or form generation and "
+"validation. For many popular modules, `Extensions <http://flask.pocoo.org/"
+"extensions/>`_ may already exist to suit your needs."
+msgstr ""
+
+# f7a3996d5c5c4a69b9ec9ee8d7d3d3c0
+#: ../../scenarios/web.rst:77
+msgid ""
+"**Support** for flask can best be found in its mailing list. Just shoot an "
+"email to flask@librelist.com and reply to the confirmation email."
+msgstr ""
+
+# 439f4d8a53a24306a642f0d7e2cc17aa
+#: ../../scenarios/web.rst:81
+msgid "Explain Pyramid"
+msgstr ""
+
+# e2820a9e44274d6cab2a39a81ca3c222
+#: ../../scenarios/web.rst:85
+msgid "Web Servers"
+msgstr ""
+
+# a14b50710712467fb3f2df7fefa54a8c
+#: ../../scenarios/web.rst:90
+msgid "Nginx"
+msgstr ""
+
+# 9193cd00546f4457a05b69b4038b5de1
+#: ../../scenarios/web.rst:92
+msgid ""
+"`Nginx <http://nginx.org/>`_ (pronounced \"engine-x\") is a web server and "
+"reverse-proxy for HTTP, SMTP and other protocols. It is known for its high "
+"performance, relative simplicity, and compatibility with many application "
+"servers (like WSGI servers). It also includes handy features like load-"
+"balancing, basic authentication, streaming, and others. Designed to serve "
+"high-load websites, Nginx is gradually becoming quite popular."
+msgstr ""
+
+# 0e044f85f85845f9806d075db2c54b4b
+#: ../../scenarios/web.rst:103
+msgid "WSGI Servers"
+msgstr ""
+
+# eb669f047efa49b4a6043cd5cc1ccac8
+#: ../../scenarios/web.rst:105
+msgid ""
+"Stand-alone WSGI servers typically use less resources than traditional web "
+"servers and provide top performance [3]_."
+msgstr ""
+
+# 8a91f3730cb543bbb0e8e418d60aff67
+#: ../../scenarios/web.rst:111
+msgid "Gunicorn"
+msgstr ""
+
+# e6d6da51d8fb44e198f4b3d2cc13adbb
+#: ../../scenarios/web.rst:113
+msgid ""
+"`Gunicorn <http://gunicorn.org/>`_ (Green Unicorn) is a WSGI server used to "
+"serve Python applications. It is a Python interpretation of the Ruby "
+"`Unicorn <http://unicorn.bogomips.org/>`_ server. Unicorn is designed to be "
+"lightweight, easy to use, and uses many UNIX idioms. Gunicorn is not "
+"designed to face the internet, in fact it was designed to run behind Nginx "
+"which buffers slow requests, and takes care of other important "
+"considerations. A sample setup for Nginx + gUnicorn can be found in the "
+"`Gunicorn help <http://gunicorn.org/deploy.html>`_."
+msgstr ""
+
+# 1ca3a0cade0c458b96eb0464cba7c9ac
+#: ../../scenarios/web.rst:126
+msgid "Server Best Practices"
+msgstr ""
+
+# f0844e05548d4a1c9d14d00f06a5c770
+#: ../../scenarios/web.rst:128
+msgid ""
+"The majority of self hosted Python applications today are hosted with a WSGI "
+"server such as :ref:`gUnicorn <gunicorn-ref>`, either directly or behind a "
+"lightweight web server such as :ref:`nginx <nginx-ref>`."
+msgstr ""
+
+# 9535e0df21f94bc7a0404d13a03b2f08
+#: ../../scenarios/web.rst:132
+msgid ""
+"The WSGI servers serve the Python applications while the web server handles "
+"tasks better suited for it such as static file serving, request routing, "
+"DDoS protection, and basic authentication."
+msgstr ""
+
+# 97a28d5de567478d84aef8b24701d2fa
+#: ../../scenarios/web.rst:137
+msgid "Hosting"
+msgstr ""
+
+# c262134c930d42bb9a1c819eb659fafb
+#: ../../scenarios/web.rst:140
+msgid "Platform-as-a-Service"
+msgstr ""
+
+# b6c304e12176493ca4ffdfad3222489c
+#: ../../scenarios/web.rst:142
+msgid ""
+"Platform-as-a-Service (PaaS) is a type of cloud computing infrastructure "
+"which abstracts and manages infrastructure, routing, and scaling of web "
+"applications. When using PaaS, application developers can focus on writing "
+"application code rather than needing to be concerned with deployment details."
+msgstr ""
+
+# 4c11bd03dc064e57a477e363563f3c3b
+#: ../../scenarios/web.rst:148
+msgid ""
+"Most PaaS services offer a command-line interface that developers can use to "
+"set up and interrogate configuration, and to deploy new releases of an "
+"application to the service."
+msgstr ""
+
+# 6a387a40a9e94ff1a4f6f334470c8092
+#: ../../scenarios/web.rst:152
+msgid ""
+"PaaS services and their partners offer add-on functionality which is well "
+"integrated into the platform, such as database hosting, email services, "
+"logging, scheduled and background tasks, billing and payment, etc."
+msgstr ""
+
+# d69cac0511e14c5bba098bf260a6f578
+#: ../../scenarios/web.rst:158
+msgid "Heroku"
+msgstr ""
+
+# 1ad67a639cf046bab370f0bbf4472456
+#: ../../scenarios/web.rst:160
+msgid ""
+"`Heroku <http://www.heroku.com/>`_'s `Cedar stack <http://devcenter.heroku."
+"com/articles/cedar>`_ offers first class support for Python 2.7 applications."
+msgstr ""
+
+# b4b4dca0b1a34087a9b4d4a137071a3f
+#: ../../scenarios/web.rst:164
+msgid ""
+"Heroku allows you to run as many Python web applications as you like, 24/7 "
+"and free of charge. Heroku is best described as a horizontal scaling "
+"platform. They start to charge you once you \"scale\" you application to run "
+"on more than one Dyno (abstacted servers) at a time."
+msgstr ""
+
+# d33df90679c048aaa79916fdf89c77af
+#: ../../scenarios/web.rst:169
+msgid ""
+"Heroku publishes `step-by-step instructions <http://devcenter.heroku.com/"
+"articles/python>`_ on how to set up your first application for use in "
+"Heroku, and maintains a list of `example applications <http://python."
+"herokuapp.com/>`_."
+msgstr ""
+
+# 669a19bbdb194abebbbbc6a4aab5957e
+#: ../../scenarios/web.rst:176
+msgid "DotCloud"
+msgstr ""
+
+# b88f00cdc42044939e99374abbea98ff
+#: ../../scenarios/web.rst:178
+msgid ""
+"`DotCloud <http://www.dotcloud.com/>`_ supports WSGI applications and "
+"background/worker tasks natively on their platform. Web applications running "
+"Python version 2.6, and uses :ref:`nginx <nginx-ref>` and :ref:`uWSGI <uwsgi-"
+"ref>`, and allows custom configuration of both for advanced users."
+msgstr ""
+
+# f063952ce591454a97826ad87ccc0c4e
+#: ../../scenarios/web.rst:184
+msgid ""
+"DotCloud uses a custom command-line API client which can work with "
+"applications managed in git repositories or any other version control system."
+msgstr ""
+
+# 9291bbc0d0a146c68d3005cc5f877f35
+#: ../../scenarios/web.rst:188
+msgid ""
+"DotCloud has a free plan with limited database size, and without extra "
+"services (caching…)."
+msgstr ""
+
+# 7099467018404ab29eb25db32282d32c
+#: ../../scenarios/web.rst:191
+msgid ""
+"See the `DotCloud documentation on Python <http://docs.dotcloud.com/services/"
+"python/>`_ for more information and help getting started."
+msgstr ""
+
+# ff05d31a04574c0ea79212ab9e143974
+#: ../../scenarios/web.rst:197
+msgid "Gondor"
+msgstr ""
+
+# b4902678965d4349b80f1756c792c92e
+#: ../../scenarios/web.rst:199
+msgid ""
+"`Gondor <https://gondor.io/>`_ is a PaaS specailized for deploying Django "
+"and Pinax applications. Gondor supports Django versions 1.2 and 1.3 on "
+"Python version 2.7, and can automatically configure your Django site if you "
+"use ``local_settings.py`` for site-specific configuration information."
+msgstr ""
+
+# e733818eddad49c385bad4b173255e69
+#: ../../scenarios/web.rst:204
+msgid ""
+"Gondor publishes guides to deploying `Django projects <https://gondor.io/"
+"support/setting-up-django/>`_ and `Pinax projects <https://gondor.io/support/"
+"setting-up-pinax/>`_ on their platform."
+msgstr ""
+
+# b87001a8f597474c8c8872e71e240039
+#: ../../scenarios/web.rst:210
+msgid "Templating"
+msgstr ""
+
+# b4bfad3830e744378a123033e82e31d8
+#: ../../scenarios/web.rst:212
+msgid ""
+"Most WSGI applications are responding to HTTP requests to serve content in "
+"HTML or other markup languages. Instead of generating directly textual "
+"content from Python, the concept of separation of concerns advise us to use "
+"templates. A template engine manage a suite of template files, with a system "
+"of hierarchy and inclusion to avoid unnecessary repetition, and is in charge "
+"of rendering (generating) the actual content, filling the static content of "
+"the templates with the dynamic content generated by the application."
+msgstr ""
+
+# 3b0759744d6b4794863bb496bed061d2
+#: ../../scenarios/web.rst:222
+msgid ""
+"As template files are sometime written by designers or front-end "
+"developpers, it can be difficult to handle increasing complexity."
+msgstr ""
+
+# c717ceb22dea41d7b1e1b03e94a96d3e
+#: ../../scenarios/web.rst:226
+msgid ""
+"Some general good pratices apply to the part of the application passing "
+"dynamic content to the template engine, and to the templates themselves."
+msgstr ""
+
+# a4fed8a30a6b4bc99f9c8c2a2446b609
+#: ../../scenarios/web.rst:230
+msgid ""
+"Template files should be passed only the dynamic content that is needed for "
+"rendering the template. Avoid to be tempted to pass additional content "
+"\"just in case\": it is easier to add some missing variable when needed than "
+"to remove a likely unused variable later."
+msgstr ""
+
+# 9fe2e333c9234d52a05bbc87a85614c7
+#: ../../scenarios/web.rst:236
+msgid ""
+"Many template engine allow for complex statements or assignments in the "
+"template itself, and many allow some Python code to be evaluated in the "
+"templates. This convenience can lead to uncontrolled increase in complexity, "
+"and often harder to find bugs."
+msgstr ""
+
+# 8c17796618c84757918441a21506dd0f
+#: ../../scenarios/web.rst:242
+msgid ""
+"It is often possible or necessary to mix javascript templates with HTML "
+"templates. A sane approach to this design is to isolate the parts where the "
+"HTML template passes some variable content to the javascript code."
+msgstr ""
+
+# 4be76fa960514ee3b173f9fbf0d1dc8b
+#: ../../scenarios/web.rst:248
+msgid "References"
+msgstr ""
+
+# a20304f9995948df8d6316b6dddfe0e1
+#: ../../scenarios/web.rst:249
+msgid ""
+"`The mod_python project is now officially dead <http://blog.dscpl.com."
+"au/2010/06/modpython-project-is-now-officially.html>`_"
+msgstr ""
+
+# eec24634f2904d2ea4b27a1dac425255
+#: ../../scenarios/web.rst:250
+msgid ""
+"`mod_wsgi vs mod_python <http://www.modpython.org/pipermail/mod_python/2007-"
+"July/024080.html>`_"
+msgstr ""
+
+# 6d1db42e2aec45c7b6c541dfffc4c68d
+#: ../../scenarios/web.rst:251
+msgid ""
+"`Benchmark of Python WSGI Servers <http://nichol.as/benchmark-of-python-web-"
+"servers>`_"
+msgstr ""
+
+# d641558e1b034c5687f4cde22aedcc4d
+#: ../../scenarios/xml.rst:2
+msgid "XML parsing"
+msgstr ""
+
+# b37285fd561a4851a07a647edf66b866
+#: ../../scenarios/xml.rst:5
+msgid "untangle"
+msgstr ""
+
+# fe78b3ccf33e4cc8bb78e29470fd789b
+#: ../../scenarios/xml.rst:7
+msgid ""
+"`untangle <http://0chris.com/untangle>`_ is a simple library which takes an "
+"XML document and returns a Python object which mirrors the nodes and "
+"attributes in its structure."
+msgstr ""
+
+# 9fc54d97f9844beaa4c67f5e401c57e0
+#: ../../scenarios/xml.rst:11
+msgid "For example, an xml file like this:"
+msgstr ""
+
+# e2157f82cdb04e5f922a9c9211f53885
+#: ../../scenarios/xml.rst:20
+msgid "can be loaded like this:"
+msgstr ""
+
+# 6627f58682f74ad19bf34a106ceeb629
+#: ../../scenarios/xml.rst:27
+msgid "and then you can get the child elements name like this:"
+msgstr ""
+
+# ac0b1b3abaf843fc82ab0b0436fe0fe5
+#: ../../scenarios/xml.rst:33
+msgid "untangle also supports loading XML from a string or an URL."
+msgstr ""

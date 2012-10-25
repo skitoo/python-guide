@@ -1,0 +1,138 @@
+# Language fr translations for pythonguide package.
+# Copyright (C) 2012. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-sa/3.0/"> Creative Commons Share-Alike 3.0</a>.
+# This file is distributed under the same license as the pythonguide package.
+# Automatically generated, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: python-guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-25 11:58\n"
+"PO-Revision-Date: 2012-10-25 17:49+0100\n"
+"Last-Translator: Alexis Couronne <alexis.couronne@gmail.com>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.5.4\n"
+
+# fc8803d22ba74053ac9b2927b8b2cf75
+#: ../../index.rst:7
+msgid "The Hitchhiker's Guide to Python!"
+msgstr "Le Guide du Routard pour Python !"
+
+# 7a26c54d57d94b88b4d5c44d44b335e9
+#: ../../index.rst:9
+msgid ""
+"Welcome to The Hitchhiker's Guide to Python. `DON'T PANIC! <http://www."
+"amazon.com/gp/product/B0043M4ZH0/ref=as_li_ss_tl?"
+"ie=UTF8&tag=bookforkind-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0043M4ZH0>`_"
+msgstr ""
+"Bienvenue dans Le Guide du Routard pour Python. `PAS DE PANIQUE ! <http://"
+"www.amazon.com/gp/product/B0043M4ZH0/ref=as_li_ss_tl?"
+"ie=UTF8&tag=bookforkind-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0043M4ZH0>`_"
+
+# 928774db189449ea9154327f6a83cbb4
+#: ../../index.rst:11
+msgid ""
+"**This guide is currently under heavy development, and is mostly a skeleton "
+"at the moment.**  If you'd like to help, `fork us on GitHub <https://github."
+"com/kennethreitz/python-guide>`_!"
+msgstr ""
+"**Ce guide est actuellement en cours de développement, c'est une ébauche "
+"pour le moment.**  Si vous souhaitez nous aider, `faites un fork depuis "
+"GitHub <https://github.com/kennethreitz/python-guide>`_ !"
+
+# c8b790e8cd7648809e2087498dd558ae
+#: ../../index.rst:14
+msgid ""
+"This *opinionated* guide exists to provide both novice and expert Python "
+"developers a best-practice handbook to the installation, configuration, and "
+"usage of Python on a daily basis."
+msgstr ""
+"Ce guide *dogmatique* existe pour fournir aux novices ainsi qu'aux experts "
+"Python un manuel de bonnes pratiques pour l'installation, la configuration "
+"et l'utilisation de Python au quotidien."
+
+# 561454605c2e48ee976053358cfe2a67
+#: ../../contents.rst.inc:2
+msgid "Getting Started"
+msgstr "Mise en route"
+
+# 3ac09b880249427ab2188fb5877e219b
+#: ../../contents.rst.inc:4
+msgid "This part of the guide focuses on setting up your Python environment."
+msgstr ""
+"Cette partie du guide se concentre sur l'installation de votre environnement "
+"Python."
+
+# 59c9911468044dc6b6f5ded9540e753c
+#: ../../contents.rst.inc:11
+msgid "Properly Install Python"
+msgstr "Installer correctement Python"
+
+# e801be9aae9a4bf584a392bcc5a6f983
+#: ../../contents.rst.inc:23
+msgid "Writing Great Code"
+msgstr "Écrire du super code"
+
+# d4055503e5bc45309f99bf5bee491a32
+#: ../../contents.rst.inc:25
+msgid ""
+"This part of the guide focuses on best practices for writing Python code."
+msgstr ""
+"Cette partie du guide se concentre sur les meilleures pratiques pour écrire "
+"du code Python."
+
+# f9a8674552214135ae816bf7ec1d361e
+#: ../../contents.rst.inc:39
+msgid "Scenario Guide"
+msgstr "Guide de scénario"
+
+# 1f2f45a2ba324f389b11290e3912e3c0
+#: ../../contents.rst.inc:41
+msgid ""
+"This part of the guide focuses on tool and module advice based on different "
+"scenarios."
+msgstr ""
+"Cette partie du guide vous conseille sur des outils et des modules basés sur "
+"différents scénarios."
+
+# eab900b7608a416ab1eeb31672aa375d
+#: ../../contents.rst.inc:61
+msgid "Shipping Great Code"
+msgstr "Diffuser du super code"
+
+# 5198dfaeecbc4b2cb066770e6a5e91f4
+#: ../../contents.rst.inc:63
+msgid "This part of the guide focuses on deploying your Python code."
+msgstr ""
+"La partie de ce guide se concentre sur le déploiement de votre code Python."
+
+# d826dc0488b04d0c87b5401bb8bccf6e
+#: ../../contents.rst.inc:73
+msgid "Development Environment"
+msgstr "Environnement de développement"
+
+# 117e4640f505489fb972f0f81e23db76
+#: ../../contents.rst.inc:85
+msgid "Additional Notes"
+msgstr "Notes complémentaires"
+
+# 8bc26d3c7c694210b1c798c98add0c19
+#: ../../contents.rst.inc:87
+msgid ""
+"This part of the guide, which is mostly prose, begins with some background "
+"information about Python, then focuses on next steps."
+msgstr ""
+"Cette partie du guide commence par quelques informations de fond sur Python, "
+"puis sur les étapes suivantes."
+
+# 800030cdf6014fbab1eb014dcedfc4ad
+#: ../../contents.rst.inc:104
+msgid ""
+"Contibution notes and legal information are here (for those interested)."
+msgstr ""
+"Les notes de contribution et les informations légales sont ici (pour ceux "
+"qui sont intéressés)."

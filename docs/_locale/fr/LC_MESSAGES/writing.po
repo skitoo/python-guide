@@ -1,0 +1,2077 @@
+# Language ANG translations for pythonguide package.
+# Copyright (C) 2012. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-sa/3.0/"> Creative Commons Share-Alike 3.0</a>.
+# This file is distributed under the same license as the pythonguide package.
+# Automatically generated, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: python-guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-25 11:58\n"
+"PO-Revision-Date: 2012-10-25 15:44+0100\n"
+"Last-Translator: Alexis Couronne <alexis.couronne@gmail.com>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.5.4\n"
+
+# 730992969b544f85ba1b569f51c8e21d
+#: ../../writing/documentation.rst:2
+msgid "Documentation"
+msgstr ""
+
+# 55274fef31cf4405b1eacd0194abce95
+#: ../../writing/documentation.rst:4
+msgid ""
+"Readability is a primary focus for Python developers, in both project and "
+"code documentation. Following some simple best practices can save both you "
+"and others a lot of time."
+msgstr ""
+
+# ffd4a650ba894cd5974f39fea0495890
+#: ../../writing/documentation.rst:9
+msgid "Project Documentation"
+msgstr ""
+
+# e22afb00cf8348f59ec0f3972b6c1044
+#: ../../writing/documentation.rst:11
+msgid ""
+"A ``README`` file at the root directory should give general information to "
+"the users and the maintainers. It should be raw text or written in some very "
+"easy to read markup, such as :ref:`reStructuredText-ref` and Markdown. It "
+"should contain a few lines explaining the purpose of the project or the "
+"library (without assuming the user knows anything about the project), the "
+"url of the main source for the software, and some basic credit information. "
+"This file is the main entry point for readers of the code."
+msgstr ""
+
+# 1c2674cd304545009d20ba276a914564
+#: ../../writing/documentation.rst:20
+msgid ""
+"An ``INSTALL`` file is less necessary with python.  The installation "
+"instructions are often reduced to one command, such as ``pip install "
+"module`` or ``python setup.py install`` and added to the ``README`` file."
+msgstr ""
+
+# d49cbd33420446d6ab7ab278c5b266f7
+#: ../../writing/documentation.rst:25
+msgid ""
+"A ``LICENSE`` file should *always* be present and specify the license under "
+"which the software is made available to the public."
+msgstr ""
+
+# bfbd7bf6e9254ea9b3b1a4ab4729b137
+#: ../../writing/documentation.rst:28
+msgid ""
+"A ``TODO`` file or a ``TODO`` section in ``README`` should list the planned "
+"development for the code."
+msgstr ""
+
+# 68f1d303b9cd4ced88c3636ecb36db2a
+#: ../../writing/documentation.rst:31
+msgid ""
+"A ``CHANGELOG`` file or section in ``README`` should compile a short "
+"overview of the changes in the code base for the latest versions."
+msgstr ""
+
+# 080943ea87334a708c2145ff43ef88f1
+#: ../../writing/documentation.rst:35
+msgid "Project Publication"
+msgstr ""
+
+# d694afe77a5b48e4a47d702e074d7c34
+#: ../../writing/documentation.rst:37
+msgid ""
+"Depending on the project, your documentation might include some or all of "
+"the following components:"
+msgstr ""
+
+# 2662754087d8459c9156344ed5b376c8
+#: ../../writing/documentation.rst:40
+msgid ""
+"A *introduction* should show a very short overview of what can be done with "
+"the product, using one or two extremely simplified use cases. This is the "
+"thirty-second pitch for your project."
+msgstr ""
+
+# d344c4b08f1b43a0bf504765d7972656
+#: ../../writing/documentation.rst:44
+msgid ""
+"A *tutorial* should show some primary use cases in more detail. The reader "
+"will follow a step-by-step procedure to set-up a working prototype."
+msgstr ""
+
+# 48183d72f85a41a29c042e92a52b6d5d
+#: ../../writing/documentation.rst:47
+msgid ""
+"An *API reference* is typically generated from the code (see :ref:"
+"`docstrings <docstring-ref>`). It will list all publicly available "
+"interfaces, parameters, and return values."
+msgstr ""
+
+# 855ea3ccea6845c58e84af373f8279a7
+#: ../../writing/documentation.rst:51
+msgid ""
+"*Developer documentation* is intended for potential contributors. This can "
+"include code convention and general design strategy of the project."
+msgstr ""
+
+# 1a609b5be97b4a27aa5f63a7931825da
+#: ../../writing/documentation.rst:57
+msgid "Sphinx"
+msgstr ""
+
+# 2a7d50f9b0954fe990121adc562a9414
+#: ../../writing/documentation.rst:59
+msgid ""
+"Sphinx_ is far and away the most popular python documentation tool. **Use it."
+"**  It converts :ref:`restructuredtext-ref` markup language into a range of "
+"output formats including HTML, LaTeX (for printable PDF versions), manual "
+"pages, and plain text."
+msgstr ""
+
+# 9825ed231a9c47b9807eb6484e0462f8
+#: ../../writing/documentation.rst:64
+msgid ""
+"There is also **great**, **free** hosting for your Sphinx_ docs: `Read The "
+"Docs`_. Use it. You can configure it with commit hooks to your source "
+"repository so that rebuilding your documentation will happen automatically."
+msgstr ""
+
+# 4a5a90ff8c484c368a10abf1bd4d086d
+#: ../../writing/documentation.rst:71
+msgid ""
+"Sphinx is famous for its API generation, but it also works well for general "
+"project documentation. This Guide is built with Sphinx_ and is hosted on "
+"`Read The Docs`_"
+msgstr ""
+
+# 803f8ca00fda40d39580f659c9167a12
+#: ../../writing/documentation.rst:81
+msgid "reStructuredText"
+msgstr ""
+
+# 6320689beb334b3aacd9cea11ed7c371
+#: ../../writing/documentation.rst:83
+msgid ""
+"Most Python documentation is written with reStructuredText_. It's like "
+"Markdown with all the optional extensions built in."
+msgstr ""
+
+# d0f08e43b16c4973a322c1214f84045c
+#: ../../writing/documentation.rst:86
+msgid ""
+"The `reStructuredText Primer`_ and the `reStructuredText Quick Reference`_ "
+"should help you familiarize yourself with its syntax."
+msgstr ""
+
+# aae5c83ba08d416bbdffc8e4493e996d
+#: ../../writing/documentation.rst:95
+msgid "Code Documentation Advice"
+msgstr ""
+
+# 66ab3be917514ded94ab98080485482e
+#: ../../writing/documentation.rst:97
+msgid "Comments clarify code and begin with a hash (``#``)."
+msgstr ""
+
+# 979e0c96635844558b6e4787f7525772
+#: ../../writing/documentation.rst:101
+msgid "In Python, *docstrings* describe modules, classes, and functions: ::"
+msgstr ""
+
+# 5d03f23468a143b882cb9bfd315b6f7c
+#: ../../writing/documentation.rst:107
+msgid ""
+"In general, follow the `comment section of PEP 0008`_ (the \"Python Style "
+"Guide\")."
+msgstr ""
+
+# eb1b4d8f7c33413584811551557f4cb3
+#: ../../writing/documentation.rst:112
+msgid "Commenting Sections of Code"
+msgstr ""
+
+# 90594d2220db40f6941dc53af9f59b6c
+#: ../../writing/documentation.rst:114
+msgid ""
+"*Do not use triple-quote strings to comment code*. This is not a good "
+"practice, because line-oriented command-line tools such as grep will not be "
+"aware that the commented code is inactive. It is better to add hashes at the "
+"proper indentation level for every commented line. Your editor probably has "
+"the ability to do this easily, and it is worth learning the comment/"
+"uncomment toggle. (*e.g.* ctrl-v on Vim)"
+msgstr ""
+
+# 60362879578d4ff4b77b996a0631e1eb
+#: ../../writing/documentation.rst:122
+msgid "Docstrings and Magic"
+msgstr ""
+
+# 07a51d16cd8c4da4b131bd8e15ad3509
+#: ../../writing/documentation.rst:124
+msgid ""
+"Some tools use docstrings to embed more-than-documentation behavior, such as "
+"unit test logic. Those can be nice, but you won't ever go wrong with vanilla "
+"\"here's what this does.\""
+msgstr ""
+
+# 5ebd051c06db49d294c91557b78fc2b2
+#: ../../writing/documentation.rst:129
+msgid "Docstrings versus Block comments"
+msgstr ""
+
+# e014dd6b61f3417e81e080258b672c1b
+#: ../../writing/documentation.rst:131
+msgid ""
+"These aren't interchangeable. For a function or class, the leading comment "
+"block is a programmer's note. The docstring describes the operation of the "
+"function or class: ::"
+msgstr ""
+
+# 4dbea968c0134c689eefaec5f3f71325
+#: ../../writing/documentation.rst:146
+msgid "Other Tools"
+msgstr ""
+
+# 1687840c808f417e91281ae9e402313a
+#: ../../writing/documentation.rst:148
+msgid "You might see these in the wild. Use :ref:`sphinx-ref`."
+msgstr ""
+
+# 8124f76037b947f0abd6061e6c3e9b7d
+#: ../../writing/documentation.rst:151
+msgid ""
+"Pycco is a \"literate-programming-style documentation generator\" and is a "
+"port of the node.js Docco_. It makes code into a side-by-side HTML code and "
+"documentation."
+msgstr ""
+
+# 154213c57ae94a2a8e0ee3ab49cb7782
+#: ../../writing/documentation.rst:159
+msgid ""
+"Ronn builds unix manuals. It converts human readable textfiles to roff for "
+"terminal display, and also to HTML for the web."
+msgstr ""
+
+# 9840c6831a6e4f218cd3bd672c9c8a20
+#: ../../writing/documentation.rst:164
+msgid "Epydoc is discontinued. Use :ref:`sphinx-ref` instead."
+msgstr ""
+
+# c1a7707390804a40a571fbf4952df90b
+#: ../../writing/license.rst:2
+msgid "Choosing a License"
+msgstr ""
+
+# 444061f8e74741c38e4637026a26061c
+#: ../../writing/license.rst:4
+msgid ""
+"Your source publication *needs* a license. In the US, if no license is "
+"specified, users have no legal right to download, modify, or distribute. "
+"Furthermore, people can't contribute to your code unless you tell them what "
+"rules to play by. It's complicated, so here are some pointers:"
+msgstr ""
+
+# 70a0f5cdd80c4164a0b021585901888a
+#: ../../writing/license.rst:10
+msgid ""
+"Open source. There are plenty of `open source licenses <http://opensource."
+"org/licenses/alphabetical>`_ available to choose from."
+msgstr ""
+
+# 9ea55829153844fb8ef64ad968f39dc7
+#: ../../writing/license.rst:14
+msgid "In general, these licenses tend to fall into one of two categories:"
+msgstr ""
+
+# 843b3dd40714464fb8771b00fc9dd9c5
+#: ../../writing/license.rst:16
+msgid ""
+"licenses that focus more on the user's freedom to do with the software as "
+"they please (these are the more-permissive open source licenses such as the "
+"MIT, BSD, & Apache)."
+msgstr ""
+
+# 1057dabe974f46b88d009c06a3f7f3b8
+#: ../../writing/license.rst:20
+msgid ""
+"licenses that focus more on making sure that the code itself — including any "
+"changes made to it and distributed along with it — always remains free "
+"(these are the less-permissive free software licenses, for example, the GPL "
+"and LGPL)."
+msgstr ""
+
+# 7f688a6000324e53894b549b157f2124
+#: ../../writing/license.rst:25
+msgid ""
+"The latter are less-permissive in the sense that they don't permit someone "
+"to add code to the software and distribute it without also including the "
+"source code for their changes."
+msgstr ""
+
+# 0c83b30a0d81413cbd51a21d3259626f
+#: ../../writing/license.rst:29
+msgid ""
+"To help you choose one for your project, there's a `license chooser <http://"
+"three.org/openart/license_chooser/>`_, **use it**."
+msgstr ""
+
+# 6342f98f9eda41ef8acd3e27b8e9de27
+#: ../../writing/license.rst:32
+msgid "**More-Permissive**"
+msgstr ""
+
+# 3dc8e0a17bbd4b0283624a000217d694
+#: ../../writing/license.rst:34
+msgid ""
+"PSFL (Python Software Foundation License) -- for contributing to python "
+"itself"
+msgstr ""
+
+# 64f9dcd32d044c8bb48e469139fc6f50
+#: ../../writing/license.rst:35
+msgid "MIT / BSD / ISC"
+msgstr ""
+
+# 5091d5daa6714b5686a58694beb9529b
+#: ../../writing/license.rst:37
+msgid "MIT (X11)"
+msgstr ""
+
+# 36f04a6212d144a0be2632c1a133cf6a
+#: ../../writing/license.rst:38
+msgid "New BSD"
+msgstr ""
+
+# 9d9273d811104630b2092c0ac28b6f99
+#: ../../writing/license.rst:39
+msgid "ISC"
+msgstr ""
+
+# 7dcab81f93f24470b2c79be49805f335
+#: ../../writing/license.rst:41
+msgid "Apache"
+msgstr ""
+
+# 19319090eb6f44f3ac60f5f4a2836fc8
+#: ../../writing/license.rst:43
+msgid "**Less-Permissive:**"
+msgstr ""
+
+# f32a49fa54114b26bef32acfed6fd4b1
+#: ../../writing/license.rst:45
+msgid "LGPL"
+msgstr ""
+
+# d699580efbe4427db80d850eedb33d95
+#: ../../writing/license.rst:46
+msgid "GPL"
+msgstr ""
+
+# 937db6fbf22f4d99924f143d56fa9c06
+#: ../../writing/license.rst:48
+msgid "GPLv2"
+msgstr ""
+
+# 0d559f0a6a7344ee9a520fe439b14d90
+#: ../../writing/license.rst:49
+msgid "GPLv3"
+msgstr ""
+
+# daf4f44edf504ca989052b2ba9949c47
+#: ../../writing/structure.rst:2
+msgid "Structuring Your Project"
+msgstr ""
+
+# 66f6e1118db148ffbbf8e84021388d25
+#: ../../writing/structure.rst:4
+msgid ""
+"By \"structure\" we mean the decisions you make concerning how your project "
+"best meets its objective. We need to consider how to best leverage Python's "
+"features to create clean, effective code. In practical terms, \"structure\" "
+"means making clean code whose logic and dependencies are clear as well as "
+"how the files and folders are organized in the filesystem."
+msgstr ""
+
+# 9ef3a8ee77c545c3b73349484e6f5ed4
+#: ../../writing/structure.rst:11
+msgid ""
+"Which functions should go into which modules? How does data flow through the "
+"project? What features and functions can be grouped together and isolated? "
+"By answering questions like these you can begin to plan, in a broad sense, "
+"what your finished product will look like."
+msgstr ""
+
+# af8774aa974449b796fb81490c61d740
+#: ../../writing/structure.rst:16
+msgid ""
+"In this section we take a closer look at Python's module and import systems "
+"as they are the central element to enforcing structure in your project. We "
+"then discuss various perspectives on how to build code which can be extended "
+"and tested reliably."
+msgstr ""
+
+# 6a9bb33e935e479f96402c7707099808
+#: ../../writing/structure.rst:23
+msgid "Structure is Key"
+msgstr ""
+
+# 03b0cdc5318e4dc68a00f68db4b84f5c
+#: ../../writing/structure.rst:25
+msgid ""
+"Thanks to the way imports and modules are handled in Python, it is "
+"relatively easy to structure a Python project. Easy, here, means that you do "
+"not have many constraints and that the module importing model is easy to "
+"grasp. Therefore, you are left with the pure architectural task of crafting "
+"the different parts of your project and their interactions."
+msgstr ""
+
+# 1bd6b65c87f0422d85bf04c08ab7ceb6
+#: ../../writing/structure.rst:32
+msgid ""
+"Easy structuring of a project means it is also easy to do it poorly. Some "
+"signs of a poorly structured project include:"
+msgstr ""
+
+# 1ad9c0dc322848598df127e5d14b9c10
+#: ../../writing/structure.rst:36
+msgid ""
+"Multiple and messy circular dependencies: if your classes Table and Chair in "
+"furn.py need to import Carpenter from workers.py to answer a question such "
+"as table.isdoneby(), and if conversely the class Carpenter needs to import "
+"Table and Chair, to answer the question carpenter.whatdo(), then you have a "
+"circular dependency. In this case you will have to resort to fragile hacks "
+"such as using import statements inside methods or functions."
+msgstr ""
+
+# d7ffd8befb7c4fd68d69aa8ded665a55
+#: ../../writing/structure.rst:45
+msgid ""
+"Hidden coupling: each and every change in Table's implementation breaks 20 "
+"tests in unrelated test cases because it breaks Carpenter's code, which "
+"requires very careful surgery to adapt the change. This means you have too "
+"many assumptions about Table in Carpenter's code or the reverse."
+msgstr ""
+
+# 29f58e1063fa48b3a51a1fdee0f6f724
+#: ../../writing/structure.rst:51
+msgid ""
+"Heavy usage of global state or context: instead of explicitly passing ``"
+"(height, width, type, wood)`` to each other, Table and Carpenter rely on "
+"global variables that can be modified and are modified on the fly by "
+"different agents. You need to scrutinize all access to these global "
+"variables to understand why a rectangular table became a square, and "
+"discover that remote template code is also modifying this context, messing "
+"with table dimensions."
+msgstr ""
+
+# b94cc3cb4e394b698f3c32e19dc6b133
+#: ../../writing/structure.rst:60
+msgid ""
+"Spaghetti code: multiple pages of nested if clauses and for loops with a lot "
+"of copy-pasted procedural code and no proper segmentation are known as "
+"spaghetti code. Python's meaningful indentation (one of its most "
+"controversial features) make it very hard to maintain this kind of code. So "
+"the good news is that you might not see too much of it."
+msgstr ""
+
+# d266ed063c36491ead20398d339993aa
+#: ../../writing/structure.rst:67
+msgid ""
+"Ravioli code is more likely in Python: it consists of hundreds of similar "
+"little pieces of logic, often classes or objects, without proper structure. "
+"If you never can remember if you have to use FurnitureTable, AssetTable or "
+"Table, or even TableNew for your task at hand, you might be swimming in "
+"ravioli code."
+msgstr ""
+
+# 2456d8306dbe4077918576586c587a33
+#: ../../writing/structure.rst:75
+msgid "Modules"
+msgstr ""
+
+# 0a1e1e9519b948dbb0afa6e93384c8a0
+#: ../../writing/structure.rst:77
+msgid ""
+"Python modules are one of the main abstraction layers available and probably "
+"the most natural one. Abstraction layers allow separating code into parts "
+"holding related data and functionality."
+msgstr ""
+
+# 52243094f63541849b417d478cf138e5
+#: ../../writing/structure.rst:81
+msgid ""
+"For example, a layer of a project can handle interfacing with user actions, "
+"while another would handle low-level manipulation of data. The most natural "
+"way to separate these two layers is to regroup all interfacing functionality "
+"in one file, and all low-level operations in another file. In this case, the "
+"interface file needs to import the low-level file. This is done with the "
+"`import` and `from ... import` statements."
+msgstr ""
+
+# 498d67b1a81241de9b671928dd110cc4
+#: ../../writing/structure.rst:88
+msgid ""
+"As soon as you use `import` statements you use modules. These can be either "
+"built-in modules such as `os` and `sys`, third-party modules you have "
+"installed in your environment, or your project's internal modules."
+msgstr ""
+
+# f2a02da249944e0c9fff639920cb8256
+#: ../../writing/structure.rst:92
+msgid ""
+"To keep in line with the style guide, keep module names short, lowercase, "
+"and be sure to avoid using special symbols like the dot (.) or question mark "
+"(?). So a file name like `my.spam.py` is one you should try to avoid! Naming "
+"this way will interfere with the way python looks for modules."
+msgstr ""
+
+# ad0096ff935f4f59a9ca60fccec69166
+#: ../../writing/structure.rst:97
+msgid ""
+"In this example python expects to find a \"spam.py\" file in a folder named "
+"\"my\" which is not the case. There is an `example <http://docs.python.org/"
+"tutorial/modules.html#packages>`_ of how the dot notation should be used in "
+"the python docs."
+msgstr ""
+
+# 2952a1d44e684e5da9957c41b9a8c712
+#: ../../writing/structure.rst:102
+msgid ""
+"If you'd like you could name it as `my_spam.py` but even our friend the "
+"underscore should not be seen often in module names."
+msgstr ""
+
+# 801dd3befef44e15addc3163bf0dd8d6
+#: ../../writing/structure.rst:105
+msgid ""
+"Aside for some naming restrictions, nothing special is required for a Python "
+"file to be a module, but the import mechanism needs to be understood in "
+"order to use this concept properly and avoid some issues."
+msgstr ""
+
+# 85b25401d0374e2da7260742ef85bc75
+#: ../../writing/structure.rst:109
+msgid ""
+"Concretely, the `import modu` statement will look for the proper file, which "
+"is `modu.py` in the same directory as the caller if it exists.  If it is not "
+"found, the Python interpreter will search for `modu.py` in the \"path\" "
+"recursively and raise an ImportError exception if it is not found."
+msgstr ""
+
+# 63fec0a4c727475a8446c092ec177dc6
+#: ../../writing/structure.rst:114
+msgid ""
+"Once `modu.py` is found, the Python interpreter will execute the module in "
+"an isolated scope. Any top-level statement in `modu.py` will be executed, "
+"including other imports if any. Function and class definitions are stored in "
+"the module's dictionary."
+msgstr ""
+
+# d7af18701201421bb400602f739b0c60
+#: ../../writing/structure.rst:119
+msgid ""
+"Then, the module's variables, functions, and classes will be available to "
+"the caller through the module's namespace, a central concept in programming "
+"that is particularly helpful and powerful in Python."
+msgstr ""
+
+# 34ee9806caa74eb3a22a28094e4d098b
+#: ../../writing/structure.rst:123
+msgid ""
+"In many languages, an `include file` directive is used by the preprocessor "
+"to take all code found in the file and 'copy' it into the caller's code. It "
+"is different in Python: the included code is isolated in a module namespace, "
+"which means that you generally don't have to worry that the included code "
+"could have unwanted effects, e.g. override an existing function with the "
+"same name."
+msgstr ""
+
+# 7b47bd5324f64d1c81a8e4f08e13624d
+#: ../../writing/structure.rst:129
+msgid ""
+"It is possible to simulate the more standard behavior by using a special "
+"syntax of the import statement: `from modu import *`. This is generally "
+"considered bad practice. **Using `import *` makes code harder to read and "
+"makes dependencies less compartmentalized**."
+msgstr ""
+
+# dd44d9c378c448a9ad873512551c6620
+#: ../../writing/structure.rst:134
+msgid ""
+"Using `from modu import func` is a way to pinpoint the function you want to "
+"import and put it in the global namespace. While much less harmful than "
+"`import *` because it shows explicitly what is imported in the global "
+"namespace, its advantage over a simpler `import modu` is only that it will "
+"save some typing."
+msgstr ""
+
+# 39bb17197a60490f927ed46aed13d795
+#: ../../writing/structure.rst:139
+msgid "**Very bad**"
+msgstr ""
+
+# dc5f538610e944a28f78bf1c25f5539d
+#: ../../writing/structure.rst:148
+msgid "**Better**"
+msgstr ""
+
+# 1051bd4ce05a4228804a2ae74b6d48eb
+# 4568fea27b5f41e8b9e593a2b44787bb
+#: ../../writing/structure.rst:156 ../../writing/structure.rst:443
+msgid "**Best**"
+msgstr ""
+
+# 8a4961eb030d47ddbd1ff0cbb1583ecf
+#: ../../writing/structure.rst:164
+msgid ""
+"As said in the section about style, readability is one of the main features "
+"of Python. Readability means to avoid useless boilerplate text and clutter, "
+"therefore some efforts are spent trying to achieve a certain level of "
+"brevity. But terseness and obscurity are the limits where brevity should "
+"stop. Being able to tell immediately where a class or function comes from, "
+"as in the `modu.func` idiom, greatly improves code readability and "
+"understandability in all but the simplest single file projects."
+msgstr ""
+
+# cf9b2a678eb948cab0d5cdc6ad087d48
+#: ../../writing/structure.rst:174
+msgid "Packages"
+msgstr ""
+
+# 7685eae009024b399f6e883059dc0885
+#: ../../writing/structure.rst:176
+msgid ""
+"Python provides a very straightforward packaging system, which is simply an "
+"extension of the module mechanism to a directory."
+msgstr ""
+
+# 042458d8c72f467abc526e49ded8203f
+#: ../../writing/structure.rst:179
+msgid ""
+"Any directory with an __init__.py file is considered a Python package. The "
+"different modules in the package are imported in a similar manner as plain "
+"modules, but with a special behavior for the __init__.py file, which is used "
+"to gather all package-wide definitions."
+msgstr ""
+
+# 15628410ecb64971855c1bf56efc8045
+#: ../../writing/structure.rst:184
+msgid ""
+"A file modu.py in the directory pack/ is imported with the statement `import "
+"pack.modu`. This statement will look for an __init__.py file in `pack`, "
+"execute all of its top-level statements. Then it will look for a file `pack/"
+"modu.py` and execute all of its top-level statements. After these "
+"operations, any variable, function, or class defined in modu.py is available "
+"in the pack.modu namespace."
+msgstr ""
+
+# 47236b0407fe48d091f43869d9117493
+#: ../../writing/structure.rst:190
+msgid ""
+"A commonly seen issue is to add too much code to __init__.py files. When the "
+"project complexity grows, there may be sub-packages and sub-sub-packages in "
+"a deep directory structure, and then, importing a single item from a sub-sub-"
+"package will require executing all __init__.py files met while traversing "
+"the tree."
+msgstr ""
+
+# dfa19041620d45d8873ea4d8673ff164
+#: ../../writing/structure.rst:196
+msgid ""
+"Leaving an __init__.py file empty is considered normal and even a good "
+"practice, if the package's modules and sub-packages do not need to share any "
+"code."
+msgstr ""
+
+# 0d815edfd55f4e9eb542678c653f0cca
+#: ../../writing/structure.rst:199
+msgid ""
+"Lastly, a convenient syntax is available for importing deeply nested "
+"packages: `import very.deep.module as mod`. This allows you to use `mod` in "
+"place of the verbose repetition of `very.deep.module`."
+msgstr ""
+
+# 53f6b55b13bd4729b7b7c578c3adb1f1
+#: ../../writing/structure.rst:204
+msgid "Object-oriented programming"
+msgstr ""
+
+# f7616f1163ce4499bf545c5a13862478
+#: ../../writing/structure.rst:206
+msgid ""
+"Python is sometimes described as an object-oriented programming language. "
+"This can be somewhat misleading and needs to be clarified."
+msgstr ""
+
+# 916411fc923b4b06a4ab107138f70754
+#: ../../writing/structure.rst:209
+msgid ""
+"In Python, everything is an object, and can be handled as such. This is what "
+"is meant when we say that, for example, functions are first-class objects. "
+"Functions, classes, strings, and even types are objects in Python: like any "
+"objects, they have a type, they can be passed as function arguments, they "
+"may have methods and properties. In this understanding, Python is an object-"
+"oriented language."
+msgstr ""
+
+# 7f4257a70424483c8602a4528a913929
+#: ../../writing/structure.rst:216
+msgid ""
+"However, unlike Java, Python does not impose object-oriented programming as "
+"the main programming paradigm. It is perfectly viable for a Python project "
+"to not be object-oriented, i.e. to use no or very few class definitions, "
+"class inheritance, or any other mechanisms that are specific to object-"
+"oriented programming."
+msgstr ""
+
+# e877c8c40e964f90a3b97a67a572b3ab
+#: ../../writing/structure.rst:222
+msgid ""
+"Moreover, as seen in the modules_ section, the way Python handles modules "
+"and namespaces gives the developer a natural way to ensure the encapsulation "
+"and separation of abstraction layers, both being the most common reasons to "
+"use object-orientation. Therefore, Python programmers have more latitude to "
+"not use object-orientation, when it is not required by the business model."
+msgstr ""
+
+# b148d09abca34efcb16dfe11b9644523
+#: ../../writing/structure.rst:229
+msgid ""
+"There are some reasons to avoid unnecessary object-orientation. Defining "
+"custom classes is useful when we want to glue together some state and some "
+"functionality. The problem, as pointed out by the discussions about "
+"functional programming, comes from the \"state\" part of the equation."
+msgstr ""
+
+# 873b6930ed5947549b08226ead4b34ed
+#: ../../writing/structure.rst:234
+msgid ""
+"In some architectures, typically web applications, multiple instances of "
+"Python processes are spawned to respond to external requests that can happen "
+"at the same time. In this case, holding some state into instantiated "
+"objects, which means keeping some static information about the world, is "
+"prone to concurrency problems or race-conditions. Sometimes, between the "
+"initialization of the state of an object (usually done with the __init__() "
+"method) and the actual use of the object state through one of its methods, "
+"the world may have changed, and the retained state may be outdated. For "
+"example, a request may load an item in memory and mark it as read by a user. "
+"If another request requires the deletion of this item at the same, it may "
+"happen that the deletion actually occurs after the first process loaded the "
+"item, and then we have to mark as read a deleted object."
+msgstr ""
+
+# dfdb53ce8c8344adab21a06a17973c39
+#: ../../writing/structure.rst:247
+msgid ""
+"This and other issues led to the idea that using stateless functions is a "
+"better programming paradigm."
+msgstr ""
+
+# 80a85d331f87423995400c1882d810d3
+#: ../../writing/structure.rst:250
+msgid ""
+"Another way to say the same thing is to suggest using functions and "
+"procedures with as few implicit contexts and side-effects as possible. A "
+"function's implicit context is made up of any of the global variables or "
+"items in the persistence layer that are accessed from within the function. "
+"Side-effects are the changes that a function makes to it's implicit context. "
+"If a function saves or deletes data in a global variable or in the "
+"persistence layer, it is said to have a side-effect."
+msgstr ""
+
+# ca58ab130bb54e96a10a83e226a9bc8b
+#: ../../writing/structure.rst:257
+msgid ""
+"Carefully isolating functions with context and side-effects from functions "
+"with logic (called pure functions) allow the following benefits:"
+msgstr ""
+
+# d5bb035510464281945b88aec98568d1
+#: ../../writing/structure.rst:260
+msgid ""
+"Pure functions are deterministic: given a fixed input, the output will "
+"always be the same."
+msgstr ""
+
+# 62b1386ca28848a78a94ff195ae9ee6e
+#: ../../writing/structure.rst:263
+msgid ""
+"Pure functions are much easier to change or replace if they need to be "
+"refactored or optimized."
+msgstr ""
+
+# 4e8b18dee1ba419bafa16801ece0d329
+#: ../../writing/structure.rst:266
+msgid ""
+"Pure functions are easier to test with unit-tests: There is less need for "
+"complex context setup and data cleaning afterwards."
+msgstr ""
+
+# 39bb6e93ec6241cb8382e60db72d5c18
+#: ../../writing/structure.rst:269
+msgid "Pure functions are easier to manipulate, decorate_, and pass-around."
+msgstr ""
+
+# c482bf95e0184409be2a3287a7e2b234
+#: ../../writing/structure.rst:271
+msgid ""
+"In summary, pure functions, without any context or side-effects, are more "
+"efficient building blocks than classes and objects for some architectures."
+msgstr ""
+
+# a7d4d8e0b9b2412bb0463e82b86d6ad8
+#: ../../writing/structure.rst:274
+msgid ""
+"Obviously, object-orientation is useful and even necessary in many cases, "
+"for example when developing graphical desktop applications or games, where "
+"the things that are manipulated (windows, buttons, avatars, vehicles) have a "
+"relatively long life of their own in the computer's memory."
+msgstr ""
+
+# f89f6b6472ff42f3a4f504d31401b465
+#: ../../writing/structure.rst:281
+msgid "Decorators"
+msgstr ""
+
+# 5c2f12f34e8242c0bfb32cdce3861fa0
+#: ../../writing/structure.rst:283
+msgid ""
+"The Python language provides a simple yet powerful syntax called "
+"'decorators'. A decorator is a function or a class that wraps (or decorate) "
+"a function or a method. The 'decorated' function or method will replace the "
+"original 'undecorated' function or method. Because functions are first-class "
+"objects in Python, it can be done 'manually', but using the @decorator "
+"syntax is clearer and thus preferred."
+msgstr ""
+
+# 6aa1183f473c42a4b219c5f2735b630f
+#: ../../writing/structure.rst:306
+msgid ""
+"This mechanism is useful for separating concerns and avoiding external un-"
+"related logic 'polluting' the core logic of the function or method. A good "
+"example of a piece of functionality that is better handled with decoration "
+"is memoization or caching: you want to store the results of an expensive "
+"function in a table and use them directly instead of recomputing them when "
+"they have already been computed. This is clearly not part of the function "
+"logic."
+msgstr ""
+
+# 8ebf7ecb712a47c4a5b13090ab23b40b
+#: ../../writing/structure.rst:315
+msgid "Dynamic typing"
+msgstr ""
+
+# ea5538ffc09a4ea48742aca5b9fa7363
+#: ../../writing/structure.rst:317
+msgid ""
+"Python is said to be dynamically typed, which means that variables do not "
+"have a fixed type. In fact, in Python, variables are very different from "
+"what they are in many other languages, specifically strongly-typed "
+"languages. Variables are not a segment of the computer's memory where some "
+"value is written, they are 'tags' or 'names' pointing to objects. It is "
+"therefore possible for the variable 'a' to be set to the value 1, then to "
+"the value 'a string', then to a function."
+msgstr ""
+
+# 043ba4c373b141b1a74a561abf91c96b
+#: ../../writing/structure.rst:325
+msgid ""
+"The dynamic typing of Python is often considered to be a weakness, and "
+"indeed it can lead to complexities and hard-to-debug code. Something named "
+"'a' can be set to many different things, and the developer or the maintainer "
+"needs to track this name in the code to make sure it has not been set to a "
+"completely unrelated object."
+msgstr ""
+
+# eea2e30ae36448bb864763845157977b
+#: ../../writing/structure.rst:331
+msgid "Some guidelines help to avoid this issue:"
+msgstr ""
+
+# 818b8f518c9c4796b27692731484237d
+#: ../../writing/structure.rst:333
+msgid "Avoid using variables for different things."
+msgstr ""
+
+# d5eb39c701d84c3a9d645543f9b6e8be
+# 5224de64ad924c559eed84890e4f2113
+# 5f073bbfdd6c4a619f66a4903953bb80
+# a6c505160b73468f81852f25c481fa40
+# 17b7989ad1f245b3897808a405468bf8
+#: ../../writing/structure.rst:335 ../../writing/structure.rst:359
+#: ../../writing/structure.rst:423 ../../writing/style.rst:29
+#: ../../writing/style.rst:56
+msgid "**Bad**"
+msgstr ""
+
+# dc52de246bd948f1854b3e906d27afbe
+# 6646a91feb5d4b2ab106f35d19d49cfa
+# 2eade63815674423abdf4d7d3a21f39b
+# 75b642c9844140c1a775619d1350199a
+#: ../../writing/structure.rst:344 ../../writing/structure.rst:433
+#: ../../writing/style.rst:37 ../../writing/style.rst:67
+msgid "**Good**"
+msgstr ""
+
+# d4dff638f52b42249267a734d760c01c
+#: ../../writing/structure.rst:353
+msgid ""
+"Using short functions or methods helps reduce the risk of using the same "
+"name for two unrelated things."
+msgstr ""
+
+# 523c8d4f51de45d1b94c7ff92d9ee935
+#: ../../writing/structure.rst:356
+msgid ""
+"It is better to use different names even for things that are related, when "
+"they have a different type:"
+msgstr ""
+
+# 53a8fd2ca2564f10b28cb366f5ee243b
+#: ../../writing/structure.rst:367
+msgid ""
+"There is no efficiency gain when reusing names: the assignments will have to "
+"create new objects anyway. However, when the complexity grows and each "
+"assignment is separated by other lines of code, including 'if' branches and "
+"loops, it becomes harder to ascertain what a given variable's type is."
+msgstr ""
+
+# 082f5b03a94143bb9f05b90f2af49c12
+#: ../../writing/structure.rst:373
+msgid ""
+"Some coding practices, like functional programming, recommend never "
+"reassigning a variable. In Java this is done with the `final` keyword. "
+"Python does not have a `final` keyword and it would be against its "
+"philosophy anyway. However, it may be a good discipline to avoid assigning "
+"to a variable more than once, and it helps in grasping the concept of "
+"mutable and immutable types."
+msgstr ""
+
+# e3f0baa924cf4adaa5646353daa7d2f0
+#: ../../writing/structure.rst:380
+msgid "Mutable and immutable types"
+msgstr ""
+
+# 796001fff19b4e0dabc5a2c449f74cd0
+#: ../../writing/structure.rst:382
+msgid "Python has two kinds of built-in or user-defined types."
+msgstr ""
+
+# 3b44ee522fcb4ba5959db9af2d94de4a
+#: ../../writing/structure.rst:384
+msgid ""
+"Mutable types are those that allow in-place modification of the content. "
+"Typical mutables are lists and dictionaries: All lists have mutating "
+"methods, like append() or pop(), and can be modified in place. The same goes "
+"for dictionaries."
+msgstr ""
+
+# ef17a92d803c466e9520c05f7c4ebc7f
+#: ../../writing/structure.rst:389
+msgid ""
+"Immutable types provide no method for changing their content. For instance, "
+"the variable x set to the integer 6 has no \"increment\" method. If you want "
+"to compute x + 1, you have to create another integer and give it a name."
+msgstr ""
+
+# d9b4b56878b74ba2816af63de841b6b3
+#: ../../writing/structure.rst:403
+msgid ""
+"One consequence of this difference in behavior is that mutable types are not "
+"\"stable\", and therefore cannot be used as dictionary keys."
+msgstr ""
+
+# 4530ae2a3c524537ac9a6bd63b0175dd
+#: ../../writing/structure.rst:407
+msgid ""
+"Using properly mutable types for things that are mutable in nature and "
+"immutable types for things that are fixed in nature helps to clarify the "
+"intent of the code."
+msgstr ""
+
+# 3bbfbfce332d4f39878d4a1532418029
+#: ../../writing/structure.rst:411
+msgid ""
+"For example, the immutable equivalent of a list is the tuple, created with ``"
+"(1, 2)``. This tuple is a pair that cannot be changed in-place, and can be "
+"used as a key for a dictionary."
+msgstr ""
+
+# 7bd99ff095cd4bd8be0517d362644235
+#: ../../writing/structure.rst:415
+msgid ""
+"One peculiarity of Python that can surprise beginners is that strings are "
+"immutable. This means that when constructing a string from its parts, it is "
+"much more efficient to accumulate the parts in a list, which is mutable, and "
+"then glue ('join') the parts together when the full string is needed. One "
+"thing to notice, however, is that list comprehensions are better and faster "
+"than constructing a list in a loop with calls to append()."
+msgstr ""
+
+# 31cc7cdeea434e0bb1f62555bc556ded
+#: ../../writing/structure.rst:450
+msgid ""
+"One final thing to mention about strings is that using join() is not always "
+"best. In the instances where you are creating a new string from a pre-"
+"determined number of strings, using the addition operator is actually "
+"faster, but in cases like above or in cases where you are adding to an "
+"existing string, using join() should be your preferred method."
+msgstr ""
+
+# 465c7d90833c4ac3a89aea292e29ae10
+#: ../../writing/structure.rst:466
+msgid "Vendorizing Dependencies"
+msgstr ""
+
+# 39b28f6ec94446d6b6e18d58cc17cd98
+#: ../../writing/structure.rst:471
+msgid "Runners"
+msgstr ""
+
+# a979c1d42e9041a6b6663a5dcd2de6b9
+#: ../../writing/structure.rst:475
+msgid "Further Reading"
+msgstr ""
+
+# 72317222d8df471c8c0bfafcb2c48a3a
+#: ../../writing/style.rst:2
+msgid "Code Style"
+msgstr ""
+
+# e59cc8b10056498a83cb98e7df2004bc
+#: ../../writing/style.rst:4
+msgid ""
+"If you ask Python programmers what they like most in Python, they will often "
+"say its high readability.  Indeed, a high level of readability is at the "
+"heart of the design of the Python language, following the recognised fact "
+"that code is read much more often than it is written."
+msgstr ""
+
+# 613fa4fd35cd4e0eb79591dce25cc136
+#: ../../writing/style.rst:9
+msgid ""
+"One reason for Python code to be easily read and understood is its "
+"relatively complete set of Code Style guidelines and \"Pythonic\" idioms."
+msgstr ""
+
+# ffe62bf773984baaabc097cf8faaddf0
+#: ../../writing/style.rst:12
+msgid ""
+"Moreover, when a veteran Python developer (a Pythonista) point to some parts "
+"of a code and say it is not \"Pythonic\", it usually means that these lines "
+"of code do not follow the common guidelines and fail to express the intent "
+"in what is considered the best (hear: most readable) way."
+msgstr ""
+
+# 84b8d8068f554504a1f46b414c520bb3
+#: ../../writing/style.rst:17
+msgid ""
+"On some border cases, no best way has been agreed upon on how to express an "
+"intent in Python code, but these cases are rare."
+msgstr ""
+
+# 97c1456d05a5461b90c68f8eb912d543
+#: ../../writing/style.rst:21
+msgid "General concepts"
+msgstr ""
+
+# 4a927918e67646ed973d3674b3065a2c
+#: ../../writing/style.rst:24
+msgid "Explicit code"
+msgstr ""
+
+# 923b9b760fd6402cbab44b4e96c80c60
+#: ../../writing/style.rst:26
+msgid ""
+"While any kind of black magic is possible with Python, the most explicit and "
+"straightforward manner is preferred."
+msgstr ""
+
+# 7d7de8aa2fa74e4fb97dd9d80fb478a3
+#: ../../writing/style.rst:44
+msgid ""
+"In the good code above, x and y are explicitly received from the caller, and "
+"an explicit dictionary is returned. The developer using this function knows "
+"exactly what to do by reading the first and last lines, which is not the "
+"case with the bad example."
+msgstr ""
+
+# b8bbab1b222a442eafcc9b98512bb0c7
+#: ../../writing/style.rst:50
+msgid "One statement per line"
+msgstr ""
+
+# ddb516c136cf4a83a7664d7a9fe22573
+#: ../../writing/style.rst:52
+msgid ""
+"While some compound statements such as list comprehensions are allowed and "
+"appreciated for their brevity and their expressiveness, it is bad practice "
+"to have two disjoint statements on the same line."
+msgstr ""
+
+# 7776c5bf70df4f00a122b2037ab17590
+#: ../../writing/style.rst:83
+msgid "Function arguments"
+msgstr ""
+
+# 23e0554ae59e4c2e97673fe962bdc25e
+#: ../../writing/style.rst:85
+msgid "Arguments can be passed to functions in four different ways."
+msgstr ""
+
+# 9c3dcf7032df46d99a0f14ca00d787aa
+#: ../../writing/style.rst:87
+msgid ""
+"**Positional arguments** are mandatory and have no default values. They are "
+"the simplest form of arguments and they can be used for the few function "
+"arguments that are fully part of the functions meaning and their order is "
+"natural. For instance, in ``send(message, recipient)`` or ``point(x, y)`` "
+"the user of the function has no difficulty to remember that those two "
+"function require two arguments, and in which order."
+msgstr ""
+
+# 5a75ae73ef2342f4872c215b9185e93e
+#: ../../writing/style.rst:94
+msgid ""
+"In those two cases, it is possible to use argument names when calling the "
+"functions and, doing so, it is possible to switch the order of arguments, "
+"calling for instance ``send(recipient='World', message='Hello')`` and ``point"
+"(y=2, x=1)`` but this reduce readability and is unnecessarily verbose, "
+"compared to the more straightforward calls to ``send('Hello', 'World')`` and "
+"``point(1, 2)``."
+msgstr ""
+
+# d0b341571b0c4073b69b99681a783dd4
+#: ../../writing/style.rst:100
+msgid ""
+"**Keyword arguments** are not mandatory and have default values. They are "
+"often used for optional parameters sent to the function. When a function has "
+"more than two or three positional parameters, its signature will be more "
+"difficult to remember and using keyword argument with default values is "
+"helpful. For instance, a more complete ``send`` function could be defined as "
+"``send(message, to, cc=None, bcc=None)``. Here ``cc`` and ``bcc`` are "
+"optional, and evaluate to ``None`` when the are not passed another value."
+msgstr ""
+
+# 891f2ea1c9e44aedb301487fdfbe7e22
+#: ../../writing/style.rst:108
+msgid ""
+"Calling a function with keyword arguments can be done in multiple ways in "
+"Python, for example it is possible to follow the order of arguments in the "
+"definition without explicitly naming the arguments, like in ``send('Hello', "
+"'World', 'Cthulhu`, 'God')``, sending a blank carbon copy to God. It would "
+"also be possible to name arguments in another order, like in ``send('Hello "
+"again', 'World', bcc='God', cc='Cthulhu')``. Those two possibilities are "
+"better avoided without any strong reason to not follow the syntax that is "
+"the closest to the function definition: ``send('Hello', 'World', "
+"cc='Cthulhu', bcc='God')``."
+msgstr ""
+
+# e46083d1263b43cda3c9dc107b845a49
+#: ../../writing/style.rst:117
+msgid ""
+"As a side note, following YAGNI_ principle, it is often harder to remove an "
+"optional argument (and its logic inside the function) that was added \"just "
+"in case\" and is seemingly never used, than to add a new optional argument "
+"and its logic when needed."
+msgstr ""
+
+# 30213862d25e4f12978b469c35a0cfab
+#: ../../writing/style.rst:122
+msgid ""
+"The **arbitrary argument list** is the third way to pass arguments to a "
+"function.  If the function intention is better expressed by a signature with "
+"an extensible number of positional arguments, it can be defined with the "
+"``*args`` constructs.  In the function body, ``args`` will be a tuple of all "
+"the remaining positional arguments. For example, ``send(message, *args)`` "
+"can be called with each recipient as an argument: ``send('Hello', 'God', "
+"'Mom', 'Cthulhu')``, and in the function body ``args`` will be equal to ``"
+"('God', 'Mom', 'Cthulhu')``."
+msgstr ""
+
+# bb833f989e4349898bdd8dc12471a5b6
+#: ../../writing/style.rst:131
+msgid ""
+"However, this construct has some drawbacks and should be used with caution. "
+"If a function receives a list of arguments of the same nature, it is often "
+"more clear to define it as a function of one argument, that argument being a "
+"list or any sequence. Here, if ``send`` has multiple recipients, it is "
+"better to define it explicitly: ``send(message, recipients)`` and call it "
+"with ``send('Hello', ['God', 'Mom', 'Cthulhu'])``. This way, the user of the "
+"function can manipulate the recipient list as a list beforehand, and it "
+"opens the possibility to pass any sequence, including iterators, that cannot "
+"be unpacked as other sequences."
+msgstr ""
+
+# c698cc653b4b4dab808bab8fa1174c2d
+#: ../../writing/style.rst:140
+msgid ""
+"The **arbitrary keyword argument dictionary** is the last way to pass "
+"arguments to functions. If the function requires an undetermined series of "
+"named arguments, it is possible to used the ``**kwargs`` construct. In the "
+"function body, ``kwargs`` will be a dictionary of all the passed named "
+"arguments that have not been caught be other keyword argument in the "
+"function signature."
+msgstr ""
+
+# 01d0658d0d074e7eb7cd3babcd20da99
+#: ../../writing/style.rst:146
+msgid ""
+"The same caution as in the case of *arbitrary argument list* is necessary, "
+"for similar reasons: these powerful techniques are to be used when there is "
+"a proven necessity to use them, and they should not be used if the simpler "
+"and clearer construct is sufficient to express the function's intention."
+msgstr ""
+
+# 761fb00c978c46f38625365a71d78fa8
+#: ../../writing/style.rst:151
+msgid ""
+"It is up to the programmer writing the function to determine which arguments "
+"are positional arguments and which are optional keyword arguments, and to "
+"decide whether to use the advanced techniques of arbitrary argument passing. "
+"If the advices above are followed wisely, it is possible and enjoyable to "
+"write Python functions that are:"
+msgstr ""
+
+# 2ffb9d2eac104b3d94e5621964b2d735
+#: ../../writing/style.rst:157
+msgid "easy to read (the name and arguments need no explanations)"
+msgstr ""
+
+# fb5f8895c2c944a79500016fb1364ba6
+#: ../../writing/style.rst:159
+msgid ""
+"easy to change (adding a new keyword argument does not break other parts of "
+"the code)"
+msgstr ""
+
+# d93c39e4132243bea117552e311451f5
+#: ../../writing/style.rst:163
+msgid "Avoid the magical wand"
+msgstr ""
+
+# 4574fcda74724f57af1a33cf2362a882
+#: ../../writing/style.rst:165
+msgid ""
+"A powerful tool for hackers, Python comes with a very rich set of hooks and "
+"tools allowing to do almost any kind of tricky tricks. For instance, it is "
+"possible to change how objects are created and instantiated, it is possible "
+"to change how the Python interpreter imports modules, it is even possible "
+"(and recommended if needed) to embed C routines in Python."
+msgstr ""
+
+# ddfb7df6a3e14816beadc69815f5c900
+#: ../../writing/style.rst:171
+msgid ""
+"However, all these options have many drawbacks and it is always better to "
+"use the most straightforward way to achieve your goal. The main drawback is "
+"that readability suffers deeply from them. Many code analysis tools, such as "
+"pylint or pyflakes, will be unable to parse this \"magic\" code."
+msgstr ""
+
+# 1aad70cc31f04e8db033c95712b40b99
+#: ../../writing/style.rst:176
+msgid ""
+"We consider that a Python developer should know about these nearly infinite "
+"possibilities, because it grows the confidence that no hard-wall will be on "
+"the way.  However, knowing how to use them and particularly when **not** to "
+"use them is the most important."
+msgstr ""
+
+# d72b14390bb74b53b1474079b18712ea
+#: ../../writing/style.rst:181
+msgid ""
+"Like a Kungfu master, a Pythonista knows how to kill with a single finger, "
+"and never to do it."
+msgstr ""
+
+# 2a503071c37844eba1c76e6f49244b31
+#: ../../writing/style.rst:185
+msgid "We are all consenting adults"
+msgstr ""
+
+# 8cd8efe21bc0438aa276224933dd202b
+#: ../../writing/style.rst:187
+msgid ""
+"As seen above, Python allows many tricks, and some of them are potentially "
+"dangerous. A good example is that any client code can override an object's "
+"properties and methods: there is no \"private\" keyword in Python. This "
+"philosophy, very different from highly defensive languages like Java, which "
+"give a lot of mechanism to prevent any misuse, is expressed by the saying: "
+"\"We are consenting adults\"."
+msgstr ""
+
+# aa6d0ea78b3b433c8d907e9577c89295
+#: ../../writing/style.rst:194
+msgid ""
+"This doesn't mean that, for example, no properties are considered private, "
+"and that no proper encapsulation is possible in Python. But, instead of "
+"relying on concrete walls erected by the developers between their code and "
+"other's, the Python community prefers to rely on a set of convention "
+"indicating that these elements should not be accessed directly."
+msgstr ""
+
+# 4ea3acb095904ba79b0b16a3b5b8205e
+#: ../../writing/style.rst:200
+msgid ""
+"The main convention for private properties and implementation details is to "
+"prefix all \"internals\" with an underscore. If the client code breaks this "
+"rule and access to these marked elements, any misbehavior or problems "
+"encountered if the code is modified is the responsibility of the client code."
+msgstr ""
+
+# 762f4ce904b24ede9c2a0ab7bebc6264
+#: ../../writing/style.rst:205
+msgid ""
+"Using this convention generously is encouraged: any method or property that "
+"is not intended to be used by client code should be prefixed with an "
+"underscore. This will guarantee a better separation of duties and easier "
+"modifications of existing code, and it will always be possible to publicize "
+"a private property, while privatising a public property might be a much "
+"harder operation."
+msgstr ""
+
+# 766c30c182684c28b13280de230784f3
+#: ../../writing/style.rst:212
+msgid "Returning values"
+msgstr ""
+
+# 0659052c87124a5d9e8a2e29c1b2f2a2
+#: ../../writing/style.rst:214
+msgid ""
+"Python functions return a value, and you can control this return value with "
+"the return statement for all of them but the object constructor `__init__()` "
+"and the special case of generators."
+msgstr ""
+
+# 77a348e637034f118d08ad68324f3063
+#: ../../writing/style.rst:218
+msgid ""
+"When a function grows in complexity is not uncommon to use multiple return "
+"statements inside the function's body. However, in order to keep a clear "
+"intent and a sustainable readability level, it is preferable to avoid "
+"returning meaningful values from many output point in the body."
+msgstr ""
+
+# 564d764044114420aa8d5d276811c9e1
+#: ../../writing/style.rst:223
+msgid ""
+"There are two main cases for returning values in a function: The result of "
+"the function return when it has been processed normally, and the error cases "
+"that indicate a wrong input parameter or any other reason for the function "
+"to not be able to complete its computation or task."
+msgstr ""
+
+# 652a96d254a44156a67382d43ac3ee84
+#: ../../writing/style.rst:228
+msgid ""
+"If you do not wish to raise exceptions for the second case, then returning a "
+"value, such as None or False, indicating that the function could not perform "
+"correctly might be needed. In this case, it is better to return as early as "
+"the incorrect context has been detected. It will help to flatten the "
+"structure of the function: all the code after the return-because-of-error "
+"statement can assume the condition is met to further compute the function's "
+"main result. Having multiple such return statement is often necessary."
+msgstr ""
+
+# 3e3edc80b3d34007bf1d6a0f548dd9be
+#: ../../writing/style.rst:235
+msgid ""
+"However, when a function has multiple main exit points for its normal "
+"course, it becomes difficult to debug the returned result, and it may be "
+"preferable to keep a single exit point. This will also help factoring out "
+"some code paths, and the multiple exit point is a probable indication that "
+"such a refactoring is needed."
+msgstr ""
+
+# 7fba59c7044a446c8db286ad64a0ee36
+#: ../../writing/style.rst:255
+msgid "Idioms"
+msgstr ""
+
+# 7825dd435e9340f18dcfb6cc4bbd9904
+#: ../../writing/style.rst:257
+msgid "Idiomatic Python code is often referred to as being *Pythonic*."
+msgstr ""
+
+# 0597c31d435840b8a8aa62f6c92e1cfa
+#: ../../writing/style.rst:262
+msgid "Unpacking"
+msgstr ""
+
+# be09cda0ba45497191b514284e3b40f1
+#: ../../writing/style.rst:264
+msgid ""
+"If you know the length of a list or tuple, you can assign names to its "
+"elements with unpacking:"
+msgstr ""
+
+# 0ee36f42c06d4d7e9004b92a616a5dc0
+#: ../../writing/style.rst:272
+msgid "You can use this to swap variables, as well:"
+msgstr ""
+
+# 6da5ef1fb15e46369d822342a11bd4bf
+#: ../../writing/style.rst:278
+msgid "Nested unpacking works too:"
+msgstr ""
+
+# 8f90678ad71b41dea3b079606ab2d571
+#: ../../writing/style.rst:285
+msgid "Create an ignored variable"
+msgstr ""
+
+# 9b56429ce94148de94949a2caf585406
+#: ../../writing/style.rst:287
+msgid ""
+"If you need to assign something (for instance, in :ref:`unpacking-ref`) but "
+"will not need that variable, use ``__``:"
+msgstr ""
+
+# 07f71e4c25f24dd9aec8e10e509585ed
+#: ../../writing/style.rst:297
+msgid ""
+"Many Python style guides recommend the use of a single underscore \"``_``\" "
+"for throwaway variables rather than the double underscore \"``__``\" "
+"recommended here. The issue is that \"``_``\" is commonly used as an alias "
+"for the :func:`~gettext.gettext` function, and is also used at the "
+"interactive prompt to hold the value of the last operation. Using a double "
+"underscore instead is just as clear and almost as convenient, and eliminates "
+"the risk of accidentally interfering with either of these other use cases."
+msgstr ""
+
+# df7fcfe7feb740a1b51f7fa7019d0d40
+#: ../../writing/style.rst:307
+msgid "Create a length-N list of the same thing"
+msgstr ""
+
+# 4477d5f48da741baae74c93755e9253b
+#: ../../writing/style.rst:309
+msgid "Use the Python list ``*`` operator:"
+msgstr ""
+
+# c3ae4087fd0943359b0764c753258529
+#: ../../writing/style.rst:316
+msgid "Create a length-N list of lists"
+msgstr ""
+
+# 5f56aeaeb11f4b38b0d9a912e75b5c04
+#: ../../writing/style.rst:318
+msgid ""
+"Because lists are mutable, the ``*`` operator (as above) will create a list "
+"of N references to the `same` list, which is not likely what you want. "
+"Instead, use a list comprehension:"
+msgstr ""
+
+# 78673694d06a4e3bb3fbf3f4f270d17c
+#: ../../writing/style.rst:327
+msgid ""
+"A common idiom for creating strings is to use `join <http://docs.python.org/"
+"library/string.html#string.join>`_ on an empty string.::"
+msgstr ""
+
+# f3c6dbab27e740318e9a481072685d26
+#: ../../writing/style.rst:332
+msgid ""
+"This will set the value of the variable *word* to 'spam'. This idiom can be "
+"applied to lists and tuples."
+msgstr ""
+
+# 9890226265364dffbabfe5ebce9863ee
+#: ../../writing/style.rst:334
+msgid ""
+"Sometimes we need to search through a collection of things. Let's look at "
+"two options: lists and dictionaries."
+msgstr ""
+
+# 99bc9fb5f0184ecd82f03be31608aba7
+#: ../../writing/style.rst:336
+msgid "Take the following code for example::"
+msgstr ""
+
+# 0d6b80f82ae441798b036c928f37348a
+#: ../../writing/style.rst:347
+msgid ""
+"Even though both functions look identical, because *lookup_dict* is "
+"utilizing the fact that dictionaries in python are hashtables, the lookup "
+"performance between the two is very different. Python will have to go "
+"through each item in the list to find a matching case, which is time "
+"consuming. By analysing the hash of the dictionary finding keys in the dict "
+"can be done very quickly. For more information see this `StackOverflow "
+"<http://stackoverflow.com/questions/513882/python-list-vs-dict-for-look-up-"
+"table>`_ page."
+msgstr ""
+
+# aec2e590c7434a3f83282f24345ecbbc
+#: ../../writing/style.rst:352
+msgid "Zen of Python"
+msgstr ""
+
+# 06b8144e2a254bdb8a99f4ab239c147c
+#: ../../writing/style.rst:354
+msgid "Also known as PEP 20, the guiding principles for Python's design."
+msgstr ""
+
+# 3e7b9ac331e34912a325b0d059a6d662
+#: ../../writing/style.rst:381
+msgid ""
+"For some examples of good Python style, see `this Stack Overflow question "
+"<http://stackoverflow.com/questions/228181/the-zen-of-python>`_ or `these "
+"slides from a Python user group <http://artifex.org/~hblanks/talks/2011/"
+"pep20_by_example.pdf>`_."
+msgstr ""
+
+# 0db238e1cd0847f3bd566605629b4c70
+#: ../../writing/style.rst:387
+msgid "PEP 8"
+msgstr ""
+
+# cf13a4543ab4439aa3d60a3ca5614847
+#: ../../writing/style.rst:389
+msgid "PEP 8 is the de-facto code style guide for Python."
+msgstr ""
+
+# 8024a702c1464708a7153de1d9ec291a
+#: ../../writing/style.rst:391
+msgid "`PEP 8 <http://www.python.org/dev/peps/pep-0008/>`_"
+msgstr ""
+
+# d78af5d7c0544652932fa6dd2cbcd721
+#: ../../writing/style.rst:393
+msgid ""
+"Conforming your Python code to PEP 8 is generally a good idea and helps make "
+"code more consistent when working on projects with other developers. There "
+"exists a command-line program, `pep8 <https://github.com/jcrocholl/pep8>`_, "
+"that can check your code for conformance. Install it by running the "
+"following command in your Terminal:"
+msgstr ""
+
+# c0f799c33a184960b8486d13e8ffae28
+#: ../../writing/style.rst:404
+msgid ""
+"Then run it on a file or series of files to get a report of any violations."
+msgstr ""
+
+# 77a08ebeef1e42809d9711468a5142e4
+#: ../../writing/style.rst:421
+msgid ""
+"Here are some conventions you should follow to make your code easier to read."
+msgstr ""
+
+# 13d58be7665b4d7380b8fde68c49c925
+#: ../../writing/style.rst:424
+msgid "Check if variable equals a constant"
+msgstr ""
+
+# 6c40d6017088495ea25214f060068887
+#: ../../writing/style.rst:426
+msgid ""
+"You don't need to explicitly compare a value to True, or None, or 0 - you "
+"can just add it to the if statement. See `Truth Value Testing <http://docs."
+"python.org/library/stdtypes.html#truth-value-testing>`_ for a list of what "
+"is considered false."
+msgstr ""
+
+# 94a596a8d5314daa9fb24626fbc35a7e
+# f7f2771888494e3dae9d554547b8dd55
+# 780f05ea6439425f85603a87bf001f12
+# fe91de9a8e504d33850535f8a7b465bc
+# 876351b104b44a048dc93be4940e5576
+# f559f7cc5536476ca90e18370c70cc9b
+# 342ec922be7c44f0bf1fda2ff747511f
+#: ../../writing/style.rst:431 ../../writing/style.rst:463
+#: ../../writing/style.rst:496 ../../writing/style.rst:514
+#: ../../writing/style.rst:556 ../../writing/style.rst:583
+#: ../../writing/style.rst:618
+msgid "**Bad**:"
+msgstr ""
+
+# 2685a8ac7cad40a4a8e45bcb1f589c5e
+# a874eaee42d9450d930b612e89d09830
+# f8e8e409f07c4acc944419548140136b
+# 92d2b72dee6c4c4eb481eda141d0a5cb
+# f9f7324b6bbc4696bbe07dfdbb8bad8a
+# 9f179eaf090b48a784f7f697065e30c8
+# 4b201f0e2ab9483c85e0f797302d5596
+#: ../../writing/style.rst:441 ../../writing/style.rst:473
+#: ../../writing/style.rst:507 ../../writing/style.rst:525
+#: ../../writing/style.rst:565 ../../writing/style.rst:594
+#: ../../writing/style.rst:629
+msgid "**Good**:"
+msgstr ""
+
+# 3269a8cb44d0461ca2465b3c2a67fb0b
+#: ../../writing/style.rst:458
+msgid "Access a Dictionary Element"
+msgstr ""
+
+# 05831dce183e44b8865702d069abc222
+#: ../../writing/style.rst:460
+msgid ""
+"Don't use the ``has_key`` function. Instead use ``x in d`` syntax, or pass a "
+"default argument to ``get``."
+msgstr ""
+
+# 45334e4eccae4342a6056878fb934ec0
+#: ../../writing/style.rst:487
+msgid "Short Ways to Manipulate Lists"
+msgstr ""
+
+# 31e8f54b101048f299180d4d86df8807
+#: ../../writing/style.rst:489
+msgid ""
+"`List comprehensions <http://docs.python.org/tutorial/datastructures."
+"html#list-comprehensions>`_ provide a powerful, concise way to work with "
+"lists. Also, the `map <http://docs.python.org/library/functions.html#map>`_ "
+"and `filter <http://docs.python.org/library/functions.html#filter>`_ "
+"functions can perform operations on lists using a different concise syntax."
+msgstr ""
+
+# 6fabc060803242df8bc87bf6370d7dad
+#: ../../writing/style.rst:534
+msgid ""
+"Use `enumerate <http://docs.python.org/library/functions.html#enumerate>`_ "
+"to keep a count of your place in the list."
+msgstr ""
+
+# da3b820ba9944807a79643641ab3bfa6
+#: ../../writing/style.rst:546
+msgid ""
+"The ``enumerate`` function has better readability than handling a counter "
+"manually. Moreover, it is better optimized for iterators."
+msgstr ""
+
+# 633b2298fa644f21ad66dfe31ea1e2d1
+#: ../../writing/style.rst:551
+msgid "Read From a File"
+msgstr ""
+
+# 2ee92c8d31e34aca92cd4ed540616a09
+#: ../../writing/style.rst:553
+msgid ""
+"Use the ``with open`` syntax to read from files. This will automatically "
+"close files for you."
+msgstr ""
+
+# 7bb1b4eecb1040198d1777aaabf823b0
+#: ../../writing/style.rst:573
+msgid ""
+"The ``with`` statement is better because it will ensure you always close the "
+"file, even if an exception is raised."
+msgstr ""
+
+# 2c5f08eda680476998aeb2b0d9eb15a6
+#: ../../writing/style.rst:577
+msgid "Returning Multiple Values from a Function"
+msgstr ""
+
+# b292248cba98403c9e34304d4c9c3c0f
+#: ../../writing/style.rst:579
+msgid ""
+"Python supports returning multiple values from a function as a comma-"
+"separated list, so you don't have to create an object or dictionary and pack "
+"multiple values in before you return"
+msgstr ""
+
+# 18c6c4283cf141fe9f738082f7c7ee15
+#: ../../writing/style.rst:604
+msgid "Line Continuations"
+msgstr ""
+
+# 7c78acf317274b6a9853d081c8aad438
+#: ../../writing/style.rst:606
+msgid ""
+"When a logical line of code is longer than the accepted limit, you need to "
+"split it over multiple physical lines. Python interpreter will join "
+"consecutive lines if the last character of the line is a backslash. This is "
+"helpful sometime but is preferably avoided, because of its fragility: a "
+"white space added to the end of the line, after the backslash, will break "
+"the code and may have unexpected results."
+msgstr ""
+
+# 39109fa6e19f45b7a0ba8e5aa7af65f9
+#: ../../writing/style.rst:613
+msgid ""
+"A preferred solution is to use parenthesis around your elements. Left with "
+"an unclosed parenthesis on an end-of-line the Python interpreter will join "
+"the next line until the parenthesis is closed. The same behavior holds for "
+"curly and square braces."
+msgstr ""
+
+# d935f8aea8e94d7f9d4332fc5d404db1
+#: ../../writing/style.rst:642
+msgid ""
+"However, more often than not having to split long logical line is a sign "
+"that you are trying to do too many things at the same time, which may hinder "
+"readability."
+msgstr ""
+
+# e9060cb291e54caa81c64ecad74e9775
+#: ../../writing/tests.rst:2
+msgid "Testing Your Code"
+msgstr ""
+
+# 15cc235bfad44a5a80c09546fc276f13
+#: ../../writing/tests.rst:4
+msgid "Testing your code is very important."
+msgstr ""
+
+# 23342e58cba84035b56085b5cc5ac5d0
+#: ../../writing/tests.rst:6
+msgid ""
+"Getting used to writing the testing code and the running code in parallel is "
+"now considered a good habit. Used wisely, this method helps you define more "
+"precisely your code's intent and have a more decoupled architecture."
+msgstr ""
+
+# bd898403eb4d4684be4a93faa232d910
+#: ../../writing/tests.rst:10
+msgid "Some general rules of testing:"
+msgstr ""
+
+# 60661d7b5ad24a12a625049a3198a3be
+#: ../../writing/tests.rst:12
+msgid ""
+"A testing unit should focus on one tiny bit of functionality and prove it "
+"correct."
+msgstr ""
+
+# 64ec51d2762b438ebd568fc2f4d339ef
+#: ../../writing/tests.rst:15
+msgid ""
+"Each test unit must be fully independent. Each of them must be able to run "
+"alone, and also within the test suite, regardless of the order they are "
+"called. The implication of this rule is that each test must be loaded with a "
+"fresh dataset and may have to do some cleanup afterwards. This is usually "
+"handled by setUp() and tearDown() methods."
+msgstr ""
+
+# 1cdbfe091ffb47dd90f745c6aa19be8f
+#: ../../writing/tests.rst:21
+msgid ""
+"Try hard to make tests that run fast. If one single test needs more than a "
+"few millisecond to run, development will be slowed down or the tests will "
+"not be run as often as desirable. In some cases, test can't be fast because "
+"they need a complex data structure to work on, and this data structure must "
+"be loaded every time the test runs. Keep these heavier tests in a separate "
+"test suite that is run by some scheduled task, and run all other tests as "
+"often as needed."
+msgstr ""
+
+# 0250cc3c20904118a4037aedee247b5f
+#: ../../writing/tests.rst:29
+msgid ""
+"Learn your tools and learn how to run a single test or a test case. Then, "
+"when developing a function inside a module, run this function's tests very "
+"often, ideally automatically when you save the code."
+msgstr ""
+
+# 4c11b2ef13a445b2ae4307f2de3fccf3
+#: ../../writing/tests.rst:33
+msgid ""
+"Always run the full test suite before a coding session, and run it again "
+"after. This will give you more confidence that you did not break anything in "
+"the rest of the code."
+msgstr ""
+
+# cc2022b7c26440d7aa721eb60cd93f37
+#: ../../writing/tests.rst:37
+msgid ""
+"It is a good idea to implement a hook that runs all test before pushing code "
+"to a shared repository."
+msgstr ""
+
+# 789e851db11542699ed51ba98c52e682
+#: ../../writing/tests.rst:40
+msgid ""
+"If you are in the middle of a development and have to interrupt your work, "
+"it is a good idea to write a broken unit test about what you want to develop "
+"next. When coming back to work, you will have a pointer to where you were "
+"and get faster on tracks."
+msgstr ""
+
+# f34d8cb2dc8e4b8094a47319dbb2a3c6
+#: ../../writing/tests.rst:45
+msgid ""
+"The first step when you are debugging your code is to write a new test "
+"pinpointing the bug. While it is not always possible to do, those bug "
+"catching test are among the most valuable piece of code in your project."
+msgstr ""
+
+# 5e3be95662824f82b35045164db12ea1
+#: ../../writing/tests.rst:49
+msgid ""
+"Use long and descriptive names for testing functions. The style guide here "
+"is slightly different than that of running code, where short names are often "
+"preferred. The reason is testing functions are never called explicitly. "
+"``square()`` or even ``sqr()`` is ok in running code, but in testing code "
+"you would has names such as ``test_square_of_number_2()``, "
+"``test_square_negative_number()``. These function names are displayed when a "
+"test fail, and should be as descriptive as possible."
+msgstr ""
+
+# d03d50874be34ecf86303c473c45bd6d
+#: ../../writing/tests.rst:57
+msgid ""
+"When something goes wrong or has to be changed, and if your code has a good "
+"set of tests, you or other maintainers will rely largely on the testing "
+"suite to fix the problem or modify a given behavior. Therefore the testing "
+"code will be read as much as or even more than the running code. A unit test "
+"whose purpose is unclear is not very helpful is this case."
+msgstr ""
+
+# 9b2b007cd6aa41d18f9b47bad2dd4471
+#: ../../writing/tests.rst:63
+msgid ""
+"Another use of the testing code is as an introduction to new developers. "
+"When someone will have to work on the code base, running and reading the "
+"related testing code is often the best they can do. They will or should "
+"discover the hot spots, where most difficulties arise, and the corner cases. "
+"If they have to add some functionality, the first step should be to add a "
+"test and, by this mean, ensure the new functionality is not already a "
+"working path that has not been plugged in the interface."
+msgstr ""
+
+# a6ded14090644ecca28075dae8fea01c
+#: ../../writing/tests.rst:72
+msgid "The Basics"
+msgstr ""
+
+# 60f38f18fe4e46d782175e812d6568fe
+#: ../../writing/tests.rst:76
+msgid "Unittest"
+msgstr ""
+
+# 50ef581acb57401ca31cfa25d36a482a
+#: ../../writing/tests.rst:78
+msgid ""
+"Unittest is the batteries-included test module in the Python standard "
+"library. Its API will be familiar to anyone who has used any of the JUnit/"
+"nUnit/CppUnit series of tools."
+msgstr ""
+
+# 9c314655a01a4a229c5a989704194ecb
+#: ../../writing/tests.rst:82
+msgid "Creating testcases is accomplished by subclassing a TestCase base class"
+msgstr ""
+
+# a5a80f05aecf4a2fa96430a604bc3a34
+#: ../../writing/tests.rst:95
+msgid ""
+"As of Python 2.7 unittest also includes its own test discovery mechanisms."
+msgstr ""
+
+# 035055e5a1f64464b25721da488848d5
+#: ../../writing/tests.rst:97
+msgid ""
+"`unittest in the standard library documentation <http://docs.python.org/"
+"library/unittest.html>`_"
+msgstr ""
+
+# 3d96b87407634854bb32d2da7745d1fa
+#: ../../writing/tests.rst:101
+msgid "Doctest"
+msgstr ""
+
+# 6af5dccaafd04f9691284d2ab822e1dd
+#: ../../writing/tests.rst:103
+msgid ""
+"The doctest module searches for pieces of text that look like interactive "
+"Python sessions in docstrings, and then executes those sessions to verify "
+"that they work exactly as shown."
+msgstr ""
+
+# 6ef5d0f2d3884432a345c74017b7b53c
+#: ../../writing/tests.rst:107
+msgid ""
+"Doctests have a different use case than proper unit tests: they are usually "
+"less detailed and don't catch special cases or obscure regression bugs. They "
+"are useful as an expressive documentation of the main use cases of a module "
+"and its components. However, doctests should run automatically each time the "
+"full test suite runs."
+msgstr ""
+
+# 008e0c60428647bca291d88a538a029c
+#: ../../writing/tests.rst:113
+msgid "A simple doctest in a function:"
+msgstr ""
+
+# 7fc3c1ab575a46ef93e179e9db08d3ec
+#: ../../writing/tests.rst:132
+msgid ""
+"When running this module from the command line as in ``python module.py``, "
+"the doctests will run and complain if anything is not behaving as described "
+"in the docstrings."
+msgstr ""
+
+# 00d9217fc11c44e0acf0683ece11d44c
+#: ../../writing/tests.rst:137
+msgid "Tools"
+msgstr ""
+
+# bae22a15211f496cb9c48045d668fa77
+#: ../../writing/tests.rst:141
+msgid "py.test"
+msgstr ""
+
+# adb8bfb6c05b4e2e95188328b73b86c7
+#: ../../writing/tests.rst:143
+msgid ""
+"py.test is a no-boilerplate alternative to Python's standard unittest module."
+msgstr ""
+
+# 71a0f5ddbb7d4fbd815e589dd6224f53
+#: ../../writing/tests.rst:149
+msgid ""
+"Despite being a fully-featured and extensible test tool it boasts a simple "
+"syntax. Creating a test suite is as easy as writing a module with a couple "
+"of functions"
+msgstr ""
+
+# 0c2881470fcb4831a21c9fcec3c72928
+#: ../../writing/tests.rst:162
+msgid "and then running the `py.test` command"
+msgstr ""
+
+# 545ccf2cd9e64d2b89987963f30d7d12
+#: ../../writing/tests.rst:184
+msgid ""
+"far less work than would be required for the equivalent functionality with "
+"the unittest module!"
+msgstr ""
+
+# e867e43640d44be2a1460e74047393bb
+#: ../../writing/tests.rst:187
+msgid "`py.test <http://pytest.org/latest/>`_"
+msgstr ""
+
+# bd21acfcccae4aa78c61d3adda84e16e
+#: ../../writing/tests.rst:191
+msgid "Nose"
+msgstr ""
+
+# fc7ab95929ca40eeaa672bf9cebf8de4
+#: ../../writing/tests.rst:193
+msgid "nose extends unittest to make testing easier."
+msgstr ""
+
+# 61b8a57045794af6acda4dfc8e4c2597
+#: ../../writing/tests.rst:200
+msgid ""
+"nose provides automatic test discovery to save you the hassle of manually "
+"creating test suites. It also provides numerous plugins for features such as "
+"xUnit-compatible test output, coverage reporting, and test selection."
+msgstr ""
+
+# 574ef413a782464bb55e15a94101a305
+#: ../../writing/tests.rst:204
+msgid "`nose <http://readthedocs.org/docs/nose/en/latest/>`_"
+msgstr ""
+
+# dcef19f77f6b47fd9157dcfb38501650
+#: ../../writing/tests.rst:208
+msgid "tox"
+msgstr ""
+
+# 6e65ea06c36c435e99109e9dcbe8b5f0
+#: ../../writing/tests.rst:210
+msgid ""
+"tox is a tool for automating test environment management and testing against "
+"multiple interpreter configurations"
+msgstr ""
+
+# b0d0e1c2431e40e589d31967fbae7b8d
+#: ../../writing/tests.rst:217
+msgid ""
+"tox allows you to configure complicated multi-parameter test matrices via a "
+"simple ini-style configuration file."
+msgstr ""
+
+# c9cac83c778a4347b5ee5ad391fe6cb7
+#: ../../writing/tests.rst:220
+msgid "`tox <http://tox.testrun.org/latest/>`_"
+msgstr ""
+
+# 52a279052a9743eda0995e67d6ce4080
+#: ../../writing/tests.rst:223
+msgid "Unittest2"
+msgstr ""
+
+# fbd7909f5fed4c288433f0796b7d8b59
+#: ../../writing/tests.rst:225
+msgid ""
+"unittest2 is a backport of Python 2.7's unittest module which has an "
+"improved API and better assertions over the one available in previous "
+"versions of Python."
+msgstr ""
+
+# 3fb3ccaa365643d88408d0a44115b3df
+#: ../../writing/tests.rst:228
+msgid "If you're using Python 2.6 or below, you can install it with pip"
+msgstr ""
+
+# fced607d445c43cd80e7b9542cf6a0f8
+#: ../../writing/tests.rst:234
+msgid ""
+"You may want to import the module under the name unittest to make porting "
+"code to newer versions of the module easier in the future"
+msgstr ""
+
+# c66aa4054d12406898666723cd1d00c9
+#: ../../writing/tests.rst:244
+msgid ""
+"This way if you ever switch to a newer python version and no longer need the "
+"unittest2 module, you can simply change the import in your test module "
+"without the need to change any other code."
+msgstr ""
+
+# f1764e4d85f8454fa1c4238dd76f1e95
+#: ../../writing/tests.rst:248
+msgid "`unittest2 <http://pypi.python.org/pypi/unittest2>`_"
+msgstr ""
+
+# 67a94b30f3e54a2286b04e20b993f9b2
+#: ../../writing/tests.rst:252
+msgid "mock"
+msgstr ""
+
+# a93abe8ff6a34c1195cbda8361cdba15
+#: ../../writing/tests.rst:254
+msgid "mock is a library for testing in Python."
+msgstr ""
+
+# ddac57e7431448608fbe03b913c31dce
+#: ../../writing/tests.rst:260
+msgid ""
+"It allows you to replace parts of your system under test with mock objects "
+"and make assertions about how they have been used."
+msgstr ""
+
+# ef2d7dddb70c4cac8322d0c259b3b867
+#: ../../writing/tests.rst:263
+msgid "For example, you can monkey patch a method"
+msgstr ""
+
+# ffe9ccae4b3e4a54901bd9f1660b0427
+#: ../../writing/tests.rst:274
+msgid ""
+"To mock classes or objects in a module under test, use the ``patch`` "
+"decorator. In the example below, an external search system is replaced with "
+"a mock that always returns the same result (but only for the duration of the "
+"test)."
+msgstr ""
+
+# 887e5491ca424dda84ffc1041ef2634c
+#: ../../writing/tests.rst:293
+msgid ""
+"Mock has many other ways you can configure it and control its behaviour."
+msgstr ""
+
+# 6e1e9588f49a4e64ae7eb9cd7f92fb57
+#: ../../writing/tests.rst:295
+msgid "`mock <http://www.voidspace.org.uk/python/mock/>`_"
+msgstr ""

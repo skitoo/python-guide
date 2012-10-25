@@ -1,0 +1,306 @@
+# Language ANG translations for pythonguide package.
+# Copyright (C) 2012. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-sa/3.0/"> Creative Commons Share-Alike 3.0</a>.
+# This file is distributed under the same license as the pythonguide package.
+# Automatically generated, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: python-guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-25 11:58\n"
+"PO-Revision-Date: 2012-10-25 15:43+0100\n"
+"Last-Translator: Alexis Couronne <alexis.couronne@gmail.com>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.5.4\n"
+
+# 7f6a207ca4a54a7eb8968e2e6ade094a
+#: ../../notes/contribute.rst:2
+msgid "Contribute"
+msgstr ""
+
+# ac342cb628be41cea1233669bf60bce4
+#: ../../notes/contribute.rst:4
+msgid "Python-guide is under active development, and contributors are welcome."
+msgstr ""
+
+# 722d5a4d47e7427d913d88a09ea6ca78
+#: ../../notes/contribute.rst:6
+msgid ""
+"If you have a feature request, suggestion, or bug report, please open a new "
+"issue on GitHub_. To submit patches, please send a pull request on GitHub_. "
+"Once your changes get merged back in, you'll automatically be added to the "
+"`Contributors List <https://github.com/kennethreitz/python-guide/"
+"contributors>`_."
+msgstr ""
+
+# bd9d5e6ba81d47d58caca32c45333a14
+#: ../../notes/contribute.rst:12
+msgid "Style Guide"
+msgstr ""
+
+# c8afee6207d94c459619c9ff24ae7a99
+#: ../../notes/contribute.rst:14
+msgid "For all contributions, please follow the :ref:`guide-style-guide`."
+msgstr ""
+
+# ae11b6efda064267bc445474e5fb6a78
+#: ../../notes/contribute.rst:19
+msgid "Todo List"
+msgstr ""
+
+# 62b27d68340a4666a609ec7c12766efd
+#: ../../notes/contribute.rst:21
+msgid ""
+"If you'd like to contribute, there's plenty to do. Here's a short todo_ list."
+msgstr ""
+
+# aa0e12665d9d42bcb6023815fea05b1d
+#: ../../../TODO.rst:1
+msgid "Establish \"use this\" vs \"alternatives are....\" recommendations"
+msgstr ""
+
+# 4b554022f3494f3496adfb41266a59fd
+#: ../../notes/license.rst:2
+msgid "License"
+msgstr ""
+
+# 03641a8cf0e4442a9e8e165660c378a4
+#: ../../notes/license.rst:4
+msgid "Determine License"
+msgstr ""
+
+# 2cb08a416f37402baced4ca79b9ec192
+#: ../../notes/styleguide.rst:5
+msgid "The Guide Style Guide"
+msgstr ""
+
+# 7a68048e9f0740af8d0eef25bc7af948
+#: ../../notes/styleguide.rst:7
+msgid ""
+"As with all documentation, having a consistent formating helps make the "
+"document more understandable. In order to make The Guide easier to digest, "
+"all contributions should fit within the rules of this style guide where "
+"appropriate."
+msgstr ""
+
+# 472b009949ce4f19b6f6542cf26d6e76
+#: ../../notes/styleguide.rst:12
+msgid "The Guide is written as :ref:`restructuredtext-ref`."
+msgstr ""
+
+# 1c9ffaf20eec423cafe9fd20c8381bbc
+#: ../../notes/styleguide.rst:14
+msgid ""
+"Parts of The Guide may not yet match this style guide. Feel free to update "
+"those parts to be in sync with The Guide Style Guide"
+msgstr ""
+
+# 8bd8eef4bd764bd389e0a9b10ff522dc
+#: ../../notes/styleguide.rst:17
+msgid ""
+"On any page of the rendered HTML you can click \"Show Source\" to see how "
+"authors have styled the page."
+msgstr ""
+
+# 57098acf64c841568e6981d6d44f01f3
+#: ../../notes/styleguide.rst:21
+msgid "Relevancy"
+msgstr ""
+
+# a991015da42848339349dcabcd9f7eeb
+#: ../../notes/styleguide.rst:23
+msgid ""
+"Strive to keep any contributions relevant to the :ref:`purpose of The Guide "
+"<about-ref>`."
+msgstr ""
+
+# 30aa2a66c9be4c66a24331eb8d37946b
+#: ../../notes/styleguide.rst:26
+msgid ""
+"Avoid including too much information on subjects that don't directly relate "
+"to Python development."
+msgstr ""
+
+# e1da3c9f0b2543da8cd77a5a78c8a319
+#: ../../notes/styleguide.rst:28
+msgid ""
+"Prefer to link to other sources if the information is already out there. Be "
+"sure to describe what and why you are linking."
+msgstr ""
+
+# 224263bd57ff4b95bdf24ddbee844612
+#: ../../notes/styleguide.rst:30
+msgid ""
+"`Cite <http://sphinx.pocoo.org/rest.html?highlight=citations#citations>`_ "
+"references where needed."
+msgstr ""
+
+# 1bcb8c7a0b9e4458990afb54152f2d87
+#: ../../notes/styleguide.rst:32
+msgid ""
+"If a subject isn't directly relevant to Python, but useful in conjunction "
+"with Python (ex: Git, Github, Databases), reference by linking to useful "
+"resources and describe why it's useful to Python."
+msgstr ""
+
+# 09951e8b5d464747b1ec4353065d5ca3
+#: ../../notes/styleguide.rst:35
+msgid "When in doubt, ask."
+msgstr ""
+
+# fc745c937f1e4a5b95e9398c39fad178
+#: ../../notes/styleguide.rst:38
+msgid "Headings"
+msgstr ""
+
+# 65948af6281b4883b909641de3843288
+#: ../../notes/styleguide.rst:40
+msgid "Use the following styles for headings."
+msgstr ""
+
+# 2a78d5dfdc2d48d6b615200bc6b49814
+#: ../../notes/styleguide.rst:42
+msgid "Chapter title::"
+msgstr ""
+
+# d497c363e4464d0e85dfb3cedc976cfa
+#: ../../notes/styleguide.rst:48
+msgid "Page title::"
+msgstr ""
+
+# b41659af8ae84480850a21c8bd99b0e6
+#: ../../notes/styleguide.rst:54
+msgid "Section headings::"
+msgstr ""
+
+# c39abf7f9fd34db481b4b53bd7992c60
+#: ../../notes/styleguide.rst:59
+msgid "Sub section headings::"
+msgstr ""
+
+# 8a78c5f43b87443186792d48507b56d7
+#: ../../notes/styleguide.rst:65
+msgid "Prose"
+msgstr ""
+
+# 2c68aefc0780421595f718366088cc11
+#: ../../notes/styleguide.rst:67
+msgid ""
+"Wrap text lines at 78 characters. Where necessary, lines may exceed 78 "
+"characters, especially if wrapping would make the source text more difficult "
+"to read."
+msgstr ""
+
+# cefbfb4a51b049dca62b9841f5b3938b
+#: ../../notes/styleguide.rst:73
+msgid "Code Examples"
+msgstr ""
+
+# cc26879812024fcf817cc875c2b83aa9
+#: ../../notes/styleguide.rst:75
+msgid "Wrap all code examples at 70 characters to avoid horizontal scrollbars."
+msgstr ""
+
+# bbd3c76d35174e959edbdc5b265df697
+#: ../../notes/styleguide.rst:77
+msgid "Command line examples::"
+msgstr ""
+
+# 21d467fa3bec4c2c8469c094ab93ec17
+#: ../../notes/styleguide.rst:84
+msgid "Be sure to include the ``$`` prefix before each line."
+msgstr ""
+
+# c2bc5772d84d4a52a7fc1c076758aa9f
+#: ../../notes/styleguide.rst:86
+msgid "Python interpreter examples::"
+msgstr ""
+
+# 80ca1e3259c04f80b8ceec59cfd3df99
+#: ../../notes/styleguide.rst:94
+msgid "Python examples::"
+msgstr ""
+
+# 377c4e6ac9d24844ad678b1015b865b2
+#: ../../notes/styleguide.rst:104
+msgid "Externally Linking"
+msgstr ""
+
+# c5659b81a2dc46b89a6bbb131b861cf1
+#: ../../notes/styleguide.rst:106
+msgid "Prefer labels for well known subjects (ex: proper nouns) when linking::"
+msgstr ""
+
+# 20252017ddc04f14ae566aea0b8cac0a
+#: ../../notes/styleguide.rst:112
+msgid ""
+"Prefer to use descriptive labels with inline links instead of leaving bare "
+"links::"
+msgstr ""
+
+# 50039572c39c47bb99f3d59497afa972
+#: ../../notes/styleguide.rst:117
+msgid ""
+"Avoid using labels such as \"click here\", \"this\", etc. preferring "
+"descriptive labels (SEO worthy) instead."
+msgstr ""
+
+# 3d9c591cc43d4d6081dc73b87e8f6dc0
+#: ../../notes/styleguide.rst:121
+msgid "Linking to Sections in The Guide"
+msgstr ""
+
+# 738d35734d1d4bd0a8fbb4f90fd914d0
+#: ../../notes/styleguide.rst:123
+msgid ""
+"To cross-reference other parts of this documentation, use the `:ref: <http://"
+"sphinx.pocoo.org/markup/inline.html#cross-referencing-arbitrary-locations>`_ "
+"keyword and labels."
+msgstr ""
+
+# 2c071828036e4d559806e668a86afe6e
+#: ../../notes/styleguide.rst:127
+msgid ""
+"To make reference labels more clear and unique, always add a ``-ref`` "
+"suffix::"
+msgstr ""
+
+# 3b803a1a6ffa4699bddc7f35db471feb
+#: ../../notes/styleguide.rst:135
+msgid "Notes and Warnings"
+msgstr ""
+
+# ac2e37a516a64731aad2fa0e30480ddc
+#: ../../notes/styleguide.rst:137
+msgid ""
+"Make use of the appropriate `admonitions directives <http://sphinx.pocoo.org/"
+"rest.html#directives>`_ when making notes."
+msgstr ""
+
+# 93ee61584f034c129aae637d93527bb5
+#: ../../notes/styleguide.rst:140
+msgid "Notes::"
+msgstr ""
+
+# 12a4038947bb4a439ab325d1df55fe4c
+#: ../../notes/styleguide.rst:147
+msgid "Warnings::"
+msgstr ""
+
+# eda92eaeea7343fd85c60d67fd6acc75
+#: ../../notes/styleguide.rst:152
+msgid "TODOs"
+msgstr ""
+
+# edd27d87c4b24806be6467a09492c597
+#: ../../notes/styleguide.rst:154
+msgid ""
+"Please mark any incomplete areas of The Guide with a `todo directive <http://"
+"sphinx.pocoo.org/ext/todo.html?highlight=todo#directive-todo>`_. To avoid "
+"cluttering the :ref:`todo-list-ref`, use a single ``todo`` for stub "
+"documents or large incomplete sections."
+msgstr ""

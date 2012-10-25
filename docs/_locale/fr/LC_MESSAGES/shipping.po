@@ -1,0 +1,466 @@
+# Language ANG translations for pythonguide package.
+# Copyright (C) 2012. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-sa/3.0/"> Creative Commons Share-Alike 3.0</a>.
+# This file is distributed under the same license as the pythonguide package.
+# Automatically generated, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: python-guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-25 11:58\n"
+"PO-Revision-Date: 2012-10-25 15:43+0100\n"
+"Last-Translator: Alexis Couronne <alexis.couronne@gmail.com>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.5.4\n"
+
+# 0fe5e3ebe9754af4a52d96ad227aa7de
+#: ../../shipping/freezing.rst:2
+msgid "Freezing Your Code"
+msgstr ""
+
+# 01bacb14c476487499dc88d5cde53d32
+#: ../../shipping/freezing.rst:4
+msgid ""
+"An alternative to shipping your code is freezing it — shipping it as an "
+"executable with a bundled Python interpreter."
+msgstr ""
+
+# 1bfd9952b3744be7ad5a774a0df440e6
+#: ../../shipping/freezing.rst:7
+msgid "Many applications you use every day do this:"
+msgstr ""
+
+# 0a0c4bdf040041079b2a6564606915ec
+#: ../../shipping/freezing.rst:9
+msgid "Dropbox"
+msgstr ""
+
+# 6dd93c53cd3a40fdabfea499871186e1
+#: ../../shipping/freezing.rst:10
+msgid "BitTorrent"
+msgstr ""
+
+# fc28e163a956408c88c486fb4bc482fb
+#: ../../shipping/freezing.rst:11
+msgid "..."
+msgstr ""
+
+# dd1b345d24954d70b071560543c37bb0
+#: ../../shipping/freezing.rst:13
+msgid "Fill in \"Freezing Your Code\" stub"
+msgstr ""
+
+# 23ceb2898ea14383a5052feeeb5e5ca1
+#: ../../shipping/freezing.rst:18
+msgid "Comparison"
+msgstr ""
+
+# 91f43cd7b026494a9f24b95954137952
+#: ../../shipping/freezing.rst:20
+msgid "Solutions and platforms/features supported:"
+msgstr ""
+
+# fd4b3b7554864b848c4735a73f150d6f
+#: ../../shipping/freezing.rst:23
+msgid "Solution"
+msgstr ""
+
+# dce23b4f6bb248e68a58163cc8955123
+# e614b489ccc14ad2b1d0f1aab65643db
+#: ../../shipping/freezing.rst:23 ../../shipping/freezing.rst:44
+msgid "Windows"
+msgstr ""
+
+# 7b4258d183d148899f4d289d04fdf6df
+# 717b503867124382b97a08316bb67692
+#: ../../shipping/freezing.rst:23 ../../shipping/freezing.rst:100
+msgid "Linux"
+msgstr ""
+
+# 99476bf330bd4d819fcf7b95ca981f41
+#: ../../shipping/freezing.rst:23
+msgid "OS X"
+msgstr ""
+
+# b75a2bd199054bc38ad1b3d595e3527a
+#: ../../shipping/freezing.rst:23
+msgid "Python 3"
+msgstr ""
+
+# 83d5220e9d0c49f69136e5ae166109fd
+#: ../../shipping/freezing.rst:23
+msgid "Licence"
+msgstr ""
+
+# cfe8ab358e8f4b5eba9de42b312db83c
+#: ../../shipping/freezing.rst:23
+msgid "One-file mode"
+msgstr ""
+
+# 3a41270a63234105908811b4da1758da
+#: ../../shipping/freezing.rst:23
+msgid "Zipfile import"
+msgstr ""
+
+# d5de37f8be2e413b8d781f9843681519
+#: ../../shipping/freezing.rst:23
+msgid "Eggs"
+msgstr ""
+
+# 7c41fd396c9b44088426a713f49633ad
+#: ../../shipping/freezing.rst:23
+msgid "pkg_resources support"
+msgstr ""
+
+# 42ce2bcda418443a9fd6cf4b68b52fad
+# bd6e03ead67a4cafa4a398ca456ca11b
+# 299f5de03fdb48cb8f3fc2824fe76abc
+#: ../../shipping/freezing.rst:25 ../../shipping/freezing.rst:47
+#: ../../shipping/freezing.rst:104
+msgid "bbFreeze"
+msgstr ""
+
+# 0b47effeb1f94ef7b53c4b0cf45dc2d2
+# f653692012ae451982252f6ac0ed1c69
+# 1876d03755ee4f018330fefeb7f70f83
+# c8abbcfee9ae43338759f24d01dadc52
+# e26df53d62a846ce81f2f2c51eb099a0
+# b46f16a8ca5e4f1e95bb5d6274a0f0fe
+# 0e2c740d458a4e34a72178ca903417e4
+# 634214f7498c42ada843eb5164828f81
+# 3bfbee279b644ec08baa13983f7d415d
+# 5226abdc2a7945c28689020b35261896
+# 22673d6c07614b069912170ec57444c8
+# 15be1a327ec44ceea525b20ddf0f59fe
+# a95923084dc24c18a1878037015d9b89
+# 6ea9509bf39148449e9208b6ef57a92e
+# 17df758c095146b8ae09f3248f28e9d8
+# 0eef3b96444d413eadf207599c37ef6e
+# 8afb823607354a8e8b1e06fc95f3ab0c
+# eb560c6eb10e4e5495e773edc6ed6da9
+# 11959822440b4226b84a55310d862ca2
+# 0fa5dd59659e4184831e4c68e88c6ee8
+#: ../../shipping/freezing.rst:25 ../../shipping/freezing.rst:26
+#: ../../shipping/freezing.rst:27 ../../shipping/freezing.rst:28
+msgid "yes"
+msgstr ""
+
+# c4f5ce8bb6994222ba1e8fb4cf859809
+# 7e0617b5c7234de6a1022b134d9e85e0
+# 8ec6c4999e6c482f8364dd5af5baa3e2
+# ad98483d641f4c3fb3f0d109ac3f5a5e
+# 7bd5fa64485d4b4a9235e289df63eb82
+# 6084daa48b4d40168be1bc5f68170b88
+# 1b7ec716f6094390b1c3a59275435058
+# e6b7efafb3b049eab3c0025b33491c70
+# 5c6da64278de474aab1091bd965414ef
+# a62e95e796944fd1b79ad0f850f008a8
+# 038df27b06fe4cc8abeece406b8e9b4f
+# 8ce587e71742498e80f717a4906e6050
+#: ../../shipping/freezing.rst:25 ../../shipping/freezing.rst:26
+#: ../../shipping/freezing.rst:27 ../../shipping/freezing.rst:28
+msgid "no"
+msgstr ""
+
+# 05c78a2e43d14d7aab5f06cf8c9ceed4
+# 444f0f4d175d41f4b1dfe9c786cd5e24
+#: ../../shipping/freezing.rst:25 ../../shipping/freezing.rst:26
+msgid "MIT"
+msgstr ""
+
+# 6a63b1353c05415ba8598a9898d645b1
+# 3053da2592824070a51321fe2e02ad44
+#: ../../shipping/freezing.rst:26 ../../shipping/freezing.rst:54
+msgid "py2exe"
+msgstr ""
+
+# fb9a4dfad546489a940058f96af18ecd
+#: ../../shipping/freezing.rst:27
+msgid "pyInstaller"
+msgstr ""
+
+# 3d445d66862f42eba079c14d36e611cb
+#: ../../shipping/freezing.rst:27
+msgid "GPL"
+msgstr ""
+
+# 898f5fcb6f8e4d839a523b365eca0aff
+#: ../../shipping/freezing.rst:28
+msgid "cx_Freeze"
+msgstr ""
+
+# 3fd271ab065942189ad22a787071f734
+#: ../../shipping/freezing.rst:28
+msgid "PSF"
+msgstr ""
+
+# dc234efdb7f24b61be554eafc6d21406
+#: ../../shipping/freezing.rst:31
+msgid "Add other solutions: py2app"
+msgstr ""
+
+# 5ea832e2ed624fa0b078a9132a6be13b
+#: ../../shipping/freezing.rst:34
+msgid ""
+"Freezing Python code on Linux into a Windows executable was only once "
+"supported in PyInstaller, `but later dropped <http://stackoverflow.com/"
+"questions/2950971/cross-compiling-a-python-script-on-linux-into-a-windows-"
+"executable#comment11890276_2951046>`_."
+msgstr ""
+
+# 4969343aec28408987ca3f0fa80e4e4c
+#: ../../shipping/freezing.rst:39
+msgid ""
+"All solutions need MS Visual C++ dll to be installed on target machine. Only "
+"Pyinstaller makes self-executable exe that bundles the dll when passing ``--"
+"onefile`` to `Configure.py`."
+msgstr ""
+
+# 7a0a1251c4f244a98f21c00d9fe5c6af
+#: ../../shipping/freezing.rst:49
+msgid ""
+"Prerequisite is to install :ref:`Python, Distribute and pywin32 dependency "
+"on Windows <install-windows>`."
+msgstr ""
+
+# dde9528df5e5440298f878eb34b14d22
+#: ../../shipping/freezing.rst:51
+msgid "Write steps for most basic .exe"
+msgstr ""
+
+# 45f1ff7d5e4f49cfab00e12ec0bde613
+#: ../../shipping/freezing.rst:56
+msgid "Prerequisite is to install :ref:`Python on Windows <install-windows>`."
+msgstr ""
+
+# 7d4a455256c24be5a2d95966f6bbac46
+#: ../../shipping/freezing.rst:58
+msgid ""
+"Download and install http://sourceforge.net/projects/py2exe/files/py2exe/"
+msgstr ""
+
+# 3294d0042dd8469893780c4543a1abab
+#: ../../shipping/freezing.rst:60
+msgid ""
+"Write setup.py (`List of configuration options <http://www.py2exe.org/index."
+"cgi/ListOfOptions>`_)::"
+msgstr ""
+
+# ee372c6a1f874cbaa6a2dcc03d39175b
+#: ../../shipping/freezing.rst:69
+msgid ""
+"(Optionally) `include icon <http://www.py2exe.org/index.cgi/CustomIcons>`_"
+msgstr ""
+
+# 1a32149bca0542eebc82ea82df52d2ab
+#: ../../shipping/freezing.rst:71
+msgid ""
+"(Optionally) `one-file mode <http://stackoverflow.com/questions/112698/"
+"py2exe-generate-single-executable-file#113014>`_"
+msgstr ""
+
+# b0ed2ad58129430c9d50f9ccd516e9da
+#: ../../shipping/freezing.rst:73
+msgid "Generate `.exe` into `dist` directory::"
+msgstr ""
+
+# e8b11c8122ad4c82a4cb6ac71f27acd5
+#: ../../shipping/freezing.rst:77
+msgid ""
+"Provide the Microsoft Visual C runtime DLL. Two options: `globally install "
+"dll on target machine <https://www.microsoft.com/en-us/download/details.aspx?"
+"id=29>`_ or `distribute dll aloneside with .exe <http://www.py2exe.org/index."
+"cgi/Tutorial#Step52>`_."
+msgstr ""
+
+# c7cbad9c892c4d428ec17fbb5fea60ae
+# 2b9c06e7e08642c583c6dc998ef414c2
+# d9d1ccd823844bf8ba81e9951c77cf33
+#: ../../shipping/freezing.rst:80 ../../shipping/freezing.rst:96
+#: ../../shipping/freezing.rst:107
+msgid "PyInstaller"
+msgstr ""
+
+# 7ca8bda5971a4bc38b5237f0f66f54a5
+#: ../../shipping/freezing.rst:82
+msgid ""
+"Prerequisite is to have installed :ref:`Python, Distribute and pywin32 "
+"dependency on Windows <install-windows>`."
+msgstr ""
+
+# 797ddcf698794bf8b31633cdfefa4381
+#: ../../shipping/freezing.rst:84
+msgid ""
+"`Most basic tutorial <http://bojan-komazec.blogspot.com/2011/08/how-to-"
+"create-windows-executable-from.html>`_"
+msgstr ""
+
+# 61326fe6b8f344159e78bbfd2290b9f9
+#: ../../shipping/freezing.rst:85
+msgid ""
+"`Manual <http://www.pyinstaller.org/export/"
+"d3398dd79b68901ae1edd761f3fe0f4ff19cfb1a/project/doc/Manual.html?"
+"format=raw>`_"
+msgstr ""
+
+# 3c32bc538d4a4f5f8a706c1c2e1067d2
+#: ../../shipping/freezing.rst:89
+msgid "OSX"
+msgstr ""
+
+# e24768ab8eaa4077866018154f9e1798
+#: ../../shipping/freezing.rst:93
+msgid "py2app"
+msgstr ""
+
+# 8118924de22a4b0aa6368df9add65f86
+#: ../../shipping/packaging.rst:2
+msgid "Packaging Your Code"
+msgstr ""
+
+# d30ad93231344a91b275bc42bfe8b77c
+#: ../../shipping/packaging.rst:4
+msgid "Packaging your code is important."
+msgstr ""
+
+# 5d547e1f15e44ddd9cd766310746d97c
+#: ../../shipping/packaging.rst:6
+msgid ""
+"You'll need to package your code first before sharing it with other "
+"developers."
+msgstr ""
+
+# dd1dce5f8df94ed2bb3b450afcb0f0f3
+#: ../../shipping/packaging.rst:9
+msgid "For Python Developers"
+msgstr ""
+
+# 3a2ab67665714cf89006ffa6f6877f64
+#: ../../shipping/packaging.rst:11
+msgid ""
+"If you're writing an open source Python module, `PyPI <http://pypi.python."
+"org>`_, more properly known as *The Cheeseshop*, is the place to host it."
+msgstr ""
+
+# 7abd99bac0c84850898b69ea25c502bc
+#: ../../shipping/packaging.rst:17
+msgid "Pip vs. easy_install"
+msgstr ""
+
+# 1123e53482f84dba87ba3ead393337fb
+#: ../../shipping/packaging.rst:19
+msgid ""
+"Use `pip <http://pypi.python.org/pypi/pip>`_.  More details `here <http://"
+"stackoverflow.com/questions/3220404/why-use-pip-over-easy-install>`_"
+msgstr ""
+
+# 44b277ab2893428281d1cc5ad57561cc
+#: ../../shipping/packaging.rst:23
+msgid "Personal PyPI"
+msgstr ""
+
+# b1d402a011fb440fbdc151d51a862c11
+#: ../../shipping/packaging.rst:25
+msgid ""
+"If you want to install packages from a source different from PyPI, (say, if "
+"your packages are *proprietary*), you can do it by hosting a simple http "
+"server, running from the directory which holds those packages which need to "
+"be installed."
+msgstr ""
+
+# 71687b6fe2f048268d87b3cf61df38ac
+#: ../../shipping/packaging.rst:29
+msgid "**Showing an example is always beneficial**"
+msgstr ""
+
+# 41f83e259c3947bc9c7b7c2fa7f25b6a
+#: ../../shipping/packaging.rst:31
+msgid ""
+"Say if you are after installing a package called MyPackage.tar.gz,  and "
+"assuming this is your directory structure:"
+msgstr ""
+
+# c8d5246fe39a4646af9f67ec6c039619
+#: ../../shipping/packaging.rst:37
+msgid "MyPackage.tar.gz"
+msgstr ""
+
+# dfc65c04ba124c12a07b128952da74eb
+#: ../../shipping/packaging.rst:39
+msgid "Go to your command prompt and type:"
+msgstr ""
+
+# 79d3a9caa848486f9f66a976f32991e4
+#: ../../shipping/packaging.rst:46
+msgid ""
+"This runs a simple http server running on port 9000 and will list all "
+"packages (like **MyPackage**). Now you can install **MyPackage** using any "
+"python package installer. Using Pip, you would do it like:"
+msgstr ""
+
+# af965f1bb96447d494cf9fbd6811749f
+#: ../../shipping/packaging.rst:54
+msgid ""
+"Having a folder with the same name as the package name is **crucial** here. "
+"I got fooled by that, one time. But if you feel that creating a folder "
+"called **MyPackage** and keeping **MyPackage.tar.gz** inside that, is "
+"*redundant*, you can still install MyPackage using:"
+msgstr ""
+
+# 9a6146d32892477fba993901f5841715
+#: ../../shipping/packaging.rst:64
+msgid "Chishop"
+msgstr ""
+
+# 877e1c5849424305bf683871472afc44
+#: ../../shipping/packaging.rst:66
+msgid ""
+"`Chishop <https://github.com/benliles/djangopypi>`_ is a simple PyPI server "
+"written in django which allows you to register/upload with distutils and "
+"install with easy_install/pip."
+msgstr ""
+
+# fa3d2606e1b14f2b8f058e2854faf269
+#: ../../shipping/packaging.rst:71
+msgid "For Linux Distributions"
+msgstr ""
+
+# fbc66e97c7314931b569b7d6faf22615
+#: ../../shipping/packaging.rst:73
+msgid "`Ubuntu <https://wiki.ubuntu.com/PackagingGuide/Python>`_"
+msgstr ""
+
+# 2310655f3896479caae8cc006c71f4eb
+#: ../../shipping/packaging.rst:74
+msgid "`Fedora <https://fedoraproject.org/wiki/Packaging:Python>`_"
+msgstr ""
+
+# 4f963a67a8c246858ec9894575455d24
+#: ../../shipping/packaging.rst:75
+msgid "`Debian <http://www.debian.org/doc/packaging-manuals/python-policy/>`_"
+msgstr ""
+
+# dd685e64a09a4df4a33a3110af671e9a
+#: ../../shipping/packaging.rst:76
+msgid ""
+"`Arch <https://wiki.archlinux.org/index.php/Python_Package_Guidelines>`_"
+msgstr ""
+
+# 3f2b41a032bf4e63bb23ea6ee8ba33f6
+#: ../../shipping/packaging.rst:79
+msgid "Useful Tools"
+msgstr ""
+
+# d2c86779b2dd4ffcb648f2908e978ee8
+#: ../../shipping/packaging.rst:81
+msgid "epm"
+msgstr ""
+
+# a0eca550e7a84f0f9f2ce4c0bdb06ec1
+#: ../../shipping/packaging.rst:82
+msgid "alien"
+msgstr ""
